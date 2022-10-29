@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: rais;
+    src: url(./fonts/DemiBold.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#belly {
+    z-index: 1;
+    position: fixed;
+    right: -50px;
+    bottom: -10px;
+    height: 30rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    font-family: rais;
+    font-size: 15px;
+    background-color: black;
+    cursor: url('./img/belly-cursor.png'), auto;	
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    position: relative;
+    z-index: 100;
+    font-size: 25.35px;
+    z-index: 100;
+    color: crimson;
 }
 
-.App-link {
-  color: #61dafb;
+.textBiggest {
+    font-size: 25.35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textMedium {
+    font-size: 19.5;
+}
+
+.textSmallest {
+    font-size: 15px;
+}
+
+a {
+    z-index: 100;
+    color: black;
+    text-decoration: underline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+	font-size: 19.5px;
+    /* -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: white; */
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: black;
+    padding: .4rem; 
+}
+
+a:hover {
+    color: crimson;
+    text-decoration-color: crimson;
+    background-image: url(./img/belly-nobck.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+ul {
+    z-index: 100;
+    list-style: lower-roman;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #belly {
+        z-index: 1;
+        position: fixed;
+        right: -95px;
+        bottom: -10px;
+        height: 20rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#belly {
+    z-index: 1;
+    position: fixed;
+    right: -50px;
+    bottom: -15px;
+    height: 30rem;
+}
 }
