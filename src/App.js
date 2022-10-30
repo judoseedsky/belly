@@ -2,7 +2,7 @@ import './App.css'
 import Welcome from "./components/Welcome/welcome"
 import Books from "./components/Books/Books"
 import Threads from "./components/Threads"
-import Health from "./components/Health/Health"
+import Health from "./components/Health/health"
 import Writtings from './components/Writtings/Writtings'
 import {
   BrowserRouter as Router,
