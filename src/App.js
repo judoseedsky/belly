@@ -1,5 +1,5 @@
 import './App.css'
-import Welcome from "./components/Welcome/Welcome"
+import Welcome from "./components/Welcome/welcome"
 import Books from "./components/Books/Books"
 import Threads from "./components/Threads"
 import Health from "./components/Health/Health"
