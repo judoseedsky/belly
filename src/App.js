@@ -23,8 +23,9 @@ function App() {
   }
 
   useEffect(() => {
-    window.addEventListener("load",handleLoading);
-    return () => window.removeEventListener("load",handleLoading);
+    window.onload = () => {
+      handleLoading()
+    }
   },[])
 
   return (
