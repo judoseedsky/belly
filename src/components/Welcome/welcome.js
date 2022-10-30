@@ -7,12 +7,12 @@ import muteIcon from '../../img/icons/mute.png'
 
 const Welcome = () => {
 
-  let [vol, setVol] = useState(1)
+  let [vol, setVol] = useState(0.7)
   const [playSound, {duration}] = useSound(song, { volume: vol })
   const [playing, setPlaying] = useState(true)
   
   const toggleMusic = () => {
-    vol === 1 ? setVol(0) : setVol(1)
+    vol === 0.7 ? setVol(0) : setVol(0.7)
     playing === true? setPlaying(false) : setPlaying(true)
     console.log(duration)
   }
