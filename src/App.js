@@ -14,20 +14,22 @@ import threadText from "./utils/threadTexts"
 import belly from "./img/belly-nobck.png"
 import LoadingScreen from "./components/LoadingScreen"
 
-
-
-
 function App() {
 
-  const [loading, setLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleLoading = () => {
+  setIsLoading(false);
+  }
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 3000)
-  }, [])
+    window.addEventListener("load",handleLoading);
+    return () => window.removeEventListener("load",handleLoading);
+  },[])
 
   return (
     <>
-    {loading === false ?
+    {isLoading === false ?
       <div className="App">
         <Router>
           <Routes>
