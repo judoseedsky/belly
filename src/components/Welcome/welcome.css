@@ -9,6 +9,14 @@
     width: 100vw;
 }
 
+#sound {
+    z-index: 100;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding: 2rem;
+}
+
 .center {
     display: flex;
     flex-direction: column;
