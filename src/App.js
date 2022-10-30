@@ -16,21 +16,15 @@ import LoadingScreen from "./components/LoadingScreen"
 
 function App() {
 
-  const [isLoading, setIsLoading] = useState(true);
-
-  const handleLoading = () => {
-    setIsLoading(false);
-  }
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    window.onload = () => {
-      handleLoading()
-    }
-  },[])
+    setTimeout(() => setLoading(false), 6000)
+  }, [])
 
   return (
     <>
-    {isLoading === false ?
+    {loading === false ?
       <div className="App">
         <Router>
           <Routes>
@@ -50,7 +44,7 @@ function App() {
         </Router>
         <img src={belly} id="belly" alt=""/>
       </div>
-      : 
+    : 
       <LoadingScreen/>
     }
     </>
