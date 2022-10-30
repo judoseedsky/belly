@@ -1,6 +1,6 @@
 
 
-const health = () => {
+const Health = () => {
     return(
         <div className="texts-bck">
             <p className='textBiggest box'>Not here yet</p>
@@ -8,4 +8,4 @@ const health = () => {
     )
 }
 
-export default health
+export default Health

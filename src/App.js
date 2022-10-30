@@ -2,13 +2,13 @@ import './App.css'
 import Welcome from "./components/Welcome/Welcome"
 import Books from "./components/Books/Books"
 import Threads from "./components/Threads"
-import Health from "./components/Health/health"
+import Health from "./components/Health/Health"
+import Writtings from './components/Writtings/Writtings'
 import {
   BrowserRouter as Router,
   Route,
   Routes
 } from "react-router-dom"
-import Writtings from './components/Writtings/Writtings'
 import threadText from "./utils/threadTexts"
 import belly from "./img/belly-nobck.png"
 
