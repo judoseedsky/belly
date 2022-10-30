@@ -24,18 +24,19 @@ const Welcome = () => {
     return(
         <div className="welcome-bck">
             <div className="center">
-            <h1>Tricia ولادة Belly 🍒🍓🍎</h1>
-                <div className="links">
-                    <h2><a href="/thread" target="_blank">Thread</a></h2>
-                    <div id="gate"><h2><a href="/texts" target="_blank" id="txt">Sacred Texts</a></h2></div>
-                    <h2><a href="/health" target="_blank">Health</a></h2>
+                <h1>Tricia ولادة Belly 🍒🍓🍎</h1>
+                    <div className="links">
+                        <h2><a href="/thread" target="_blank">Thread</a></h2>
+                        <div id="gate">
+                            <h2><a href="/texts" target="_blank" id="txt">Sacred Texts</a></h2>
+                        </div>
+                        <h2><a href="/health" target="_blank">Health</a></h2>
+                    </div>
                 </div>
+                <div onClick={() => toggleMusic()}>
+                <img src={playing ? soundIcon : muteIcon} id="sound" alt="" height="25px" width="25px"/>
             </div>
-            <div onClick={() => toggleMusic()}>
-        <img src={playing ? soundIcon : muteIcon} id="sound" alt="" height="25px" width="25px"/>
-      </div>
-        </div>
-        
+        </div>    
     )
 }
 
