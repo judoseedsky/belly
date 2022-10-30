@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-    {/* {isLoading === false ? */}
+    {isLoading === false ?
       <div className="App">
         <Router>
           <Routes>
@@ -49,9 +49,9 @@ function App() {
         </Router>
         <img src={belly} id="belly" alt=""/>
       </div>
-    {/* : 
+      : 
       <LoadingScreen/>
-    } */}
+    }
     </>
   );
 }
