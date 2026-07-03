@@ -25,7 +25,6 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-
 .list > li {
     padding-left: .5rem;
     padding-right: .5rem;
@@ -53,4 +52,19 @@
     position: absolute;
     width: 100vw;
     top: -300px;
+}
+
+/* Mobile responsive */
+@media only screen and (max-width: 600px) {
+    .list > h1 {
+        font-size: 1.2rem;
+    }
+
+    .list > li > a {
+        font-size: 1rem;
+    }
+
+    .list > li {
+        padding: 0.3rem;
+    }
 }

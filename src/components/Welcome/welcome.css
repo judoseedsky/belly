@@ -98,6 +98,35 @@
     opacity: 0 !important;
 }
 
+/* Mobile responsive */
+@media only screen and (max-width: 600px) {
+    .center h1 {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .links span {
+        font-size: 1.2rem;
+    }
+
+    #gate {
+        height: 20vh;
+    }
+
+    .links span::before {
+        display: none;
+    }
+}
+
 #gate {
     /* margin-top: -1rem; */
     position: relative;
