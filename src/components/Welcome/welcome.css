@@ -80,7 +80,13 @@
 }
 
 .links span.disabled {
+    color: rgba(42, 42, 42, 0.5);
     cursor: not-allowed;
+}
+
+.links span.disabled:hover::before,
+.links span.disabled:active::before {
+    opacity: 1;
 }
 
 .links span.disabled:hover {
