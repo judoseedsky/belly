@@ -1,53 +1,93 @@
 import './App.css'
-import Welcome from "./components/Welcome/welcome"
-import Books from "./components/Books/Books"
-import Threads from "./components/Threads"
-import Health from "./components/Health/health"
-import Writtings from './components/Writtings/Writtings'
 import {
   BrowserRouter as Router,
   Route,
-  Routes
+  Routes,
+  useLocation
 } from "react-router-dom"
-import React, { useState, useEffect } from "react"
+import React, { useState, useRef, lazy, Suspense } from "react"
 import threadText from "./utils/threadTexts"
 import belly from "./img/belly-nobck.png"
-import LoadingScreen from "./components/LoadingScreen"
+import song from "./files/gave.mp3"
 
-function App() {
+// Lazy load route components for faster initial load
+const Welcome = lazy(() => import("./components/Welcome/welcome"))
+const Books = lazy(() => import("./components/Books/Books"))
+const Threads = lazy(() => import("./components/Threads"))
+const Health = lazy(() => import("./components/Health/health"))
+const Writings = lazy(() => import('./components/Writings/Writings'))
+const YogaSutras = lazy(() => import('./components/YogaSutras/YogaSutras'))
+const HymnOfThePearl = lazy(() => import('./components/HymnOfThePearl/HymnOfThePearl'))
+const OrnamentOfStainlessLight = lazy(() => import('./components/OrnamentOfStainlessLight/OrnamentOfStainlessLight'))
 
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 3000)
-  }, [])
+function AppContent({ playing, toggleMusic }) {
+  const location = useLocation()
+  const hideBelly = ['/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light'].includes(location.pathname)
 
   return (
     <>
-    {loading === false ?
-      <div className="App">
-        <Router>
-          <Routes>
-            <Route path="/" element={<Welcome/> }/>
-            <Route path="/texts" element={<Books/> }/>
-            <Route path="/thread" element={<Threads/> }/>
-            <Route path="/health" element={<Health/> }/>
-            <Route path="/musings-on-beaty" 
-            element={<Writtings title={threadText[0].title}
-            tweets={threadText[0].tweets} image={threadText[0].image}
-            /> }/>
-            <Route path="/broodings-on-spritual-ego" 
-            element={<Writtings title={threadText[1].title}
-            tweets={threadText[1].tweets} image={threadText[1].image}
-            /> }/>
-          </Routes>
-        </Router>
-        <img src={belly} id="belly" alt=""/>
-      </div>
-    : 
-      <LoadingScreen/>
-    }
+      <Suspense fallback={<div style={{background: 'black', minHeight: '100vh'}}></div>}>
+        <Routes>
+          <Route path="/" element={<Welcome/> }/>
+          <Route path="/texts" element={<Books/> }/>
+          <Route path="/thread" element={<Threads/> }/>
+          <Route path="/health" element={<Health/> }/>
+          <Route path="/musings-on-beaty"
+          element={<Writings title={threadText[0].title}
+          tweets={threadText[0].tweets} image={threadText[0].image}
+          /> }/>
+          <Route path="/broodings-on-spritual-ego"
+          element={<Writings title={threadText[1].title}
+          tweets={threadText[1].tweets} image={threadText[1].image}
+          /> }/>
+          <Route path="/yoga-sutras" element={<YogaSutras />} />
+          <Route path="/hymn-of-the-pearl" element={<HymnOfThePearl />} />
+          <Route path="/ornament-of-stainless-light" element={<OrnamentOfStainlessLight />} />
+        </Routes>
+      </Suspense>
+      {!hideBelly && <img src={belly} id="belly" alt=""/>}
+      <svg
+        onClick={toggleMusic}
+        className="sound-btn-icon"
+        width="25"
+        height="25"
+        viewBox="0 0 24 24"
+        fill="black"
+      >
+        {playing ? (
+          <>
+            <rect x="5" y="4" width="5" height="16"/>
+            <rect x="14" y="4" width="5" height="16"/>
+          </>
+        ) : (
+          <polygon points="5,3 19,12 5,21"/>
+        )}
+      </svg>
     </>
+  )
+}
+
+function App() {
+  const [playing, setPlaying] = useState(false)
+  const audioRef = useRef(null)
+
+  const toggleMusic = () => {
+    if (playing) {
+      audioRef.current.pause()
+      setPlaying(false)
+    } else {
+      audioRef.current.play()
+      setPlaying(true)
+    }
+  }
+
+  return (
+    <div className="App">
+      <audio ref={audioRef} src={song} preload="none" onEnded={() => setPlaying(false)} />
+      <Router>
+        <AppContent playing={playing} toggleMusic={toggleMusic} />
+      </Router>
+    </div>
   );
 }
 

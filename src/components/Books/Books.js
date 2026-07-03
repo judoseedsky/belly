@@ -1,12 +1,26 @@
 import React from "react"
+import { Link } from 'react-router-dom';
 import ell from "../../files/elella.pdf"
 import './books.css';
 import dakini from "../../files/dakini.pdf"
 // import sky from "../../img/sky.png"
 
-const books = () => {
+const Books = () => {
     return(
         <div className="texts-bck">
+            <Link to="/">
+                <svg
+                    className="back-btn-icon"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="black"
+                    strokeWidth="2"
+                >
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+            </Link>
             {/* <img alt="sky" src={sky} id="sky"/> */}
             <div className="box">
                 <ul className="list">
@@ -15,11 +29,11 @@ const books = () => {
                         <a href="https://www.holy-bhagavad-gita.org/index">Bhagavad Gita</a>
                     </li>
                     <li>
-                        Yoga Sutras
+                        <Link to="/yoga-sutras">Yoga Sutras</Link>
                     </li>
                     <h1>Gnostic</h1>
                     <li>
-                        Gospel of Phillip
+                        <Link to="/hymn-of-the-pearl">Hymn of the Pearl</Link>
                     </li>
                 </ul>
 
@@ -27,6 +41,9 @@ const books = () => {
                     <h1>Buddhist</h1>
                     <li>
                         <a href={dakini}>Dakini Teachings</a>
+                    </li>
+                    <li>
+                        <Link to="/ornament-of-stainless-light">Ornament of Stainless Light</Link>
                     </li>
                     {/* <li>
                         <a href={ell}>Tibetan Book of the Dead</a>
@@ -43,4 +60,4 @@ const books = () => {
     )
 }
 
-export default books
+export default Books

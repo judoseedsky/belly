@@ -6,22 +6,21 @@
 #belly {
     z-index: 1;
     position: fixed;
-    right: -50px;
+    right: -40px;
     bottom: -10px;
-    height: 30rem;
+    height: 24rem;
 }
 
 body {
     font-family: rais;
     font-size: 15px;
     background-color: black;
-    cursor: url('./img/belly-cursor.png'), auto;	
 }
 
 h1 {
     position: relative;
     z-index: 100;
-    font-size: 25.35px;
+    font-size: 3rem;
     z-index: 100;
     color: crimson;
 }
@@ -41,26 +40,13 @@ h1 {
 a {
     z-index: 100;
     color: black;
-    text-decoration: underline;
-    padding-left: 1rem;
-    padding-right: 1rem;
-	font-size: 19.5px;
-    /* -webkit-text-stroke-width: .7px;
-    -webkit-text-stroke-color: white; */
     text-decoration: none;
-    text-decoration: underline;
-    text-decoration-color: black;
-    padding: .4rem; 
+    padding: .4rem;
+    font-size: 19.5px;
 }
 
 a:hover {
-    color: crimson;
-    text-decoration-color: crimson;
-    background-image: url(./img/belly-nobck.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100px;
-    background-color:rgba(255, 255, 255, 0);
+    text-decoration: underline;
 }
 
 ul {
@@ -73,9 +59,9 @@ ul {
     #belly {
         z-index: 1;
         position: fixed;
-        right: -95px;
+        right: -75px;
         bottom: -10px;
-        height: 20rem;
+        height: 16rem;
     }
 }
 
@@ -84,8 +70,44 @@ ul {
 #belly {
     z-index: 1;
     position: fixed;
-    right: -50px;
-    bottom: -15px;
-    height: 30rem;
+    right: -40px;
+    bottom: -10px;
+    height: 24rem;
 }
+}
+
+/* Back button - matches sound button style */
+.back-btn-icon {
+    z-index: 100;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    padding: 1.5rem;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.back-btn-icon:hover {
+    opacity: 1;
+}
+
+/* Sound/music button - matches back button style */
+.sound-btn-icon {
+    z-index: 100;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding: 1.5rem;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.sound-btn-icon:hover {
+    opacity: 1;
 }

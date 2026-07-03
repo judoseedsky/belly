@@ -1,8 +1,9 @@
+import './writings.css';
 import { Link } from 'react-router-dom';
 
-const Health = () => {
+const Writings = ({title, tweets, image}) => {
     return(
-        <div className="texts-bck">
+        <>
             <Link to="/">
                 <svg
                     className="back-btn-icon"
@@ -16,9 +17,13 @@ const Health = () => {
                     <path d="M19 12H5M12 19l-7-7 7-7"/>
                 </svg>
             </Link>
-            <p className='textBiggest box'>Not here yet</p>
-        </div>
+            <div className="thread" style={{backgroundImage: `url(${image})`}}><h1>{title}</h1></div>
+            <ul className='tweets'>
+                {Object.keys(tweets).map(key => <li key={key}>{tweets[key]}</li>)}
+            </ul>
+            <h1 id="end">End</h1>
+        </>
     )
 }
 
-export default Health
+export default Writings

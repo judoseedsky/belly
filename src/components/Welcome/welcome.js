@@ -1,42 +1,45 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
+import { useNavigate } from "react-router-dom"
 import "./welcome.css"
-import useSound from 'use-sound'
-import song from '../../files/gave.mp3'
-import soundIcon from '../../img/icons/sound.png'
-import muteIcon from '../../img/icons/mute.png'
 
 const Welcome = () => {
+    const navigate = useNavigate()
+    const [transitioning, setTransitioning] = useState(false)
+    const [clickPos, setClickPos] = useState({ x: 0, y: 0 })
 
-  let [vol, setVol] = useState(0.7)
-  const [playSound, {duration}] = useSound(song, { volume: vol })
-  const [playing, setPlaying] = useState(true)
-  
-  const toggleMusic = () => {
-    vol === 0.7 ? setVol(0) : setVol(0.7)
-    playing === true? setPlaying(false) : setPlaying(true)
-    console.log(duration)
-  }
-
-  useEffect(() => {
-    playSound()
-  }, [playSound]);
+    const handleNavigation = (e, path) => {
+        const rect = e.target.getBoundingClientRect()
+        setClickPos({
+            x: rect.left + rect.width / 2,
+            y: rect.top - 90
+        })
+        setTransitioning(true)
+        setTimeout(() => {
+            navigate(path)
+        }, 1300)
+    }
 
     return(
         <div className="welcome-bck">
-            <div className="center">
-                <h1>Tricia ولادة Belly 🍒🍓🍎</h1>
-                    <div className="links">
-                        <h2><a href="/thread" target="_blank">Thread</a></h2>
-                        <div id="gate">
-                            <h2><a href="/texts" target="_blank" id="txt">Sacred Texts</a></h2>
-                        </div>
-                        <h2><a href="/health" target="_blank">Health</a></h2>
-                    </div>
+            {transitioning && (
+                <div className="page-transition">
+                    <div
+                        className="dervish-expand"
+                        style={{ left: clickPos.x, top: clickPos.y }}
+                    ></div>
                 </div>
-                <div onClick={() => toggleMusic()}>
-                <img src={playing ? soundIcon : muteIcon} id="sound" alt="" height="25px" width="25px"/>
+            )}
+            <div className="center">
+                <h1>Tricia ولادة Belly</h1>
+                <div className={`links ${transitioning ? 'transitioning' : ''}`}>
+                    <h2><span onClick={(e) => handleNavigation(e, '/thread')}>Thread</span></h2>
+                    <div id="gate">
+                        <h2><span onClick={(e) => handleNavigation(e, '/texts')} id="txt">Sacred Texts</span></h2>
+                    </div>
+                    <h2><span className="disabled">Health</span></h2>
+                </div>
             </div>
-        </div>    
+        </div>
     )
 }
 
