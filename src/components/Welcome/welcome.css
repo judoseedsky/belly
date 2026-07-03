@@ -25,7 +25,7 @@
     padding: 2rem;
 }
 
-.center {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,14 +34,29 @@
     width: 100vw;
 }
 
+.tagline {
+    font-family: rais;
+    font-size: 0.9rem;
+    color: crimson;
+    margin-top: -0.5rem;
+    letter-spacing: 0.05rem;
+    z-index: 100;
+}
+
 
 .links {
     z-index: 100;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     gap: 3rem;
+}
+
+.links h2 {
+    margin: 2rem 0;
 }
 
 .links span {
@@ -51,6 +66,9 @@
     color: #2a2a2a;
     padding: 0.3rem 0.6rem;
     cursor: pointer;
+    height: 20vh;
+    display: flex;
+    align-items: flex-start;
 }
 
 .links span:hover,
@@ -97,35 +115,10 @@
     opacity: 0 !important;
 }
 
-/* Mobile responsive - scale down proportionally like desktop */
-@media only screen and (max-width: 600px) {
-    .center h1 {
-        font-size: 1.6rem;
-    }
-
-    .links {
-        gap: 1.5rem;
-    }
-
-    .links span {
-        font-size: 0.85rem;
-    }
-
-    #gate {
-        height: 15vh;
-    }
-
-    .links span::before {
-        top: -60px;
-        width: 50px;
-        height: 50px;
-    }
-}
 
 #gate {
-    /* margin-top: -1rem; */
     position: relative;
-    z-index: -100;
+    z-index: 100;
     height: 29vh;
     background-image: url(../../img/gate.png);
     background-size: contain;
@@ -139,6 +132,18 @@
 
 #txt {
     background-color: rgba(255, 255, 255, 0.7);
+    height: auto;
+    padding: 0.3rem 0.6rem;
+}
+
+#txt:hover,
+#txt:active {
+    text-decoration: line-through;
+}
+
+#txt:hover::before,
+#txt:active::before {
+    opacity: 1;
 }
 
 /* Dervish page transition */
