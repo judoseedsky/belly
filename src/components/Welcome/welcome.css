@@ -98,28 +98,27 @@
     opacity: 0 !important;
 }
 
-/* Mobile responsive */
+/* Mobile responsive - scale down proportionally like desktop */
 @media only screen and (max-width: 600px) {
     .center h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .tagline {
-        font-size: 0.9rem;
-        margin-top: -1rem;
+        font-size: 0.7rem;
+        margin-top: -0.8rem;
     }
 
     .links {
-        gap: 0.8rem;
+        gap: 1.5rem;
     }
 
     .links span {
-        font-size: 0.9rem;
-        padding: 0.2rem 0.4rem;
+        font-size: 0.85rem;
     }
 
     #gate {
-        height: 18vh;
+        height: 15vh;
     }
 
     .links span::before {
