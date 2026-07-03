@@ -34,14 +34,6 @@
     width: 100vw;
 }
 
-.tagline {
-    font-family: rais;
-    font-size: 1.2rem;
-    color: crimson;
-    margin-top: -1.5rem;
-    letter-spacing: 0.05rem;
-    z-index: 100;
-}
 
 .links {
     z-index: 100;
@@ -61,7 +53,8 @@
     cursor: pointer;
 }
 
-.links span:hover {
+.links span:hover,
+.links span:active {
     text-decoration: line-through;
 }
 
@@ -81,7 +74,8 @@
     pointer-events: none;
 }
 
-.links span:hover::before {
+.links span:hover::before,
+.links span:active::before {
     opacity: 1;
 }
 
@@ -104,10 +98,6 @@
         font-size: 1.6rem;
     }
 
-    .tagline {
-        display: none;
-    }
-
     .links {
         gap: 1.5rem;
     }
@@ -121,7 +111,9 @@
     }
 
     .links span::before {
-        display: none;
+        top: -60px;
+        width: 50px;
+        height: 50px;
     }
 }
 

@@ -31,7 +31,6 @@ const Welcome = () => {
             )}
             <div className="center">
                 <h1>Tricia ولادة Belly</h1>
-                <p className="tagline">νομοθέτη</p>
                 <div className={`links ${transitioning ? 'transitioning' : ''}`}>
                     <h2><span className="disabled">Writings</span></h2>
                     <div id="gate">
