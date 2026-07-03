@@ -19,7 +19,13 @@ const Writings = ({title, tweets, image}) => {
             </Link>
             <div className="thread" style={{backgroundImage: `url(${image})`}}><h1>{title}</h1></div>
             <ul className='tweets'>
-                {Object.keys(tweets).map(key => <li key={key}>{tweets[key]}</li>)}
+                {Object.keys(tweets).map(key => (
+                    <li key={key}>
+                        {tweets[key].split('\n').map((line, i) => (
+                            <span key={i}>{line}{i < tweets[key].split('\n').length - 1 && <br/>}</span>
+                        ))}
+                    </li>
+                ))}
             </ul>
             <h1 id="end">End</h1>
         </>

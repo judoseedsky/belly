@@ -4,7 +4,7 @@
 .ornament-page-wrapper {
   min-height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-color: transparent;
   font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
