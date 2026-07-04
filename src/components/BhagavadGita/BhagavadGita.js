@@ -3,6 +3,22 @@ import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 
 // Chapter data with Sanskrit names and English titles
+// Format verse text to highlight speaker names
+const formatVerseText = (text) => {
+  const speakerMatch = text.match(/^(Arjun|Shree Krishna|Sanjay|Dhritarashtra|The Supreme Lord)(\s+said:?\s*)/i);
+  if (speakerMatch) {
+    const speaker = speakerMatch[1];
+    const said = speakerMatch[2];
+    const rest = text.slice(speakerMatch[0].length);
+    return (
+      <>
+        <span className="speaker-name">{speaker}</span>{said}{rest}
+      </>
+    );
+  }
+  return text;
+};
+
 const chapters = [
   { num: 1, name: 'Arjun Vishad Yog', subtitle: 'Lamenting the Consequences of War' },
   { num: 2, name: 'Sankhya Yog', subtitle: 'The Yog of Analytical Knowledge' },
@@ -162,7 +178,7 @@ function BhagavadGita() {
                   {chapter.verses.map((verse, idx) => (
                     <div key={idx} className="verse-block">
                       <div className="verse-number">Bhagavad Gita {chapter.num}.{verse.verse}</div>
-                      <p className="verse-text">{verse.text}</p>
+                      <p className="verse-text">{formatVerseText(verse.text)}</p>
                     </div>
                   ))}
                 </section>

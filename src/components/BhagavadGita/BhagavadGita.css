@@ -155,6 +155,11 @@
   color: #2c1810;
 }
 
+.speaker-name {
+  font-weight: bold;
+  color: #5a3015;
+}
+
 .gita-ending {
   text-align: center;
   margin-top: 3rem;
