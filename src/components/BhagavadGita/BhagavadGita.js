@@ -2,18 +2,77 @@ import './BhagavadGita.css';
 import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 
+// Chapter data with Sanskrit names and English titles
+const chapters = [
+  { num: 'I', name: 'Arjuna\'s Grief', sanskrit: 'Arjun-Vishad' },
+  { num: 'II', name: 'Doctrines', sanskrit: 'Sankhya-Yog' },
+  { num: 'III', name: 'Virtue in Work', sanskrit: 'Karma-Yog' },
+  { num: 'IV', name: 'Knowledge', sanskrit: 'Jnana-Yog' },
+  { num: 'V', name: 'Renunciation', sanskrit: 'Karmasanyasa-Yog' },
+  { num: 'VI', name: 'Self-Restraint', sanskrit: 'Atmasanyama-Yog' },
+  { num: 'VII', name: 'Discernment', sanskrit: 'Vijnana-Yog' },
+  { num: 'VIII', name: 'The Supreme', sanskrit: 'Aksharabrahma-Yog' },
+  { num: 'IX', name: 'Kingly Mystery', sanskrit: 'Rajavidya-Yog' },
+  { num: 'X', name: 'Perfections', sanskrit: 'Vibhuti-Yog' },
+  { num: 'XI', name: 'The Vision', sanskrit: 'Viswarupa-Yog' },
+  { num: 'XII', name: 'Faith', sanskrit: 'Bhakti-Yog' },
+  { num: 'XIII', name: 'Matter & Spirit', sanskrit: 'Kshetra-Yog' },
+  { num: 'XIV', name: 'The Qualities', sanskrit: 'Gunatraya-Yog' },
+  { num: 'XV', name: 'The Supreme', sanskrit: 'Purushottama-Yog' },
+  { num: 'XVI', name: 'Divine & Undivine', sanskrit: 'Daivasura-Yog' },
+  { num: 'XVII', name: 'Threefold Faith', sanskrit: 'Sraddhatraya-Yog' },
+  { num: 'XVIII', name: 'Deliverance', sanskrit: 'Moksha-Yog' }
+];
+
 function BhagavadGita() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [text, setText] = useState('');
+  const [parsedChapters, setParsedChapters] = useState([]);
   const contentRef = useRef(null);
 
-  // Load text on mount
+  // Load and parse text on mount
   useEffect(() => {
     fetch('/texts/bhagavad_gita.txt')
       .then(res => res.text())
-      .then(content => setText(content));
+      .then(content => {
+        setText(content);
+        // Parse chapters from text
+        const chapterRegex = /CHAPTER\s+([IVXLC]+)\s*\n([\s\S]*?)(?=CHAPTER\s+[IVXLC]+|HERE ENDS, WITH CHAPTER)/gi;
+        const parsed = [];
+        let match;
+
+        // Find all chapters
+        const lines = content.split('\n');
+        let currentChapter = null;
+        let chapterContent = [];
+        let inChapter = false;
+
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i];
+
+          if (line.trim().match(/^CHAPTER\s+[IVXLC]+\s*$/)) {
+            if (currentChapter !== null) {
+              parsed.push({ num: currentChapter, content: chapterContent.join('\n') });
+            }
+            currentChapter = line.trim().replace('CHAPTER', '').trim();
+            chapterContent = [];
+            inChapter = true;
+          } else if (line.match(/HERE ENDETH CHAPTER|HERE ENDS, WITH CHAPTER/)) {
+            if (currentChapter !== null) {
+              parsed.push({ num: currentChapter, content: chapterContent.join('\n') });
+              currentChapter = null;
+              chapterContent = [];
+              inChapter = false;
+            }
+          } else if (inChapter) {
+            chapterContent.push(line);
+          }
+        }
+
+        setParsedChapters(parsed);
+      });
   }, []);
 
   const handleSearch = (query) => {
@@ -45,8 +104,64 @@ function BhagavadGita() {
     }
   };
 
-  // Split text into paragraphs
-  const paragraphs = text.split('\n\n').filter(p => p.trim());
+  // Format chapter content - handle speaker names and verses
+  const formatContent = (content) => {
+    if (!content) return null;
+
+    const lines = content.split('\n');
+    const elements = [];
+    let currentParagraph = [];
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i].trim();
+
+      // Skip empty lines at start
+      if (line === '' && currentParagraph.length === 0) continue;
+
+      // Check if this is a speaker line (like "Arjuna." or "Krishna:" or "Sanjaya.")
+      const speakerMatch = line.match(/^([A-Za-z]+)[.:]\s*$/);
+      if (speakerMatch) {
+        // Flush current paragraph
+        if (currentParagraph.length > 0) {
+          elements.push(
+            <p key={`p-${i}`} className="verse">
+              {currentParagraph.join(' ')}
+            </p>
+          );
+          currentParagraph = [];
+        }
+        elements.push(
+          <p key={`speaker-${i}`} className="speaker">{speakerMatch[1]}</p>
+        );
+        continue;
+      }
+
+      // Empty line means new paragraph
+      if (line === '') {
+        if (currentParagraph.length > 0) {
+          elements.push(
+            <p key={`p-${i}`} className="verse">
+              {currentParagraph.join(' ')}
+            </p>
+          );
+          currentParagraph = [];
+        }
+      } else {
+        currentParagraph.push(line);
+      }
+    }
+
+    // Don't forget last paragraph
+    if (currentParagraph.length > 0) {
+      elements.push(
+        <p key="p-last" className="verse">
+          {currentParagraph.join(' ')}
+        </p>
+      );
+    }
+
+    return elements;
+  };
 
   return (
     <div className="gita-page-wrapper">
@@ -65,7 +180,13 @@ function BhagavadGita() {
           </svg>
         </Link>
 
-        <nav className="chapter-nav expanded">
+        <nav className="chapter-nav expanded gita-nav">
+          {chapters.map((ch, idx) => (
+            <a key={idx} href={`#ch${idx + 1}`}>
+              <span className="ch-num">{ch.num}</span>
+              <span className="ch-name">{ch.name}</span>
+            </a>
+          ))}
           <button
             className="nav-search-btn"
             onClick={() => setSearchOpen(true)}
@@ -75,7 +196,6 @@ function BhagavadGita() {
               <circle cx="11" cy="11" r="8"/>
               <path d="M21 21l-4.35-4.35"/>
             </svg>
-            <span style={{marginLeft: '0.5rem'}}>Search</span>
           </button>
         </nav>
 
@@ -86,11 +206,17 @@ function BhagavadGita() {
             <p className="scroll-subtitle">The Song Celestial</p>
             <p className="scroll-attribution">Translated by Sir Edwin Arnold</p>
 
-            {paragraphs.map((para, idx) => (
-              <p key={idx}>{para}</p>
+            {parsedChapters.map((chapter, idx) => (
+              <section key={idx} className="chapter-section">
+                <h2 id={`ch${idx + 1}`}>
+                  Chapter {chapter.num} · {chapters[idx]?.name || ''}
+                </h2>
+                <p className="chapter-subtitle">{chapters[idx]?.sanskrit || ''}</p>
+                {formatContent(chapter.content)}
+              </section>
             ))}
 
-            <p className="gita-ending">The Bhagavad Gita</p>
+            <p className="gita-ending">Here Ends The Bhagavad Gita</p>
           </div>
           <div className="scroll-bottom"></div>
         </div>
