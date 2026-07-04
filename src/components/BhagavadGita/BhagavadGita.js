@@ -161,7 +161,7 @@ function BhagavadGita() {
 
                   {chapter.verses.map((verse, idx) => (
                     <div key={idx} className="verse-block">
-                      <div className="verse-number">BG {chapter.num}.{verse.verse}</div>
+                      <div className="verse-number">Bhagavad Gita {chapter.num}.{verse.verse}</div>
                       <p className="verse-text">{verse.text}</p>
                     </div>
                   ))}
