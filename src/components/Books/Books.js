@@ -35,6 +35,9 @@ const Books = () => {
                     <li>
                         <Link to="/hymn-of-the-pearl">Hymn of the Pearl</Link>
                     </li>
+                    <li>
+                        <Link to="/gospel-of-philip">Gospel of Philip</Link>
+                    </li>
                 </ul>
 
                 <ul className="list">
