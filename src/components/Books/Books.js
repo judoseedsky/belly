@@ -26,7 +26,7 @@ const Books = () => {
                 <ul className="list">
                     <h1>Yoga</h1>
                     <li>
-                        <a href="https://www.holy-bhagavad-gita.org/index">Bhagavad Gita</a>
+                        <Link to="/bhagavad-gita">Bhagavad Gita</Link>
                     </li>
                     <li>
                         <Link to="/yoga-sutras">Yoga Sutras</Link>
