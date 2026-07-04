@@ -22,15 +22,17 @@ const OrnamentOfStainlessLight = lazy(() => import('./components/OrnamentOfStain
 
 function AppContent({ playing, toggleMusic, stopMusic }) {
   const location = useLocation()
-  const bookPages = ['/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light']
-  const isBookPage = bookPages.includes(location.pathname)
+  const hideBellyPages = ['/texts', '/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light']
+  const hideMusicPages = ['/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light']
+  const hideBelly = hideBellyPages.includes(location.pathname)
+  const hideMusic = hideMusicPages.includes(location.pathname)
 
   // Stop music when entering a book page
   useEffect(() => {
-    if (isBookPage && playing) {
+    if (hideMusic && playing) {
       stopMusic()
     }
-  }, [isBookPage, playing, stopMusic])
+  }, [hideMusic, playing, stopMusic])
 
   return (
     <>
@@ -53,8 +55,8 @@ function AppContent({ playing, toggleMusic, stopMusic }) {
           <Route path="/ornament-of-stainless-light" element={<OrnamentOfStainlessLight />} />
         </Routes>
       </Suspense>
-      {!isBookPage && <img src={belly} id="belly" alt=""/>}
-      {!isBookPage && (
+      {!hideBelly && <img src={belly} id="belly" alt=""/>}
+      {!hideMusic && (
         <svg
           onClick={toggleMusic}
           className="sound-btn-icon"
