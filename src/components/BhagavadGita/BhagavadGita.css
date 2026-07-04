@@ -139,11 +139,10 @@
   display: block;
   font-weight: bold;
   color: #3d2815;
-  background: #c9a227;
   font-size: 0.9rem;
   margin-bottom: 0.75rem;
-  padding: 0.5rem 0.8rem;
-  border-radius: 4px;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(61, 40, 21, 0.3);
   letter-spacing: 0.02em;
   text-align: center;
 }
