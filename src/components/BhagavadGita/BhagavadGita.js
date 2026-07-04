@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from 'react';
 // Chapter data with Sanskrit names and English titles
 // Format verse text to highlight speaker names
 const formatVerseText = (text) => {
-  const speakerMatch = text.match(/^((?:Arjun|Shree Krishna|Sanjay|Dhritarashtra|The Supreme Lord)\s+said:?\s*)/i);
+  const speakerMatch = text.match(/^((?:Arjun|Shree Krishna|Sanjay|Dhritarashtra|The Supreme Lord|The Lord|Lord Krishna|Krishna)\s+said:?\s*)/i);
   if (speakerMatch) {
     const attribution = speakerMatch[1];
     const rest = text.slice(speakerMatch[0].length);

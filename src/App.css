@@ -113,3 +113,14 @@ ul {
 .sound-btn-icon:hover {
     opacity: 1;
 }
+
+/* Text selection highlight */
+::selection {
+    background: #f5d742;
+    color: #2c1810;
+}
+
+::-moz-selection {
+    background: #f5d742;
+    color: #2c1810;
+}
