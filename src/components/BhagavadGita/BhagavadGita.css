@@ -156,7 +156,7 @@
 }
 
 .speaker-name {
-  font-style: italic;
+  text-decoration: underline;
 }
 
 .gita-ending {
