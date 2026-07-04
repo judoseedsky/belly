@@ -375,28 +375,13 @@
   .chapter-nav {
     bottom: 1rem;
     padding: 0.4rem 0.5rem;
-    left: 1rem;
-    right: 1rem;
-    transform: none;
-    max-width: calc(100vw - 2rem);
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .chapter-nav::-webkit-scrollbar {
-    display: none;
   }
 
   .chapter-nav.expanded a {
     padding: 0.4rem 0.6rem;
-    flex-shrink: 0;
   }
 
   .ch-name {
-    font-size: 0.65rem;
-    white-space: nowrap;
+    display: none;
   }
 }
