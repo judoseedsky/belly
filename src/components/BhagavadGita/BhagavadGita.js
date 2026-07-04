@@ -29,6 +29,7 @@ function BhagavadGita() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [parsedChapters, setParsedChapters] = useState([]);
+  const [currentChapter, setCurrentChapter] = useState(1);
   const contentRef = useRef(null);
 
   // Load and parse text on mount
@@ -116,7 +117,16 @@ function BhagavadGita() {
 
         <nav className="chapter-nav expanded gita-nav">
           {chapters.map((ch) => (
-            <a key={ch.num} href={`#ch${ch.num}`}>
+            <a
+              key={ch.num}
+              href={`#ch${ch.num}`}
+              className={currentChapter === ch.num ? 'active' : ''}
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentChapter(ch.num);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+            >
               <span className="ch-num">{ch.num}</span>
               <span className="ch-name">{ch.name.split(' ')[0]}</span>
             </a>
@@ -140,7 +150,7 @@ function BhagavadGita() {
             <p className="scroll-subtitle">The Song of God</p>
             <p className="scroll-attribution">Translation by Swami Mukundananda</p>
 
-            {parsedChapters.map((chapter) => {
+            {parsedChapters.filter(ch => ch.num === currentChapter).map((chapter) => {
               const chapterInfo = chapters[chapter.num - 1];
               return (
                 <section key={chapter.num} className="chapter-section">

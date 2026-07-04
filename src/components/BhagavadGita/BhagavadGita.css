@@ -215,6 +215,10 @@
   text-decoration: none;
 }
 
+.chapter-nav a.active {
+  background: rgba(255, 255, 255, 0.25);
+}
+
 .chapter-nav.expanded {
   gap: 0;
 }
