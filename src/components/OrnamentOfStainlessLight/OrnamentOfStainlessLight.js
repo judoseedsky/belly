@@ -507,7 +507,7 @@ function OrnamentOfStainlessLight() {
           </svg>
         </Link>
 
-        <nav className="chapter-nav expanded">
+        <nav className="chapter-nav expanded ornament-nav">
           {sections.map(section => (
             <a
               key={section.id}

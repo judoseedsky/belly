@@ -663,7 +663,7 @@
     padding: 2rem 1.5rem;
   }
 
-  .chapter-nav {
+  .chapter-nav.ornament-nav {
     bottom: 1rem;
     padding: 0.4rem 0.5rem;
     left: 1rem;
@@ -679,11 +679,11 @@
     -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
   }
 
-  .chapter-nav::-webkit-scrollbar {
+  .chapter-nav.ornament-nav::-webkit-scrollbar {
     display: none;
   }
 
-  .chapter-nav.expanded a {
+  .chapter-nav.ornament-nav.expanded a {
     padding: 0.4rem 0.6rem;
     flex-shrink: 0;
   }
