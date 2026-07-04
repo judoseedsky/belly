@@ -130,23 +130,30 @@
   font-size: 1rem;
 }
 
-/* Speaker names (Krishna, Arjuna, etc.) */
-.speaker {
-  text-align: center;
-  font-weight: bold;
-  color: #5a3015;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  text-indent: 0 !important;
-  font-size: 1.1rem;
-  letter-spacing: 0.05em;
+/* Verse blocks */
+.verse-block {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(90, 64, 48, 0.15);
 }
 
-/* Verses */
-.verse {
-  margin-bottom: 1.5rem;
-  text-indent: 2rem;
+.verse-block:last-child {
+  border-bottom: none;
+}
+
+.verse-number {
+  font-weight: bold;
+  color: #5a3015;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.verse-text {
+  margin: 0;
+  text-indent: 0;
   line-height: 1.8;
+  color: #2c1810;
 }
 
 .gita-ending {

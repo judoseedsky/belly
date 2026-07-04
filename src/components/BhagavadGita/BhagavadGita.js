@@ -4,31 +4,30 @@ import { useState, useRef, useEffect } from 'react';
 
 // Chapter data with Sanskrit names and English titles
 const chapters = [
-  { num: 'I', name: 'Arjuna\'s Grief', sanskrit: 'Arjun-Vishad' },
-  { num: 'II', name: 'Doctrines', sanskrit: 'Sankhya-Yog' },
-  { num: 'III', name: 'Virtue in Work', sanskrit: 'Karma-Yog' },
-  { num: 'IV', name: 'Knowledge', sanskrit: 'Jnana-Yog' },
-  { num: 'V', name: 'Renunciation', sanskrit: 'Karmasanyasa-Yog' },
-  { num: 'VI', name: 'Self-Restraint', sanskrit: 'Atmasanyama-Yog' },
-  { num: 'VII', name: 'Discernment', sanskrit: 'Vijnana-Yog' },
-  { num: 'VIII', name: 'The Supreme', sanskrit: 'Aksharabrahma-Yog' },
-  { num: 'IX', name: 'Kingly Mystery', sanskrit: 'Rajavidya-Yog' },
-  { num: 'X', name: 'Perfections', sanskrit: 'Vibhuti-Yog' },
-  { num: 'XI', name: 'The Vision', sanskrit: 'Viswarupa-Yog' },
-  { num: 'XII', name: 'Faith', sanskrit: 'Bhakti-Yog' },
-  { num: 'XIII', name: 'Matter & Spirit', sanskrit: 'Kshetra-Yog' },
-  { num: 'XIV', name: 'The Qualities', sanskrit: 'Gunatraya-Yog' },
-  { num: 'XV', name: 'The Supreme', sanskrit: 'Purushottama-Yog' },
-  { num: 'XVI', name: 'Divine & Undivine', sanskrit: 'Daivasura-Yog' },
-  { num: 'XVII', name: 'Threefold Faith', sanskrit: 'Sraddhatraya-Yog' },
-  { num: 'XVIII', name: 'Deliverance', sanskrit: 'Moksha-Yog' }
+  { num: 1, name: 'Arjun Vishad Yog', subtitle: 'Lamenting the Consequences of War' },
+  { num: 2, name: 'Sankhya Yog', subtitle: 'The Yog of Analytical Knowledge' },
+  { num: 3, name: 'Karma Yog', subtitle: 'The Yog of Action' },
+  { num: 4, name: 'Jnana Karma Sanyasa Yog', subtitle: 'The Yog of Knowledge and Renunciation' },
+  { num: 5, name: 'Karma Sanyasa Yog', subtitle: 'The Yog of Renunciation' },
+  { num: 6, name: 'Dhyana Yog', subtitle: 'The Yog of Meditation' },
+  { num: 7, name: 'Vijnana Yog', subtitle: 'Yog through Knowledge of the Ultimate Truth' },
+  { num: 8, name: 'Akshar Brahma Yog', subtitle: 'The Yog of the Eternal God' },
+  { num: 9, name: 'Raja Vidya Yog', subtitle: 'Yog through the King of Sciences' },
+  { num: 10, name: 'Vibhuti Yog', subtitle: 'Yog through Appreciating the Infinite Opulences of God' },
+  { num: 11, name: 'Vishwaroop Darshan Yog', subtitle: 'Yog through Beholding the Cosmic Form of God' },
+  { num: 12, name: 'Bhakti Yog', subtitle: 'The Yog of Devotion' },
+  { num: 13, name: 'Kshetra Kshetrajna Vibhag Yog', subtitle: 'Yog through Distinguishing the Field and the Knower' },
+  { num: 14, name: 'Gunatraya Vibhag Yog', subtitle: 'Yog through Understanding the Three Modes of Nature' },
+  { num: 15, name: 'Purushottam Yog', subtitle: 'The Yog of the Supreme Divine Personality' },
+  { num: 16, name: 'Daivasura Sampad Vibhag Yog', subtitle: 'Yog through Discerning the Divine and Demoniac Natures' },
+  { num: 17, name: 'Shraddhatraya Vibhag Yog', subtitle: 'Yog through Discerning the Three Divisions of Faith' },
+  { num: 18, name: 'Moksha Sanyasa Yog', subtitle: 'Yog through the Perfection of Renunciation and Surrender' }
 ];
 
 function BhagavadGita() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-  const [text, setText] = useState('');
   const [parsedChapters, setParsedChapters] = useState([]);
   const contentRef = useRef(null);
 
@@ -37,39 +36,33 @@ function BhagavadGita() {
     fetch('/texts/bhagavad_gita.txt')
       .then(res => res.text())
       .then(content => {
-        setText(content);
-        // Parse chapters from text
-        const chapterRegex = /CHAPTER\s+([IVXLC]+)\s*\n([\s\S]*?)(?=CHAPTER\s+[IVXLC]+|HERE ENDS, WITH CHAPTER)/gi;
-        const parsed = [];
-        let match;
+        const lines = content.split('\n').filter(line => line.trim());
+        const chaptersMap = {};
 
-        // Find all chapters
-        const lines = content.split('\n');
-        let currentChapter = null;
-        let chapterContent = [];
-        let inChapter = false;
+        lines.forEach(line => {
+          const match = line.match(/^BG (\d+)\.(\d+): (.+)$/);
+          if (match) {
+            const chapterNum = parseInt(match[1]);
+            const verseNum = match[2];
+            const translation = match[3];
 
-        for (let i = 0; i < lines.length; i++) {
-          const line = lines[i];
-
-          if (line.trim().match(/^CHAPTER\s+[IVXLC]+\s*$/)) {
-            if (currentChapter !== null) {
-              parsed.push({ num: currentChapter, content: chapterContent.join('\n') });
+            if (!chaptersMap[chapterNum]) {
+              chaptersMap[chapterNum] = [];
             }
-            currentChapter = line.trim().replace('CHAPTER', '').trim();
-            chapterContent = [];
-            inChapter = true;
-          } else if (line.match(/HERE ENDETH CHAPTER|HERE ENDS, WITH CHAPTER/)) {
-            if (currentChapter !== null) {
-              parsed.push({ num: currentChapter, content: chapterContent.join('\n') });
-              currentChapter = null;
-              chapterContent = [];
-              inChapter = false;
-            }
-          } else if (inChapter) {
-            chapterContent.push(line);
+            chaptersMap[chapterNum].push({
+              verse: verseNum,
+              text: translation
+            });
           }
-        }
+        });
+
+        // Convert to array
+        const parsed = Object.keys(chaptersMap)
+          .sort((a, b) => parseInt(a) - parseInt(b))
+          .map(chNum => ({
+            num: parseInt(chNum),
+            verses: chaptersMap[chNum]
+          }));
 
         setParsedChapters(parsed);
       });
@@ -104,65 +97,6 @@ function BhagavadGita() {
     }
   };
 
-  // Format chapter content - handle speaker names and verses
-  const formatContent = (content) => {
-    if (!content) return null;
-
-    const lines = content.split('\n');
-    const elements = [];
-    let currentParagraph = [];
-
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim();
-
-      // Skip empty lines at start
-      if (line === '' && currentParagraph.length === 0) continue;
-
-      // Check if this is a speaker line (like "Arjuna." or "Krishna:" or "Sanjaya.")
-      const speakerMatch = line.match(/^([A-Za-z]+)[.:]\s*$/);
-      if (speakerMatch) {
-        // Flush current paragraph
-        if (currentParagraph.length > 0) {
-          elements.push(
-            <p key={`p-${i}`} className="verse">
-              {currentParagraph.join(' ')}
-            </p>
-          );
-          currentParagraph = [];
-        }
-        elements.push(
-          <p key={`speaker-${i}`} className="speaker">{speakerMatch[1]}</p>
-        );
-        continue;
-      }
-
-      // Empty line means new paragraph
-      if (line === '') {
-        if (currentParagraph.length > 0) {
-          elements.push(
-            <p key={`p-${i}`} className="verse">
-              {currentParagraph.join(' ')}
-            </p>
-          );
-          currentParagraph = [];
-        }
-      } else {
-        currentParagraph.push(line);
-      }
-    }
-
-    // Don't forget last paragraph
-    if (currentParagraph.length > 0) {
-      elements.push(
-        <p key="p-last" className="verse">
-          {currentParagraph.join(' ')}
-        </p>
-      );
-    }
-
-    return elements;
-  };
-
   return (
     <div className="gita-page-wrapper">
       <div className="page-content gita-page">
@@ -181,10 +115,10 @@ function BhagavadGita() {
         </Link>
 
         <nav className="chapter-nav expanded gita-nav">
-          {chapters.map((ch, idx) => (
-            <a key={idx} href={`#ch${idx + 1}`}>
+          {chapters.map((ch) => (
+            <a key={ch.num} href={`#ch${ch.num}`}>
               <span className="ch-num">{ch.num}</span>
-              <span className="ch-name">{ch.name}</span>
+              <span className="ch-name">{ch.name.split(' ')[0]}</span>
             </a>
           ))}
           <button
@@ -202,21 +136,30 @@ function BhagavadGita() {
         <div className="scroll-container">
           <div className="scroll-top"></div>
           <div className="gita-text" ref={contentRef}>
-            <h1 className="scroll-title">The Bhagavad Gita</h1>
-            <p className="scroll-subtitle">The Song Celestial</p>
-            <p className="scroll-attribution">Translated by Sir Edwin Arnold</p>
+            <h1 className="scroll-title">Bhagavad Gita</h1>
+            <p className="scroll-subtitle">The Song of God</p>
+            <p className="scroll-attribution">Translation by Swami Mukundananda</p>
 
-            {parsedChapters.map((chapter, idx) => (
-              <section key={idx} className="chapter-section">
-                <h2 id={`ch${idx + 1}`}>
-                  Chapter {chapter.num} · {chapters[idx]?.name || ''}
-                </h2>
-                <p className="chapter-subtitle">{chapters[idx]?.sanskrit || ''}</p>
-                {formatContent(chapter.content)}
-              </section>
-            ))}
+            {parsedChapters.map((chapter) => {
+              const chapterInfo = chapters[chapter.num - 1];
+              return (
+                <section key={chapter.num} className="chapter-section">
+                  <h2 id={`ch${chapter.num}`}>
+                    Chapter {chapter.num}: {chapterInfo?.name}
+                  </h2>
+                  <p className="chapter-subtitle">{chapterInfo?.subtitle}</p>
 
-            <p className="gita-ending">Here Ends The Bhagavad Gita</p>
+                  {chapter.verses.map((verse, idx) => (
+                    <div key={idx} className="verse-block">
+                      <div className="verse-number">BG {chapter.num}.{verse.verse}</div>
+                      <p className="verse-text">{verse.text}</p>
+                    </div>
+                  ))}
+                </section>
+              );
+            })}
+
+            <p className="gita-ending">Hari Om Tat Sat</p>
           </div>
           <div className="scroll-bottom"></div>
         </div>
