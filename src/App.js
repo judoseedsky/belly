@@ -5,7 +5,7 @@ import {
   Routes,
   useLocation
 } from "react-router-dom"
-import React, { useState, useRef, lazy, Suspense } from "react"
+import React, { useState, useRef, lazy, Suspense, useEffect } from "react"
 import threadText from "./utils/threadTexts"
 import belly from "./img/belly-nobck.png"
 import song from "./files/gave.mp3"
@@ -20,9 +20,17 @@ const YogaSutras = lazy(() => import('./components/YogaSutras/YogaSutras'))
 const HymnOfThePearl = lazy(() => import('./components/HymnOfThePearl/HymnOfThePearl'))
 const OrnamentOfStainlessLight = lazy(() => import('./components/OrnamentOfStainlessLight/OrnamentOfStainlessLight'))
 
-function AppContent({ playing, toggleMusic }) {
+function AppContent({ playing, toggleMusic, stopMusic }) {
   const location = useLocation()
-  const hideBelly = ['/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light'].includes(location.pathname)
+  const bookPages = ['/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light']
+  const isBookPage = bookPages.includes(location.pathname)
+
+  // Stop music when entering a book page
+  useEffect(() => {
+    if (isBookPage && playing) {
+      stopMusic()
+    }
+  }, [isBookPage, playing, stopMusic])
 
   return (
     <>
@@ -45,24 +53,26 @@ function AppContent({ playing, toggleMusic }) {
           <Route path="/ornament-of-stainless-light" element={<OrnamentOfStainlessLight />} />
         </Routes>
       </Suspense>
-      {!hideBelly && <img src={belly} id="belly" alt=""/>}
-      <svg
-        onClick={toggleMusic}
-        className="sound-btn-icon"
-        width="25"
-        height="25"
-        viewBox="0 0 24 24"
-        fill="black"
-      >
-        {playing ? (
-          <>
-            <rect x="5" y="4" width="5" height="16"/>
-            <rect x="14" y="4" width="5" height="16"/>
-          </>
-        ) : (
-          <polygon points="5,3 19,12 5,21"/>
-        )}
-      </svg>
+      {!isBookPage && <img src={belly} id="belly" alt=""/>}
+      {!isBookPage && (
+        <svg
+          onClick={toggleMusic}
+          className="sound-btn-icon"
+          width="25"
+          height="25"
+          viewBox="0 0 24 24"
+          fill="black"
+        >
+          {playing ? (
+            <>
+              <rect x="5" y="4" width="5" height="16"/>
+              <rect x="14" y="4" width="5" height="16"/>
+            </>
+          ) : (
+            <polygon points="5,3 19,12 5,21"/>
+          )}
+        </svg>
+      )}
     </>
   )
 }
@@ -81,11 +91,18 @@ function App() {
     }
   }
 
+  const stopMusic = () => {
+    if (audioRef.current) {
+      audioRef.current.pause()
+      setPlaying(false)
+    }
+  }
+
   return (
     <div className="App">
       <audio ref={audioRef} src={song} preload="none" onEnded={() => setPlaying(false)} />
       <Router>
-        <AppContent playing={playing} toggleMusic={toggleMusic} />
+        <AppContent playing={playing} toggleMusic={toggleMusic} stopMusic={stopMusic} />
       </Router>
     </div>
   );
