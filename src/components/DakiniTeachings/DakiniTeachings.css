@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+/* Wrapper */
+.dakini-page-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.dakini-page-wrapper * {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.dakini-page {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.dakini-text {
+  text-align: left;
+  line-height: 1.9;
+  padding: 4rem 3.5rem;
+  background: #f4e4c1;
+  color: #2c1810;
+  position: relative;
+  box-shadow: inset 0 0 80px rgba(139, 90, 43, 0.15);
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 1.1rem;
+}
+
+.teaching-content {
+  margin-top: 2rem;
+}
+
+.teaching-para {
+  margin-bottom: 1.5rem;
+  text-indent: 0;
+  line-height: 1.8;
+}
+
+.speaker-name {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.dakini-ending {
+  text-align: center;
+  margin-top: 3rem;
+  text-indent: 0 !important;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  .dakini-text {
+    padding: 2rem 1.5rem;
+  }
+
+  .chapter-nav.expanded a {
+    padding: 0.4rem 0.5rem;
+  }
+
+  .ch-name {
+    font-size: 0.55rem;
+  }
+}

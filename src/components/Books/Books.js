@@ -43,7 +43,7 @@ const Books = () => {
                 <ul className="list">
                     <h1>Buddhist</h1>
                     <li>
-                        <a href={dakini}>Dakini Teachings</a>
+                        <Link to="/dakini-teachings">Dakini Teachings</Link>
                     </li>
                     <li>
                         <Link to="/ornament-of-stainless-light">Ornament of Stainless Light</Link>
