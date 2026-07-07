@@ -14,7 +14,7 @@ const chapters = [
 // Format text to highlight speaker names
 const formatText = (text) => {
   // Highlight "Master Padma said:" and similar
-  const speakerMatch = text.match(/^((?:Master Padma|The master|The nirmanakaya master|Lady Tsogyal)\s+(?:said|asked|replied):?\s*)/i);
+  const speakerMatch = text.match(/^((?:Master Padma|The master|The great master|The nirmanakaya master|Lady Tsogyal)\s+(?:said|asked|replied):?\s*)/i);
   if (speakerMatch) {
     const attribution = speakerMatch[1];
     const rest = text.slice(speakerMatch[0].length);
@@ -70,8 +70,14 @@ function DakiniTeachings() {
     }
   };
 
-  // Parse content into paragraphs
-  const paragraphs = content.split('\n\n').filter(p => p.trim());
+  // Parse content into paragraphs - join lines and split on "Master Padma said:" patterns
+  const processedContent = content
+    .replace(/\n(?!\n)/g, ' ')  // Join single newlines
+    .replace(/\s+/g, ' ')       // Normalize whitespace
+    .replace(/(Master Padma said:|The master said:|The great master said:|Lady Tsogyal asked:|The master replied:|The nirmanakaya master said:)/gi, '\n\n$1')
+    .trim();
+
+  const paragraphs = processedContent.split('\n\n').filter(p => p.trim());
 
   return (
     <div className="dakini-page-wrapper">
