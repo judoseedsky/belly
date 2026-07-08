@@ -50,7 +50,6 @@ function OrnamentOfStainlessLight() {
   const [loading, setLoading] = useState(true);
   const [expandedChapters, setExpandedChapters] = useState({});
   const [expandedGlossary, setExpandedGlossary] = useState({});
-  const [expandedNotes, setExpandedNotes] = useState({});
   const [expandedNoteSections, setExpandedNoteSections] = useState({});
   const [notesLookup, setNotesLookup] = useState({});
   const [glossaryLookup, setGlossaryLookup] = useState({});
@@ -213,13 +212,6 @@ function OrnamentOfStainlessLight() {
     }));
   };
 
-  const toggleNote = (idx) => {
-    setExpandedNotes(prev => ({
-      ...prev,
-      [idx]: !prev[idx]
-    }));
-  };
-
   const sections = useMemo(() => [
     { id: 'introduction', name: 'Introduction', file: 'ornament_introduction.txt' },
     { id: 'part1', name: 'Part 1', file: 'ornament_part1_external.txt' },
@@ -272,7 +264,6 @@ function OrnamentOfStainlessLight() {
       setLoading(true);
       setExpandedChapters({});
       setExpandedGlossary({});
-      setExpandedNotes({});
       setExpandedNoteSections({});
       const section = sections.find(s => s.id === currentSection);
       if (section) {
@@ -491,14 +482,16 @@ function OrnamentOfStainlessLight() {
         // Parse: number text
         const noteMatch = entry.match(/^(\d+)\s+(.*)/);
         if (noteMatch) {
-          const isExpanded = expandedNotes[idx];
           return (
-            <div key={idx} className={`note-entry ${isExpanded ? 'expanded' : ''}`}>
-              <div className="note-header" onClick={() => toggleNote(idx)}>
-                <span className="note-number">{noteMatch[1]}</span>
-                <span className="note-toggle">{isExpanded ? '−' : '+'}</span>
-              </div>
-              {isExpanded && <div className="note-text">{renderText(noteMatch[2])}</div>}
+            <div key={idx} className="note-entry">
+              <span
+                className="note-number note-link"
+                onClick={() => navigateToNoteInText(noteMatch[1])}
+                title="Click to find in text"
+              >
+                {noteMatch[1]}
+              </span>
+              <span className="note-text">{renderText(noteMatch[2])}</span>
             </div>
           );
         }
@@ -569,25 +562,16 @@ function OrnamentOfStainlessLight() {
                     const entry = item.slice(3);
                     const noteMatch = entry.match(/^(\d+)\s+(.*)/s);
                     if (noteMatch) {
-                      const noteExpanded = expandedNotes[`${idx}-${i}`];
                       return (
-                        <div key={i} className={`note-entry ${noteExpanded ? 'expanded' : ''}`}>
-                          <div className="note-header">
-                            <span
-                              className="note-number note-link"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                navigateToNoteInText(noteMatch[1]);
-                              }}
-                              title="Click to find in text"
-                            >
-                              {noteMatch[1]}
-                            </span>
-                            <span className="note-toggle" onClick={() => setExpandedNotes(prev => ({...prev, [`${idx}-${i}`]: !prev[`${idx}-${i}`]}))}>
-                              {noteExpanded ? '−' : '+'}
-                            </span>
-                          </div>
-                          {noteExpanded && <div className="note-text">{renderText(noteMatch[2])}</div>}
+                        <div key={i} className="note-entry">
+                          <span
+                            className="note-number note-link"
+                            onClick={() => navigateToNoteInText(noteMatch[1])}
+                            title="Click to find in text"
+                          >
+                            {noteMatch[1]}
+                          </span>
+                          <span className="note-text">{renderText(noteMatch[2])}</span>
                         </div>
                       );
                     }

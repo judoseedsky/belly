@@ -308,31 +308,12 @@
 }
 
 .hymn-text .note-entry {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid rgba(60, 40, 20, 0.1);
-}
-
-.hymn-text .note-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-}
-
-/* Sticky header when expanded */
-.hymn-text .note-entry.expanded .note-header {
-  position: sticky;
-  top: 0;
-  background: #f4e4c1;
-  padding: 0.75rem 0;
-  margin: -0.5rem 0 0 0;
-  z-index: 10;
-  border-bottom: 1px solid rgba(60, 40, 20, 0.2);
-}
-
-.hymn-text .note-header:hover {
-  opacity: 0.7;
+  align-items: flex-start;
+  gap: 0.75rem;
 }
 
 .hymn-text .note-number {
@@ -372,16 +353,9 @@
   }
 }
 
-.hymn-text .note-toggle {
-  font-size: 1.2rem;
-  opacity: 0.5;
-}
-
 .hymn-text .note-text {
-  margin-top: 0.5rem;
-  padding-left: 1rem;
-  text-indent: 0;
-  border-left: 2px solid rgba(60, 40, 20, 0.2);
+  flex: 1;
+  line-height: 1.6;
 }
 
 .hymn-text .note-section {
