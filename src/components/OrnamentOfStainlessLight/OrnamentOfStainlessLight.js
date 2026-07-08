@@ -469,7 +469,7 @@ function OrnamentOfStainlessLight() {
       }
 
       return (
-        <div key={idx} className="accordion-chapter">
+        <div key={idx} className={`accordion-chapter ${isExpanded ? 'expanded' : ''}`}>
           <h2
             onClick={() => toggleChapter(idx)}
             style={{ cursor: 'pointer' }}
