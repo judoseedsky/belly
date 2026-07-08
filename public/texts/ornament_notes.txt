@@ -20,29 +20,29 @@
 
 @@ 9 _Cakras,_ or channel wheels, are essentially clusters of channels within the vajra body and are usually entwined around the central channel. Likened to a lotus, the channels that run to and from a chakra are called _petals_.
 
- 10 _gtum mo, caṇḍālī._ The inner heat developed by sustained concentration and visualization at the navel cakra during completion-stage practices.
+@@ 10 _gtum mo, caṇḍālī._ The inner heat developed by sustained concentration and visualization at the navel cakra during completion-stage practices.
 
- 11 Abhyākaragupta’s attempts to do just this are dealt with in the text.
+@@ 11 Abhyākaragupta’s attempts to do just this are dealt with in the text.
 
- 12 _stong gzugs._ Empty form is central to Kālacakra and is dealt with in detail in _Ornament of Stainless Light._ Briefly, it refers to forms first developed on the completion stage that are devoid of any atomic structure and are not visualized or deliberately projected by the mind but exist of their own volition. These include empty forms of various appearances developed at the beginning of the completion stage, but primarily this term refers to the empty forms of the consort of Kālacakra, known as the _mahāmudrā consort,_ and to Kālacakra himself. These empty forms are primary objects of meditation in Kālacakra.
+@@ 12 _stong gzugs._ Empty form is central to Kālacakra and is dealt with in detail in _Ornament of Stainless Light._ Briefly, it refers to forms first developed on the completion stage that are devoid of any atomic structure and are not visualized or deliberately projected by the mind but exist of their own volition. These include empty forms of various appearances developed at the beginning of the completion stage, but primarily this term refers to the empty forms of the consort of Kālacakra, known as the _mahāmudrā consort,_ and to Kālacakra himself. These empty forms are primary objects of meditation in Kālacakra.
 
- 13 As Norsang Gyatso details in this text.
+@@ 13 As Norsang Gyatso details in this text.
 
- 14 Gyaltsap Darma Rinchen (1364–1432), _Abbreviated Explanation of The Six- Branched Yoga of Kālacakra_, Collected Works, vol. _ka._
+@@ 14 Gyaltsap Darma Rinchen (1364–1432), _Abbreviated Explanation of The Six- Branched Yoga of Kālacakra_, Collected Works, vol. _ka._
 
- 15 This simile is used a lot in Kālacakra to illustrate the nature of empty forms. The clairvoyant was usually a young woman who had the power to see prognostic images in a special mirror. These images, like empty forms, would arise of their volition unconstructed by the mind of the clairvoyant.
+@@ 15 This simile is used a lot in Kālacakra to illustrate the nature of empty forms. The clairvoyant was usually a young woman who had the power to see prognostic images in a special mirror. These images, like empty forms, would arise of their volition unconstructed by the mind of the clairvoyant.
 
- 16 The Sanskrit _praṇāyāmā_ is rendered in Tibetan with a term that literally means “wind exertion” _(srog rtsol)._ The ending _āyāmā_ has several meanings. In the Guhyasamāja tradition it means “lengthening” whereas in Kālacakra it means “stopping.” The term _prāṇa_ is also multilayered. Therefore, I feel the term is best left in the Sanskrit _praṇāyāmā_, a term familiar to Western devotees of Indian yoga practices.
+@@ 16 The Sanskrit _praṇāyāmā_ is rendered in Tibetan with a term that literally means “wind exertion” _(srog rtsol)._ The ending _āyāmā_ has several meanings. In the Guhyasamāja tradition it means “lengthening” whereas in Kālacakra it means “stopping.” The term _prāṇa_ is also multilayered. Therefore, I feel the term is best left in the Sanskrit _praṇāyāmā_, a term familiar to Western devotees of Indian yoga practices.
 
- 17 p. 555.
+@@ 17 p. 555.
 
- 18 For much of the following discussion on the shentong philosophy of the Jonang, I am indebted to the in-depth analyses found in Ruegg, Stearns, and Fendall.
+@@ 18 For much of the following discussion on the shentong philosophy of the Jonang, I am indebted to the in-depth analyses found in Ruegg, Stearns, and Fendall.
 
- 19 Attempts have been made in the notes to identify and reference many of these critiques, especially those of Rendawa.
+@@ 19 Attempts have been made in the notes to identify and reference many of these critiques, especially those of Rendawa.
 
- 20 As explained to me by Sonam Rinchen, student at the Tibetan Medical and Astro College, Dharamsala, India.
+@@ 20 As explained to me by Sonam Rinchen, student at the Tibetan Medical and Astro College, Dharamsala, India.
 
- 21 These paragraphs on the development of traditions of astronomy in Tibet have been mostly drawn from Shawo, pp. 28–32.
+@@ 21 These paragraphs on the development of traditions of astronomy in Tibet have been mostly drawn from Shawo, pp. 28–32.
 
 ### _Notes to the Introduction_
 
@@ -64,185 +64,185 @@
 
 @@ 9 These begin with the rule of Shambhala king Aja, the eleventh Kalkī (806 C.E.), who reformed _karaṇa_ astronomy. See Shawo Tsering, chap. 1, p. 48.
 
- 10 First year of the sixty-year cycle.
+@@ 10 First year of the sixty-year cycle.
 
- 11 The last year of a sixty-year cycle.
+@@ 11 The last year of a sixty-year cycle.
 
- 12 Toh 845 Kangyur, rgyud, _śrī,_ 22b6.
+@@ 12 Toh 845 Kangyur, rgyud, _śrī,_ 22b6.
 
- 13 Toh 362 Kangyur, rgyud, _ka,_ v. 156, 38b5.
+@@ 13 Toh 362 Kangyur, rgyud, _ka,_ v. 156, 38b5.
 
- 14 A “part” (Tib. _phyogs_) refers to the waxing or waning part of a month. Three parts therefore, is one and a half months.
+@@ 14 A “part” (Tib. _phyogs_) refers to the waxing or waning part of a month. Three parts therefore, is one and a half months.
 
- 15 Toh 845 Kangyur, rgyud, _śrī,_ 23a1.
+@@ 15 Toh 845 Kangyur, rgyud, _śrī,_ 23a1.
 
- 16 The first of the 1,903 years as calculated previously.
+@@ 16 The first of the 1,903 years as calculated previously.
 
- 17 Toh 845 Kangyur, rgyud, _śrī,_ 431b3.
+@@ 17 Toh 845 Kangyur, rgyud, _śrī,_ 431b3.
 
- 18 Because the _Tantra_ prophecy says, “six hundred years from this year,” which means, according to the _Great Commentary,_ “This is the year the Tathāgata taught the dharma,” referring to the _Kālacakra Root Tantra._ The same six hundred years is mentioned in the line “six hundred years after I have passed away.” Therefore the year of passing and the year of teaching the _Root Tantra_ are the same.
+@@ 18 Because the _Tantra_ prophecy says, “six hundred years from this year,” which means, according to the _Great Commentary,_ “This is the year the Tathāgata taught the dharma,” referring to the _Kālacakra Root Tantra._ The same six hundred years is mentioned in the line “six hundred years after I have passed away.” Therefore the year of passing and the year of teaching the _Root Tantra_ are the same.
 
- 19 Toh 301 Kangyur, mdo sde, _sa,_ 42b7.
+@@ 19 Toh 301 Kangyur, mdo sde, _sa,_ 42b7.
 
- 20 Toh 95 Kangyur, mdo sde, _kha,_ 168b1.
+@@ 20 Toh 95 Kangyur, mdo sde, _kha,_ 168b1.
 
- 21 Toh 845 Kangyur, rgyud, _śrī,_ 264b3.
+@@ 21 Toh 845 Kangyur, rgyud, _śrī,_ 264b3.
 
- 22 Forty-six years plus four years: from the time of enlightenment to the first of the (approximately) six hundred years.
+@@ 22 Forty-six years plus four years: from the time of enlightenment to the first of the (approximately) six hundred years.
 
- 23 See glossary.
+@@ 23 See glossary.
 
- 24 The data obtained or left over at the end of an astronomical period and used for future calculation. I am grateful to Edward Henning for his assitance in this area.
+@@ 24 The data obtained or left over at the end of an astronomical period and used for future calculation. I am grateful to Edward Henning for his assitance in this area.
 
- 25 Two influential works on astronomical calculation. See bibliography.
+@@ 25 Two influential works on astronomical calculation. See bibliography.
 
- 26 Beginning with Saturn at zero, seven planets rule the days in turn. The planet ruling this particular day was the sun.
+@@ 26 Beginning with Saturn at zero, seven planets rule the days in turn. The planet ruling this particular day was the sun.
 
- 27 According to Edward Henning, normally this means that sixteen mansions have been traversed and the moon is one hour into the seventeenth. The month is usually named after the lunar mansion in which the full moon falls but this is often approximate. The sixteenth lunar mansion is Vaiśākha and the seventeenth is Anurādha_._ Therefore either the author is using a system of numbering in which “sixteen” means “in the sixteenth mansion” or that the month was named after the sixteenth mansion even though it was actually (although only one hour) into the seventeenth. The hours are hours of “distance” or degrees.
+@@ 27 According to Edward Henning, normally this means that sixteen mansions have been traversed and the moon is one hour into the seventeenth. The month is usually named after the lunar mansion in which the full moon falls but this is often approximate. The sixteenth lunar mansion is Vaiśākha and the seventeenth is Anurādha_._ Therefore either the author is using a system of numbering in which “sixteen” means “in the sixteenth mansion” or that the month was named after the sixteenth mansion even though it was actually (although only one hour) into the seventeenth. The hours are hours of “distance” or degrees.
 
- 28 A lunar eclipse.
+@@ 28 A lunar eclipse.
 
- 29 Toh 1 Kangyur, ’dul ba, _nga,_ 33b7.
+@@ 29 Toh 1 Kangyur, ’dul ba, _nga,_ 33b7.
 
- 30 Toh 301 Kangyur, mdo sde, _sa,_ 41a4.
+@@ 30 Toh 301 Kangyur, mdo sde, _sa,_ 41a4.
 
- 31 Jonang Choglé Namgyal, 1306–86.
+@@ 31 Jonang Choglé Namgyal, 1306–86.
 
- 32 Because, according to Butön Rinpoché and others, the six hundred years must begin from the year of the enlightenment, which is the Wood Monkey year.
+@@ 32 Because, according to Butön Rinpoché and others, the six hundred years must begin from the year of the enlightenment, which is the Wood Monkey year.
 
- 33 Toh 845 Kangyur, rgyud, _śrī,_ 264b3.
+@@ 33 Toh 845 Kangyur, rgyud, _śrī,_ 264b3.
 
- 34 Edward Henning says that months are either waxing-led or waning-led depending on which half of Caitra month the sun enters Aries. Entering Aries in the waxing half designates Caitra as a waxing-led month beginning from the first lunar day of the waxing or “bright side.” That month becomes the first month of the new year. When the sun enters Aries during the waning or “dark side” of Caitra, Vaiśākha is posited as beginning from that full moon and becomes the first month of the new year. See Lochen, p. 43.
+@@ 34 Edward Henning says that months are either waxing-led or waning-led depending on which half of Caitra month the sun enters Aries. Entering Aries in the waxing half designates Caitra as a waxing-led month beginning from the first lunar day of the waxing or “bright side.” That month becomes the first month of the new year. When the sun enters Aries during the waning or “dark side” of Caitra, Vaiśākha is posited as beginning from that full moon and becomes the first month of the new year. See Lochen, p. 43.
 
- 35 The thirtieth lunar day.
+@@ 35 The thirtieth lunar day.
 
- 36 Toh 845 Kangyur, rgyud, _śrī,_ 88b2.
+@@ 36 Toh 845 Kangyur, rgyud, _śrī,_ 88b2.
 
- 37 The twelfth month in the line “Then in the twelfth month on the Caitra full moon” is not twelve months after enlightenment but refers to the twelfth or last month of the year. This could not be accepted if it is asserted that Caitra is always the first month of a Kālacakra year.
+@@ 37 The twelfth month in the line “Then in the twelfth month on the Caitra full moon” is not twelve months after enlightenment but refers to the twelfth or last month of the year. This could not be accepted if it is asserted that Caitra is always the first month of a Kālacakra year.
 
- 38 Dro Lotsāwa Sherab Drak (eleventh century) and Ra Lotsāwa Dorjé Drak (1016–1198), two translators of the Kālacakra through whom the two main lineages passed. Palden Lama Dampa Sönam Gyaltsen (1312–75).
+@@ 38 Dro Lotsāwa Sherab Drak (eleventh century) and Ra Lotsāwa Dorjé Drak (1016–1198), two translators of the Kālacakra through whom the two main lineages passed. Palden Lama Dampa Sönam Gyaltsen (1312–75).
 
- 39 Jamyang Chökyi Gönpo: fourteenth-century Sakya lama.
+@@ 39 Jamyang Chökyi Gönpo: fourteenth-century Sakya lama.
 
- 40 These are the 1,682 years up to the 806 C.E. epoch when the 221 years of astronomy began. These years are: the six hundred years of the Yaśas prophecy, the hundred years of his reign, the eight hundred years of the barbarian prophecy, and the 182-year reign of Samudravijaya. Thanks to Edward Henning for his help on this.
+@@ 40 These are the 1,682 years up to the 806 C.E. epoch when the 221 years of astronomy began. These years are: the six hundred years of the Yaśas prophecy, the hundred years of his reign, the eight hundred years of the barbarian prophecy, and the 182-year reign of Samudravijaya. Thanks to Edward Henning for his help on this.
 
- 41 Chögyal Jangpa Namgyal Drakpa Sangpo (1395–1475).
+@@ 41 Chögyal Jangpa Namgyal Drakpa Sangpo (1395–1475).
 
- 42 Toh 301 Kangyur, mdo sde, _sa,_ 41a4.
+@@ 42 Toh 301 Kangyur, mdo sde, _sa,_ 41a4.
 
- 43 Toh 845 Kangyur, rgyud, _śrī,_ 22b6.
+@@ 43 Toh 845 Kangyur, rgyud, _śrī,_ 22b6.
 
- 44 Toh 845 Kangyur, rgyud, _śrī,_ 32a6.
+@@ 44 Toh 845 Kangyur, rgyud, _śrī,_ 32a6.
 
- 45 Toh 845 Kangyur, rgyud, _śrī,_ 23a2.
+@@ 45 Toh 845 Kangyur, rgyud, _śrī,_ 23a2.
 
- 46 An epithet of the _Root Tantra._
+@@ 46 An epithet of the _Root Tantra._
 
- 47 This is the end of the account beginning at 23a2, in which Khedrup Norsang Gyatso paraphrases between citations.
+@@ 47 This is the end of the account beginning at 23a2, in which Khedrup Norsang Gyatso paraphrases between citations.
 
- 48 The four types of reliance: not on the person but on the dharma, not on words but on meanings, not on ordinary consciousness but on gnosis, not on interpretable meanings but on definitive meanings. See _The Great Lexicon,_ p. 1080.
+@@ 48 The four types of reliance: not on the person but on the dharma, not on words but on meanings, not on ordinary consciousness but on gnosis, not on interpretable meanings but on definitive meanings. See _The Great Lexicon,_ p. 1080.
 
- 49 Toh 845 Kangyur, rgyud, _śrī,_ 22a4.
+@@ 49 Toh 845 Kangyur, rgyud, _śrī,_ 22a4.
 
- 50 Gyijo Dawa Öser (eleventh century), probably the first translator of the Kālacakra into Tibetan.
+@@ 50 Gyijo Dawa Öser (eleventh century), probably the first translator of the Kālacakra into Tibetan.
 
- 51 Ma Lotsāwa Gewai Lodrö. Translator of the Kālacakra (eleventh century).
+@@ 51 Ma Lotsāwa Gewai Lodrö. Translator of the Kālacakra (eleventh century).
 
- 52 Verses quoted in the _Great Commentary_ but not found in the _Condensed Tantra._
+@@ 52 Verses quoted in the _Great Commentary_ but not found in the _Condensed Tantra._
 
- 53 Toh 845 Kangyur, rgyud, _śrī,_ 22a6.
+@@ 53 Toh 845 Kangyur, rgyud, _śrī,_ 22a6.
 
- 54 Toh 845 Kangyur, rgyud, _śrī,_ 22a6.
+@@ 54 Toh 845 Kangyur, rgyud, _śrī,_ 22a6.
 
- 55 Toh 845 Kangyur, rgyud, _śrī,_ 68b7.
+@@ 55 Toh 845 Kangyur, rgyud, _śrī,_ 68b7.
 
- 56 Toh 362 Kangyur, rgyud, v. 159, 39a2.
+@@ 56 Toh 362 Kangyur, rgyud, v. 159, 39a2.
 
- 57 Toh 362 Kangyur, rgyud, 22b1.
+@@ 57 Toh 362 Kangyur, rgyud, 22b1.
 
- 58 Toh 362 Kangyur, rgyud, 69b7
+@@ 58 Toh 362 Kangyur, rgyud, 69b7
 
- 59 Toh 363 Kangyur, rgyud, _ka,_ 142a6
+@@ 59 Toh 363 Kangyur, rgyud, _ka,_ 142a6
 
- 60 Reference not found.
+@@ 60 Reference not found.
 
- 61 _rta mchog ting nge ’dzin, paramāśva samādhi._
+@@ 61 _rta mchog ting nge ’dzin, paramāśva samādhi._
 
- 62 Puṇḍarīka.
+@@ 62 Puṇḍarīka.
 
- 63 Toh 845 Kangyur, rgyud, _śrī,_ 22b2.
+@@ 63 Toh 845 Kangyur, rgyud, _śrī,_ 22b2.
 
- 64 Toh 362 Kangyur, rgyud, v. 152, 38a7.
+@@ 64 Toh 362 Kangyur, rgyud, v. 152, 38a7.
 
- 65 Toh 362 Kangyur, rgyud, v. 157, 38b6.
+@@ 65 Toh 362 Kangyur, rgyud, v. 157, 38b6.
 
- 66 Toh 362 Kangyur, rgyud, v. 158, 39a1.
+@@ 66 Toh 362 Kangyur, rgyud, v. 158, 39a1.
 
- 67 Refers to times during the life span of the Buddha’s doctrine of varying levels of wealth, dharma, pleasures, and well-being. The age of completeness _(rdzogs ldan, caturyuga)_ has all four, the age of three _(gsum ldan, tretāyuga)_ lacks one, the age of two (_gnyis ldan, dvāparayuga)_ lacks two, while the age of troubles _(rtsod ldan, kaliyuga)_ lacks three. See _The Great Lexicon._
+@@ 67 Refers to times during the life span of the Buddha’s doctrine of varying levels of wealth, dharma, pleasures, and well-being. The age of completeness _(rdzogs ldan, caturyuga)_ has all four, the age of three _(gsum ldan, tretāyuga)_ lacks one, the age of two (_gnyis ldan, dvāparayuga)_ lacks two, while the age of troubles _(rtsod ldan, kaliyuga)_ lacks three. See _The Great Lexicon._
 
- 68 _dum bu_. Part, sector. These are the twelve sectors of the outer earth mandala, or Greater Jambuvīpa, which is geometrically divided up into twelve parts. Sometimes called “continents” _(gling)._ See chap. 3.
+@@ 68 _dum bu_. Part, sector. These are the twelve sectors of the outer earth mandala, or Greater Jambuvīpa, which is geometrically divided up into twelve parts. Sometimes called “continents” _(gling)._ See chap. 3.
 
- 69 Toh 362 Kangyur, rgyud, v. 168, 40a2.
+@@ 69 Toh 362 Kangyur, rgyud, v. 168, 40a2.
 
- 70 The highest realm of the form realms _(’og min, akāniṣṭha)._
+@@ 70 The highest realm of the form realms _(’og min, akāniṣṭha)._
 
- 71 Toh 362 Kangyur, rgyud, v. 23, 24a1. The second line uses word numerals: time = 4, arrow = 5; therefore 54 × 100. See appendix 5.
+@@ 71 Toh 362 Kangyur, rgyud, v. 23, 24a1. The second line uses word numerals: time = 4, arrow = 5; therefore 54 × 100. See appendix 5.
 
- 72 Toh 362 Kangyur, rgyud, v. 164, 39b2.
+@@ 72 Toh 362 Kangyur, rgyud, v. 164, 39b2.
 
- 73 Toh 362 Kangyur, rgyud, v. 152, 38a7.
+@@ 73 Toh 362 Kangyur, rgyud, v. 152, 38a7.
 
- 74 Toh 362 Kangyur, rgyud, v. 165, 39b3.
+@@ 74 Toh 362 Kangyur, rgyud, v. 165, 39b3.
 
- 75 Toh 845 Kangyur, rgyud, _śrī,_ 14b7.
+@@ 75 Toh 845 Kangyur, rgyud, _śrī,_ 14b7.
 
- 76 Breaths of karma.
+@@ 76 Breaths of karma.
 
- 77 _nyan thos, śrāvaka._ Non-Mahayana disciples of the Buddha.
+@@ 77 _nyan thos, śrāvaka._ Non-Mahayana disciples of the Buddha.
 
- 78 Toh 845 Kangyur, rgyud, _śrī,_ 49a4.
+@@ 78 Toh 845 Kangyur, rgyud, _śrī,_ 49a4.
 
- 79 Toh 845 Kangyur, rgyud, _śrī,_ 21a1.
+@@ 79 Toh 845 Kangyur, rgyud, _śrī,_ 21a1.
 
- 80 Toh 845 Kangyur, rgyud, _śrī,_ 20b3.
+@@ 80 Toh 845 Kangyur, rgyud, _śrī,_ 20b3.
 
- 81 Toh 1785 Tengyur, rgyud ’grel, _ha,_ 9a5.
+@@ 81 Toh 1785 Tengyur, rgyud ’grel, _ha,_ 9a5.
 
- 82 Quoted in _Bright Lamp;_ probably not translated into Tibetan.
+@@ 82 Quoted in _Bright Lamp;_ probably not translated into Tibetan.
 
- 83 Toh 417 Kangyur, rgyud, _nga,_ part 2, 14b4.
+@@ 83 Toh 417 Kangyur, rgyud, _nga,_ part 2, 14b4.
 
- 84 “Teaching by desire” probably refers to tantric methodology of using desire as the path.
+@@ 84 “Teaching by desire” probably refers to tantric methodology of using desire as the path.
 
- 85 Toh 1180 Tengyur, rgyud ’grel, _ka,_ part 2, 84b5.
+@@ 85 Toh 1180 Tengyur, rgyud ’grel, _ka,_ part 2, 84b5.
 
- 86 Toh 94 Kangyur, mdo sde, _ka,_ chap. 2, 103a2.
+@@ 86 Toh 94 Kangyur, mdo sde, _ka,_ chap. 2, 103a2.
 
- 87 Toh 3807 Tengyur, sher phyin, chap. 31, 81a5.
+@@ 87 Toh 3807 Tengyur, sher phyin, chap. 31, 81a5.
 
- 88 Khedrup Jé, Collected Works, vol. _kha,_ Realms chapter, 15b4.
+@@ 88 Khedrup Jé, Collected Works, vol. _kha,_ Realms chapter, 15b4.
 
- 89 Arhats are freed from samsara, nonreturners will not take birth again in samsara, stream-enterers have entered the ārya paths.
+@@ 89 Arhats are freed from samsara, nonreturners will not take birth again in samsara, stream-enterers have entered the ārya paths.
 
- 90 1483/4, the year in which the author was writing.
+@@ 90 1483/4, the year in which the author was writing.
 
- 91 The year 1027 plus 60 × 7 + 37 = 1484.
+@@ 91 The year 1027 plus 60 × 7 + 37 = 1484.
 
- 92 Toh 362 Kangyur, rgyud; v. 66, 108a3.
+@@ 92 Toh 362 Kangyur, rgyud; v. 66, 108a3.
 
- 93 Toh 845 Kangyur, rgyud, _śrī,_ 298a6. In the stacked arrangement of the ten-syllable mantra of Kālacakra, the nāda is the squiggle at the very top.
+@@ 93 Toh 845 Kangyur, rgyud, _śrī,_ 298a6. In the stacked arrangement of the ten-syllable mantra of Kālacakra, the nāda is the squiggle at the very top.
 
- 94 Toh 845 Kangyur, rgyud, _śrī,_ 118a6. The passage as quoted here varies somewhat from the _Vimalaprabhā_ passage. _Emptiness_ refers to empty form.
+@@ 94 Toh 845 Kangyur, rgyud, _śrī,_ 118a6. The passage as quoted here varies somewhat from the _Vimalaprabhā_ passage. _Emptiness_ refers to empty form.
 
- 95 Toh 417 Kangyur, rgyud, _nga,_ part 1, 2a7.
+@@ 95 Toh 417 Kangyur, rgyud, _nga,_ part 1, 2a7.
 
- 96 Toh 418 Kangyur, rgyud, _nga,_ 22a3_._
+@@ 96 Toh 418 Kangyur, rgyud, _nga,_ 22a3_._
 
- 97 Toh 1180 Tengyur, rgyud ’grel, _ka,_ chap. 4, 102a2.
+@@ 97 Toh 1180 Tengyur, rgyud ’grel, _ka,_ chap. 4, 102a2.
 
- 98 Toh 2224 Tengyur, rgyud ’grel, _wi,_ 71b3.
+@@ 98 Toh 2224 Tengyur, rgyud ’grel, _wi,_ 71b3.
 
- 99 _spros pa’i mtha’ dang bral ba._
+@@ 99 _spros pa’i mtha’ dang bral ba._
 
 100 Toh 2224 Tengyur, rgyud ’grel, _wi,_ 72b1.
 
@@ -336,185 +336,185 @@
 
 @@ 9 Toh 845 Kangyur, rgyud, _śrī,_ 65a1.
 
- 10 Toh 845 Kangyur, rgyud, _śrī,_ 65b6.
+@@ 10 Toh 845 Kangyur, rgyud, _śrī,_ 65b6.
 
- 11 This annotation refers to the fact that some translations of the _Vimalaprabhā_ and _Condensed Tantra_ describe the eastern continent of Pūrvavideha as having the shape of a half moon or semicircle. The same applies to the annotation on Uttarakuru below.
+@@ 11 This annotation refers to the fact that some translations of the _Vimalaprabhā_ and _Condensed Tantra_ describe the eastern continent of Pūrvavideha as having the shape of a half moon or semicircle. The same applies to the annotation on Uttarakuru below.
 
- 12 Toh 845 Kangyur, rgyud, _śrī,_ 65b6.
+@@ 12 Toh 845 Kangyur, rgyud, _śrī,_ 65b6.
 
- 13 Toh 362 Kangyur, rgyud, v. 169, 118b4.
+@@ 13 Toh 362 Kangyur, rgyud, v. 169, 118b4.
 
- 14 Toh 845 Kangyur, rgyud, _śrī,_ 65a4.
+@@ 14 Toh 845 Kangyur, rgyud, _śrī,_ 65a4.
 
- 15 _rtse mo._
+@@ 15 _rtse mo._
 
- 16 Toh 845 Kangyur, rgyud, _śrī,_ 65a4.
+@@ 16 Toh 845 Kangyur, rgyud, _śrī,_ 65a4.
 
- 17 Toh 845 Kangyur, rgyud, _śrī,_ 23b6.
+@@ 17 Toh 845 Kangyur, rgyud, _śrī,_ 23b6.
 
- 18 Toh 4089 Tengyur, mngon pa, _ku,_ gnas 3, v. 11, 7a6. As there is an intervening period of germination in the growth of corn from seed, so there must be an intermediate state or bardo when rebirth is from place to place.
+@@ 18 Toh 4089 Tengyur, mngon pa, _ku,_ gnas 3, v. 11, 7a6. As there is an intervening period of germination in the growth of corn from seed, so there must be an intermediate state or bardo when rebirth is from place to place.
 
- 19 Toh 4089 Tengyur, mngon pa, _ku,_ gnas 2, v. 15, 4b2.
+@@ 19 Toh 4089 Tengyur, mngon pa, _ku,_ gnas 2, v. 15, 4b2.
 
- 20 Toh 4089 Tengyur, mngon pa, _ku,_ gnas 3, 110a1.
+@@ 20 Toh 4089 Tengyur, mngon pa, _ku,_ gnas 3, 110a1.
 
- 21 Toh 845 Kangyur, rgyud, _śrī,_ 419b1.
+@@ 21 Toh 845 Kangyur, rgyud, _śrī,_ 419b1.
 
- 22 Toh 845 Kangyur, rgyud, _śrī,_ 419b4.
+@@ 22 Toh 845 Kangyur, rgyud, _śrī,_ 419b4.
 
- 23 Toh 845 Kangyur, rgyud, _śrī,_ 419b4.
+@@ 23 Toh 845 Kangyur, rgyud, _śrī,_ 419b4.
 
- 24 P2064 Tengyur, rgyud ’grel, _ka_-2, 67a3.
+@@ 24 P2064 Tengyur, rgyud ’grel, _ka_-2, 67a3.
 
- 25 _mi ’mjed pa._ Epithet for our world meaning fearless or powerful, so called because there is no fear, meaning no fear of dharma practice. See _Great Lexicon,_ p. 2068.
+@@ 25 _mi ’mjed pa._ Epithet for our world meaning fearless or powerful, so called because there is no fear, meaning no fear of dharma practice. See _Great Lexicon,_ p. 2068.
 
- 26 unreal = southwest, the powerful = northeast, air = northwest, fire = southeast.
+@@ 26 unreal = southwest, the powerful = northeast, air = northwest, fire = southeast.
 
- 27 Toh 845 Kangyur, rgyud, _śrī,_ 428b4.
+@@ 27 Toh 845 Kangyur, rgyud, _śrī,_ 428b4.
 
- 28 Thirteenth-century Kadampa master and opponent of the Kālacakra.
+@@ 28 Thirteenth-century Kadampa master and opponent of the Kālacakra.
 
- 29 Toh 362 Kangyur, rgyud, _ka,_ khams v. 13, 23b7/23a6.
+@@ 29 Toh 362 Kangyur, rgyud, _ka,_ khams v. 13, 23b7/23a6.
 
- 30 About nine miles, as compared to the Abhidharma yojana of about five miles.
+@@ 30 About nine miles, as compared to the Abhidharma yojana of about five miles.
 
- 31 Toh 845 Kangyur, rgyud, _śrī,_ 60b4.
+@@ 31 Toh 845 Kangyur, rgyud, _śrī,_ 60b4.
 
- 32 There are actually eight hell realms and seven hell locations. The Vajra Flame hell and the Crying hell share the lower half of the air mandala.
+@@ 32 There are actually eight hell realms and seven hell locations. The Vajra Flame hell and the Crying hell share the lower half of the air mandala.
 
- 33 Toh 362 Kangyur, rgyud, _ka,_ khams v. 15, 24a3.
+@@ 33 Toh 362 Kangyur, rgyud, _ka,_ khams v. 15, 24a3.
 
- 34 Toh 845 Kangyur, rgyud, _śrī,_ 63a1.
+@@ 34 Toh 845 Kangyur, rgyud, _śrī,_ 63a1.
 
- 35 _srid rtse_. Another term for the highest formless realm.
+@@ 35 _srid rtse_. Another term for the highest formless realm.
 
- 36 Toh 845 Kangyur, rgyud, _śrī,_ 64a2.
+@@ 36 Toh 845 Kangyur, rgyud, _śrī,_ 64a2.
 
- 37 Toh 845 Kangyur, rgyud, _śrī,_ 67a1.
+@@ 37 Toh 845 Kangyur, rgyud, _śrī,_ 67a1.
 
- 38 This amount of human breath is one hundred days for asuras but one hundred years for humans.
+@@ 38 This amount of human breath is one hundred days for asuras but one hundred years for humans.
 
- 39 Toh 845 Kangyur, rgyud, _śrī,_ 68a4.
+@@ 39 Toh 845 Kangyur, rgyud, _śrī,_ 68a4.
 
- 40 _Śakti_ here refers to the inhabitants of the form realm None Higher, not to be confused with the eight śakti of the mandala.
+@@ 40 _Śakti_ here refers to the inhabitants of the form realm None Higher, not to be confused with the eight śakti of the mandala.
 
- 41 According to Edward Henning, the Sanskrit _dhru_ normally means fixed, certain, or firm, but here refers to thirty human breaths × 21,600 = thirty human solar days = one solar day for a ghost.
+@@ 41 According to Edward Henning, the Sanskrit _dhru_ normally means fixed, certain, or firm, but here refers to thirty human breaths × 21,600 = thirty human solar days = one solar day for a ghost.
 
- 42 One hour (twenty-four minutes) = 360 human breaths = one breath of the gods of the desire realm. That multiplied by 21,600 equals one celestial day.
+@@ 42 One hour (twenty-four minutes) = 360 human breaths = one breath of the gods of the desire realm. That multiplied by 21,600 equals one celestial day.
 
- 43 One solar day = 21,600 human breaths = one breath of an asura.
+@@ 43 One solar day = 21,600 human breaths = one breath of an asura.
 
- 44 Here _dhru_ refers to one human year, which equals one breath of the inhabitants — the śakti — of the realm None Higher.
+@@ 44 Here _dhru_ refers to one human year, which equals one breath of the inhabitants — the śakti — of the realm None Higher.
 
- 45 Four ages = 21,600 human years = one breath of an inhabitant — a prakṛti or pradhāna — of the fourth formless realm.
+@@ 45 Four ages = 21,600 human years = one breath of an inhabitant — a prakṛti or pradhāna — of the fourth formless realm.
 
- 46 Toh 362 Kangyur, rgyud, khams v. 24, 25a2.
+@@ 46 Toh 362 Kangyur, rgyud, khams v. 24, 25a2.
 
- 47 Toh 845 Kangyur, rgyud, _śrī,_ 67a7.
+@@ 47 Toh 845 Kangyur, rgyud, _śrī,_ 67a7.
 
- 48 Toh 845 Kangyur, rgyud, _śrī,_ 64a4.
+@@ 48 Toh 845 Kangyur, rgyud, _śrī,_ 64a4.
 
- 49 Word numerals; read backward it gives 3,145,728,000 hairwidths. To understand this and the following verses, see appendix 5 on word-numerals.
+@@ 49 Word numerals; read backward it gives 3,145,728,000 hairwidths. To understand this and the following verses, see appendix 5 on word-numerals.
 
- 50 The following four versed citations have not been traced.
+@@ 50 The following four versed citations have not been traced.
 
- 51 This is the previous number squared, i.e., 9,895,604,649,984,000,000. The following verse below can be worked out likewise.
+@@ 51 This is the previous number squared, i.e., 9,895,604,649,984,000,000. The following verse below can be worked out likewise.
 
- 52 31,128,880,624,384,868,352,000,000,000.
+@@ 52 31,128,880,624,384,868,352,000,000,000.
 
- 53 The text from “This, in human years, is expressed as” up to “one _mahāsamāpta_” looks like an annotation. It is using the Abhidharma numeration system, whose units increase tenfold. In numerals this comes to 112,063,970,247,785,526,067,200,000,000,000,000 years.
+@@ 53 The text from “This, in human years, is expressed as” up to “one _mahāsamāpta_” looks like an annotation. It is using the Abhidharma numeration system, whose units increase tenfold. In numerals this comes to 112,063,970,247,785,526,067,200,000,000,000,000 years.
 
- 54 _sde._ Group, category.
+@@ 54 _sde._ Group, category.
 
- 55 Shong Lotsāwa Dorjé Gyaltsen, translator of the _Kālacakra._
+@@ 55 Shong Lotsāwa Dorjé Gyaltsen, translator of the _Kālacakra._
 
- 56 Toh 845 Kangyur, rgyud, _śrī,_ 445b5.
+@@ 56 Toh 845 Kangyur, rgyud, _śrī,_ 445b5.
 
- 57 10,000,000,000,000,000.
+@@ 57 10,000,000,000,000,000.
 
- 58 Ratnākaraśāntipa.
+@@ 58 Ratnākaraśāntipa.
 
- 59 These nine run from one to a hundred million, increasing tenfold each time. The rest are similar. These and the other Abhidharma units are found in the _Mahāvyutpatti._
+@@ 59 These nine run from one to a hundred million, increasing tenfold each time. The rest are similar. These and the other Abhidharma units are found in the _Mahāvyutpatti._
 
- 60 Toh 3935 Tengyur, dbu ma, 248a5.
+@@ 60 Toh 3935 Tengyur, dbu ma, 248a5.
 
- 61 _grang med pa_. Beyond number.
+@@ 61 _grang med pa_. Beyond number.
 
- 62 Specifically the _Buddhāvataṃsaka._ However the units as given here do not match with the units from the same sutra as presented in the ninth-century Tibetan-Sanskrit lexicon the _Mahāvyutpatti,_ and I have been unable to find Sanskrit equivalents elsewhere. Therefore these are left in Tibetan.
+@@ 62 Specifically the _Buddhāvataṃsaka._ However the units as given here do not match with the units from the same sutra as presented in the ninth-century Tibetan-Sanskrit lexicon the _Mahāvyutpatti,_ and I have been unable to find Sanskrit equivalents elsewhere. Therefore these are left in Tibetan.
 
- 63 Toh 3935 Tengyur, dbu ma, 250b4.
+@@ 63 Toh 3935 Tengyur, dbu ma, 250b4.
 
- 64 In which case one unit is missing from the list, because from one to _lala_ totals 115.
+@@ 64 In which case one unit is missing from the list, because from one to _lala_ totals 115.
 
- 65 Throwing karma ripens at death and determines the realm or status of rebirth by throwing the consciousness into a bardo being of that particular realm. Completing karma determines the quality of life in that particular realm.
+@@ 65 Throwing karma ripens at death and determines the realm or status of rebirth by throwing the consciousness into a bardo being of that particular realm. Completing karma determines the quality of life in that particular realm.
 
- 66 _bsam gtan, dhyāna._
+@@ 66 _bsam gtan, dhyāna._
 
- 67 _nyer sdogs kyi snyoms ’jug, sāmantaka samāpatti._
+@@ 67 _nyer sdogs kyi snyoms ’jug, sāmantaka samāpatti._
 
- 68 _dngos gzhi’i snyoms ’jug, maula samāpatti._
+@@ 68 _dngos gzhi’i snyoms ’jug, maula samāpatti._
 
- 69 These are powerful meditations focused upon each of the five elements, transforming everything into one particular element.
+@@ 69 These are powerful meditations focused upon each of the five elements, transforming everything into one particular element.
 
- 70 Toh 845 Kangyur, rgyud, _śrī,_ 63b6.
+@@ 70 Toh 845 Kangyur, rgyud, _śrī,_ 63b6.
 
- 71 Four elements, four colors, limitless space, and limitless consciousness.
+@@ 71 Four elements, four colors, limitless space, and limitless consciousness.
 
- 72 The commentary explains that the formless realms are without the two syllables _ha_ and _hā,_ and that this line is there to make it clear that there are not six formless realms.
+@@ 72 The commentary explains that the formless realms are without the two syllables _ha_ and _hā,_ and that this line is there to make it clear that there are not six formless realms.
 
- 73 _House (khyim)_ refers to the twelve signs of the zodiac — Aries and so on — and not to the usual astrological meaning of “house” as a stationary division of the zodiac.
+@@ 73 _House (khyim)_ refers to the twelve signs of the zodiac — Aries and so on — and not to the usual astrological meaning of “house” as a stationary division of the zodiac.
 
- 74 Toh 845 Kangyur, rgyud, _śrī,_ 454b4.
+@@ 74 Toh 845 Kangyur, rgyud, _śrī,_ 454b4.
 
- 75 Because Aries overlaps _aśvinī_ — the first of the twenty-seven lunar mansions.
+@@ 75 Because Aries overlaps _aśvinī_ — the first of the twenty-seven lunar mansions.
 
- 76 As the sun and moon were in conjunction.
+@@ 76 As the sun and moon were in conjunction.
 
- 77 I.e., the calendar year.
+@@ 77 I.e., the calendar year.
 
- 78 Spelled _caitra_ as a month but _citrā_ as a lunar mansion.
+@@ 78 Spelled _caitra_ as a month but _citrā_ as a lunar mansion.
 
- 79 Sun and moon are regarded as “planets.” The Sanskrit term _graha_ carries the meaning of “to seize or grab,” in the sense of their abilities to influence and rule.
+@@ 79 Sun and moon are regarded as “planets.” The Sanskrit term _graha_ carries the meaning of “to seize or grab,” in the sense of their abilities to influence and rule.
 
- 80 Dawn on the southern continent is midday on the eastern continent.
+@@ 80 Dawn on the southern continent is midday on the eastern continent.
 
- 81 _bkra shis._ Another name for Mars. See Lochen, p. 45ff, for synonyms of the planets.
+@@ 81 _bkra shis._ Another name for Mars. See Lochen, p. 45ff, for synonyms of the planets.
 
- 82 Toh 845 Kangyur, rgyud, _śrī,_ 82b7.
+@@ 82 Toh 845 Kangyur, rgyud, _śrī,_ 82b7.
 
- 83 The Tibetan translates as “long tail of smoke,” hence its alternate translation of “comet.”
+@@ 83 The Tibetan translates as “long tail of smoke,” hence its alternate translation of “comet.”
 
- 84 _gola._ Dome, sphere, etc. This term is explained fully later on.
+@@ 84 _gola._ Dome, sphere, etc. This term is explained fully later on.
 
- 85 Henning explains that steps are incremental or decremental, progressive or regressive, depending on whether a planet is speeding up or slowing down, ahead of its mean or behind its mean.
+@@ 85 Henning explains that steps are incremental or decremental, progressive or regressive, depending on whether a planet is speeding up or slowing down, ahead of its mean or behind its mean.
 
- 86 _lag rjes._ A planet will eventually return to its birth sign conjunct with the sun with all increment and decrement canceled out. The intervening time, therefore, provides the basis for the calculation of the fixed motion of that planet.
+@@ 86 _lag rjes._ A planet will eventually return to its birth sign conjunct with the sun with all increment and decrement canceled out. The intervening time, therefore, provides the basis for the calculation of the fixed motion of that planet.
 
- 87 Zodiacal day, lunar day, and solar day are the three kinds of days. (See Gojo, p. 40ff, and Shawo, chap. 6). Therefore the number of, say, lunar days a planet takes to complete its orbit is divided into 1,620 (twenty-seven lunar mansions multiplied by sixty hours or degrees for each lunar mansion = 1,620 hours) to arrive at the fixed motion in terms of degrees.
+@@ 87 Zodiacal day, lunar day, and solar day are the three kinds of days. (See Gojo, p. 40ff, and Shawo, chap. 6). Therefore the number of, say, lunar days a planet takes to complete its orbit is divided into 1,620 (twenty-seven lunar mansions multiplied by sixty hours or degrees for each lunar mansion = 1,620 hours) to arrive at the fixed motion in terms of degrees.
 
- 88 Toh 845 Kangyur, rgyud, _śrī,_ 82b7.
+@@ 88 Toh 845 Kangyur, rgyud, _śrī,_ 82b7.
 
- 89 Toh 845 Kangyur, rgyud, _śrī,_ 82a2.
+@@ 89 Toh 845 Kangyur, rgyud, _śrī,_ 82a2.
 
- 90 Toh 845 Kangyur, rgyud, _śrī,_ 84a2.
+@@ 90 Toh 845 Kangyur, rgyud, _śrī,_ 84a2.
 
- 91 Toh 845 Kangyur, rgyud, _śrī,_ 84a3.
+@@ 91 Toh 845 Kangyur, rgyud, _śrī,_ 84a3.
 
- 92 Toh 845 Kangyur, rgyud, _śrī,_ 84a3.
+@@ 92 Toh 845 Kangyur, rgyud, _śrī,_ 84a3.
 
- 93 Toh 845 Kangyur, rgyud, _śrī,_ 84a6.
+@@ 93 Toh 845 Kangyur, rgyud, _śrī,_ 84a6.
 
- 94 Toh 845 Kangyur, rgyud, _śrī,_ 85a3.
+@@ 94 Toh 845 Kangyur, rgyud, _śrī,_ 85a3.
 
- 95 _dus._ Time or season; word-numeral for six, probably referring to either the six seasons of a year or simply to the six houses in the southern half of the gola chart.
+@@ 95 _dus._ Time or season; word-numeral for six, probably referring to either the six seasons of a year or simply to the six houses in the southern half of the gola chart.
 
- 96 Toh 845 Kangyur, rgyud, _śrī,_ 85a7.
+@@ 96 Toh 845 Kangyur, rgyud, _śrī,_ 85a7.
 
- 97 East as used here refers to a counterclockwise direction or a direction to the right from any point on the circumference while facing the center. West is the opposite.
+@@ 97 East as used here refers to a counterclockwise direction or a direction to the right from any point on the circumference while facing the center. West is the opposite.
 
- 98 Toh 845 Kangyur, rgyud, _śrī,_ 85b5. 75,000 yojana is the distance between the Śīta Mountains and the Mountains of Fire, and on the equinox the sun travels overhead on the midway point.
+@@ 98 Toh 845 Kangyur, rgyud, _śrī,_ 85b5. 75,000 yojana is the distance between the Śīta Mountains and the Mountains of Fire, and on the equinox the sun travels overhead on the midway point.
 
- 99 _dus sbyor, lagna._ Here refers to the twelve houses or signs of the zodiac. As all twelve houses pass over any given meridian in a day, a new ascendant, or lagna, rises about every two hours. See glossary for other meanings; also Lochen, chap. 15.
+@@ 99 _dus sbyor, lagna._ Here refers to the twelve houses or signs of the zodiac. As all twelve houses pass over any given meridian in a day, a new ascendant, or lagna, rises about every two hours. See glossary for other meanings; also Lochen, chap. 15.
 
 100 The twelve houses taught in Kālacakra correspond to the twelve zodiacal signs portrayed in Indian and Western astronomy. The names are virtually the same also. They are called houses rather than signs but do not correspond to the system of fixed houses used in astrology.
 
@@ -768,185 +768,185 @@
 
 @@ 9 _kun gzhi rnam par shes pa, ālayavijñāna._
 
- 10 Toh 845 Kangyur, rgyud, _śrī,_ 121b3.
+@@ 10 Toh 845 Kangyur, rgyud, _śrī,_ 121b3.
 
- 11 Toh 845 Kangyur, rgyud, _śrī,_ 121b5.
+@@ 11 Toh 845 Kangyur, rgyud, _śrī,_ 121b5.
 
- 12 Toh 4089 Tengyur, mngon pa, _ku,_ gnas v. 38, 8a7.
+@@ 12 Toh 4089 Tengyur, mngon pa, _ku,_ gnas v. 38, 8a7.
 
- 13 _lung ma bstan_. Not taught by the Buddha to be either virtuous or nonvirtuous.
+@@ 13 _lung ma bstan_. Not taught by the Buddha to be either virtuous or nonvirtuous.
 
- 14 Toh 845 Kangyur, rgyud, _śrī,_ 203b3.
+@@ 14 Toh 845 Kangyur, rgyud, _śrī,_ 203b3.
 
- 15 _stong sang._
+@@ 15 _stong sang._
 
- 16 Toh 845 Kangyur, rgyud, _śrī,_ 36b6.
+@@ 16 Toh 845 Kangyur, rgyud, _śrī,_ 36b6.
 
- 17 Toh 4089 Tengyur, mngon pa, _ku,_ gnas v. 9, 7a5.
+@@ 17 Toh 4089 Tengyur, mngon pa, _ku,_ gnas v. 9, 7a5.
 
- 18 Toh 4089 Tengyur, mngon pa, _ku,_ gnas v. 9, 7a5.
+@@ 18 Toh 4089 Tengyur, mngon pa, _ku,_ gnas v. 9, 7a5.
 
- 19 Toh 4089 Tengyur, mngon pa, _ku,_ gnas v. 9, 7a5.
+@@ 19 Toh 4089 Tengyur, mngon pa, _ku,_ gnas v. 9, 7a5.
 
- 20 Toh 845 Kangyur, rgyud, _śrī,_ 51a5.
+@@ 20 Toh 845 Kangyur, rgyud, _śrī,_ 51a5.
 
- 21 _Jewel Garland of Letters,_ p. 288.
+@@ 21 _Jewel Garland of Letters,_ p. 288.
 
- 22 _ro._ Possibly because _ro_ is a word-numeral for six, and space is the sixth element.
+@@ 22 _ro._ Possibly because _ro_ is a word-numeral for six, and space is the sixth element.
 
- 23 Earth, water, fire, wind, space, and consciousness.
+@@ 23 Earth, water, fire, wind, space, and consciousness.
 
- 24 _Lotus_ refers to the womb and to the female pudenda.
+@@ 24 _Lotus_ refers to the womb and to the female pudenda.
 
- 25 _’byung ’gyur._ Arisen; all phenomena arise from the elements.
+@@ 25 _’byung ’gyur._ Arisen; all phenomena arise from the elements.
 
- 26 Toh 845 Kangyur, rgyud, _śrī,_ 119a1.
+@@ 26 Toh 845 Kangyur, rgyud, _śrī,_ 119a1.
 
- 27 Toh 845 Kangyur, rgyud, _śrī,_ 118b7.
+@@ 27 Toh 845 Kangyur, rgyud, _śrī,_ 118b7.
 
- 28 _rtsod ldan, kaliyuga._
+@@ 28 _rtsod ldan, kaliyuga._
 
- 29 Although sometimes rendered as _Yaśas,_ in the text the Sanskrit is transliterated as _Kīrti._
+@@ 29 Although sometimes rendered as _Yaśas,_ in the text the Sanskrit is transliterated as _Kīrti._
 
- 30 The _Bhagavadgītā_ or _Song of God,_ taken from the epic _Mahābhārata_.
+@@ 30 The _Bhagavadgītā_ or _Song of God,_ taken from the epic _Mahābhārata_.
 
- 31 A kind of sacred grass.
+@@ 31 A kind of sacred grass.
 
- 32 Toh 845 Kangyur, rgyud, _śrī,_ 430b7. The passage is in the future tense even though the supposed events have already passed. This is because the Great Commentary is presenting the account of the “ninth avatar” as a false prophecy written by Brahmins before the time of the Buddha.
+@@ 32 Toh 845 Kangyur, rgyud, _śrī,_ 430b7. The passage is in the future tense even though the supposed events have already passed. This is because the Great Commentary is presenting the account of the “ninth avatar” as a false prophecy written by Brahmins before the time of the Buddha.
 
- 33 Toh 845 Kangyur, rgyud, _śrī,_ 432b2.
+@@ 33 Toh 845 Kangyur, rgyud, _śrī,_ 432b2.
 
- 34 Toh 362 Kangyur, rgyud, khams v. 152, 38a6.
+@@ 34 Toh 362 Kangyur, rgyud, khams v. 152, 38a6.
 
- 35 Toh 845 Kangyur, rgyud, _śrī,_ 119b5.
+@@ 35 Toh 845 Kangyur, rgyud, _śrī,_ 119b5.
 
- 36 In keeping with the tantric doctrine of “result as the path,” _vajradhara_ is used here as a cause labeled as result.
+@@ 36 In keeping with the tantric doctrine of “result as the path,” _vajradhara_ is used here as a cause labeled as result.
 
- 37 Toh 845 Kangyur, rgyud, _śrī,_ 120a7.
+@@ 37 Toh 845 Kangyur, rgyud, _śrī,_ 120a7.
 
- 38 Toh 57 Kangyur, dkon btsegs, _ga,_ 231b3, quoted by Khedrup Jé in his Collected Works, vol. _ga, Inner Chapter,_ 13a4. Totaling the 161 bones up to and including “The upper back has eight bones” is straightforward_._ The bones of the spine are 32 × 4. In the ribs five pairs are counted as single bones, leaving 26 minus 5. To this is added the 50 bones of the thighs, etc., to make 360.
+@@ 38 Toh 57 Kangyur, dkon btsegs, _ga,_ 231b3, quoted by Khedrup Jé in his Collected Works, vol. _ga, Inner Chapter,_ 13a4. Totaling the 161 bones up to and including “The upper back has eight bones” is straightforward_._ The bones of the spine are 32 × 4. In the ribs five pairs are counted as single bones, leaving 26 minus 5. To this is added the 50 bones of the thighs, etc., to make 360.
 
- 39 Khenpo Paltsek is identified in the critical edition as an Indian master, but his Sanskrit name is not found in the Dergé index.
+@@ 39 Khenpo Paltsek is identified in the critical edition as an Indian master, but his Sanskrit name is not found in the Dergé index.
 
- 40 Toh 4357 Tengyur, sna tshogs, _cho,_ 338b4.
+@@ 40 Toh 4357 Tengyur, sna tshogs, _cho,_ 338b4.
 
- 41 _Notes on the Inner Chapter,_ Collected Works, vol. _kha,_ 7a3.
+@@ 41 _Notes on the Inner Chapter,_ Collected Works, vol. _kha,_ 7a3.
 
- 42 Chöje Choklé Namgyal, fourteenth-century Jonang master.
+@@ 42 Chöje Choklé Namgyal, fourteenth-century Jonang master.
 
- 43 Khedrup Jé, Collected Works, vol. _ga, Inner Chapter,_ 14a4.
+@@ 43 Khedrup Jé, Collected Works, vol. _ga, Inner Chapter,_ 14a4.
 
- 44 Solar, lunar, and zodiacal.
+@@ 44 Solar, lunar, and zodiacal.
 
- 45 Usually refers to the female sex organ.
+@@ 45 Usually refers to the female sex organ.
 
- 46 _dung can ma._ Usually refers to the central channel below the navel.
+@@ 46 _dung can ma._ Usually refers to the central channel below the navel.
 
- 47 As transliterated.
+@@ 47 As transliterated.
 
- 48 Although dhūtī and avadhūtī are often interchangeable, it seems that avadhūtī is used to indicate the central channel at the point of the cakras.
+@@ 48 Although dhūtī and avadhūtī are often interchangeable, it seems that avadhūtī is used to indicate the central channel at the point of the cakras.
 
- 49 No wind flows through empty channels.
+@@ 49 No wind flows through empty channels.
 
- 50 Toh 845 Kangyur, rgyud, _śrī,_ 134b3.
+@@ 50 Toh 845 Kangyur, rgyud, _śrī,_ 134b3.
 
- 51 Toh 845 Kangyur, rgyud, _śrī,_ 132b5.
+@@ 51 Toh 845 Kangyur, rgyud, _śrī,_ 132b5.
 
- 52 In which the major and minor movements, or shifts, of wind take place.
+@@ 52 In which the major and minor movements, or shifts, of wind take place.
 
- 53 Toh 361 Kangyur, rgyud, _ka,_ 16a4.
+@@ 53 Toh 361 Kangyur, rgyud, _ka,_ 16a4.
 
- 54 Toh 845 Kangyur, rgyud, _śrī,_ 133b7.
+@@ 54 Toh 845 Kangyur, rgyud, _śrī,_ 133b7.
 
- 55 Toh 845 Kangyur, rgyud, _śrī,_ 132b6.
+@@ 55 Toh 845 Kangyur, rgyud, _śrī,_ 132b6.
 
- 56 Khedrup Jé, Collected Works, vol. _kha, Inner Chapter,_ 40b2 (includes Butön’s quote). The seeming contradiction being that twelve and a half fingerwidths exceeds the actual distance from the navel to the heart. Here Khedrup Jé is dismissing Butön’s way of resolving this contradiction.
+@@ 56 Khedrup Jé, Collected Works, vol. _kha, Inner Chapter,_ 40b2 (includes Butön’s quote). The seeming contradiction being that twelve and a half fingerwidths exceeds the actual distance from the navel to the heart. Here Khedrup Jé is dismissing Butön’s way of resolving this contradiction.
 
- 57 Toh 845 Kangyur, rgyud, _śrī,_ 133a5.
+@@ 57 Toh 845 Kangyur, rgyud, _śrī,_ 133a5.
 
- 58 The fourth state = the bliss of orgasm.
+@@ 58 The fourth state = the bliss of orgasm.
 
- 59 In Kālacakra the _saṃbhogakāya,_ or enjoyment body, is also used to describe the speech of the buddha.
+@@ 59 In Kālacakra the _saṃbhogakāya,_ or enjoyment body, is also used to describe the speech of the buddha.
 
- 60 The highest form of bliss, actualized on the sixth yoga of the completion stage.
+@@ 60 The highest form of bliss, actualized on the sixth yoga of the completion stage.
 
- 61 _Prajñā:_ consort or women generally.
+@@ 61 _Prajñā:_ consort or women generally.
 
- 62 Toh 845 Kangyur, rgyud, _śrī,_ 4b1.
+@@ 62 Toh 845 Kangyur, rgyud, _śrī,_ 4b1.
 
- 63 Toh 845 Kangyur, rgyud, _śrī,_ 4b3.
+@@ 63 Toh 845 Kangyur, rgyud, _śrī,_ 4b3.
 
- 64 Toh 845 Kangyur, rgyud, _śrī,_ 143b6.
+@@ 64 Toh 845 Kangyur, rgyud, _śrī,_ 143b6.
 
- 65 The month of the sun’s occupation of Capricorn.
+@@ 65 The month of the sun’s occupation of Capricorn.
 
- 66 Although _lagna_ often refers to the ascending sign of the zodiac, here it refers to months that correlate to the sun’s occupation of the twelve houses or signs.
+@@ 66 Although _lagna_ often refers to the ascending sign of the zodiac, here it refers to months that correlate to the sun’s occupation of the twelve houses or signs.
 
- 67 Toh 845 Kangyur, rgyud, _śrī,_ 131b3.
+@@ 67 Toh 845 Kangyur, rgyud, _śrī,_ 131b3.
 
- 68 Here wind _(rlung)_ is best thought of as “inner breath.” Any enumeration, therefore, is not of types of wind but of the number of inner breaths.
+@@ 68 Here wind _(rlung)_ is best thought of as “inner breath.” Any enumeration, therefore, is not of types of wind but of the number of inner breaths.
 
- 69 A _wind movement_ refers to the duration of wind flow in each of the twelve petals, and to the changeover period when the winds move to a new petal, which occurs about every two hours. These changeovers correspond to a new sign or house appearing on the horizon every two hours, hence the term _lagna._
+@@ 69 A _wind movement_ refers to the duration of wind flow in each of the twelve petals, and to the changeover period when the winds move to a new petal, which occurs about every two hours. These changeovers correspond to a new sign or house appearing on the horizon every two hours, hence the term _lagna._
 
- 70 Space mandala.
+@@ 70 Space mandala.
 
- 71 Toh 845 Kangyur, rgyud, _śrī,_ 147b7.
+@@ 71 Toh 845 Kangyur, rgyud, _śrī,_ 147b7.
 
- 72 One fifth of 1,800 minus one fifth of 56 ¼.
+@@ 72 One fifth of 1,800 minus one fifth of 56 ¼.
 
- 73 This is because the minor element of the sixth channel on the left is earth, which is a repeat of the fifth channel element, and the minor element of the first channel on the right is also earth.
+@@ 73 This is because the minor element of the sixth channel on the left is earth, which is a repeat of the fifth channel element, and the minor element of the first channel on the right is also earth.
 
- 74 Toh 845 Kangyur, rgyud, _śrī,_ 133a1.
+@@ 74 Toh 845 Kangyur, rgyud, _śrī,_ 133a1.
 
- 75 360 breaths = 1 hour. See appendix 3.
+@@ 75 360 breaths = 1 hour. See appendix 3.
 
- 76 Toh 845 Kangyur, rgyud, _śrī,_ 134a5.
+@@ 76 Toh 845 Kangyur, rgyud, _śrī,_ 134a5.
 
- 77 Toh 845 Kangyur, rgyud, _śrī,_ 134a7.
+@@ 77 Toh 845 Kangyur, rgyud, _śrī,_ 134a7.
 
- 78 Toh 845 Kangyur, rgyud, _śrī,_ 135a4.
+@@ 78 Toh 845 Kangyur, rgyud, _śrī,_ 135a4.
 
- 79 Toh 417 Kangyur, rgyud, _nga,_ part 1, 2b7.
+@@ 79 Toh 417 Kangyur, rgyud, _nga,_ part 1, 2b7.
 
- 80 Toh 445 Kangyur, rgyud, _cha,_ chap. 68, 276b1.
+@@ 80 Toh 445 Kangyur, rgyud, _cha,_ chap. 68, 276b1.
 
- 81 Toh 445 Kangyur, rgyud, _cha,_ chap. 6, 216b1.
+@@ 81 Toh 445 Kangyur, rgyud, _cha,_ chap. 6, 216b1.
 
- 82 Toh 445 Kangyur, rgyud, _cha,_ chap. 25, 238b4.
+@@ 82 Toh 445 Kangyur, rgyud, _cha,_ chap. 25, 238b4.
 
- 83 Toh 446 Kangyur, rgyud, 278a6.
+@@ 83 Toh 446 Kangyur, rgyud, 278a6.
 
- 84 Unable to trace quote.
+@@ 84 Unable to trace quote.
 
- 85 Toh 445 Kangyur, rgyud, _cha,_ chap. 24, 237b5.
+@@ 85 Toh 445 Kangyur, rgyud, _cha,_ chap. 24, 237b5.
 
- 86 _Guhyasamāja_ explanatory tantra.
+@@ 86 _Guhyasamāja_ explanatory tantra.
 
- 87 Toh 1859 Tengyur, rgyud ’grel, _di,_ 49b5.
+@@ 87 Toh 1859 Tengyur, rgyud ’grel, _di,_ 49b5.
 
- 88 _Ordinary existence/state_ is a semitechnical term used for the physical and mental condition of ordinary beings who at a particular time are not actively engaged on the tantric path. According to all tantras except the Kālacakra, winds do not flow in the central channel during this normal existence, except at the time of death.
+@@ 88 _Ordinary existence/state_ is a semitechnical term used for the physical and mental condition of ordinary beings who at a particular time are not actively engaged on the tantric path. According to all tantras except the Kālacakra, winds do not flow in the central channel during this normal existence, except at the time of death.
 
- 89 Toh 1198 Tengyur, rgyud ’grel, _cha,_ chap. 21, 197a7.
+@@ 89 Toh 1198 Tengyur, rgyud ’grel, _cha,_ chap. 21, 197a7.
 
- 90 Toh 1803 Tengyur, rgyud ’grel, _ngi,_ chap. 3, 69b3 (_Caryāmelāpakapradipa_ by Āryadeva).
+@@ 90 Toh 1803 Tengyur, rgyud ’grel, _ngi,_ chap. 3, 69b3 (_Caryāmelāpakapradipa_ by Āryadeva).
 
- 91 Toh 444 Kangyur, rgyud, _ca,_ chap. 2, 171a7.
+@@ 91 Toh 444 Kangyur, rgyud, _ca,_ chap. 2, 171a7.
 
- 92 This does not necessarily refer to the nose on the face. This is explained later.
+@@ 92 This does not necessarily refer to the nose on the face. This is explained later.
 
- 93 Toh 445 Kangyur, rgyud, _ca,_ chap. 18, 223b5.
+@@ 93 Toh 445 Kangyur, rgyud, _ca,_ chap. 18, 223b5.
 
- 94 Verse not found.
+@@ 94 Verse not found.
 
- 95 Varahāmihira, renowned sixth-century Indian astronomer.
+@@ 95 Varahāmihira, renowned sixth-century Indian astronomer.
 
- 96 Toh 1198 Tengyur, rgyud ’grel, _cha_ chap. 21, 198b–6.
+@@ 96 Toh 1198 Tengyur, rgyud ’grel, _cha_ chap. 21, 198b–6.
 
- 97 The critical edition notes that Kumāramati is usually identified with Rendawa, but as he was an opponent of Kālacakra it would be difficult to match the following assertion to him.
+@@ 97 The critical edition notes that Kumāramati is usually identified with Rendawa, but as he was an opponent of Kālacakra it would be difficult to match the following assertion to him.
 
- 98 Jé Tsongkhapa, _ja,_ 123b6.
+@@ 98 Jé Tsongkhapa, _ja,_ 123b6.
 
- 99 Toh 845 Kangyur, rgyud, _śrī,_ 16a7.
+@@ 99 Toh 845 Kangyur, rgyud, _śrī,_ 16a7.
 
 100 The Kālacakra root tantra.
 
@@ -982,185 +982,185 @@
 
 @@ 9 Toh 845 Kangyur, rgyud, _śrī,_ 262a3.
 
- 10 Toh 362 Kangyur, rgyud, _ka,_ v. 3, 58a4.
+@@ 10 Toh 362 Kangyur, rgyud, _ka,_ v. 3, 58a4.
 
- 11 Toh 845 Kangyur, rgyud, _śrī,_ 260b3.
+@@ 11 Toh 845 Kangyur, rgyud, _śrī,_ 260b3.
 
- 12 Toh 1348 Tengyur, rgyud ’grel, _na,_ v. 3, 1a4.
+@@ 12 Toh 1348 Tengyur, rgyud ’grel, _na,_ v. 3, 1a4.
 
- 13 Toh 845 Kangyur, rgyud, _śrī,_ 261a5.
+@@ 13 Toh 845 Kangyur, rgyud, _śrī,_ 261a5.
 
- 14 Toh 845 Kangyur, rgyud, _śrī,_ 262a2.
+@@ 14 Toh 845 Kangyur, rgyud, _śrī,_ 262a2.
 
- 15 Toh 845 Kangyur, rgyud, _śrī,_ 262a1.
+@@ 15 Toh 845 Kangyur, rgyud, _śrī,_ 262a1.
 
- 16 Probably from a commentary to _Fifty Verses on the Guru._
+@@ 16 Probably from a commentary to _Fifty Verses on the Guru._
 
- 17 Toh 1348 Tengyur, rgyud ’grel, _na,_ 4b2.
+@@ 17 Toh 1348 Tengyur, rgyud ’grel, _na,_ 4b2.
 
- 18 Toh 845 Kangyur, rgyud, _śrī,_ 263a2.
+@@ 18 Toh 845 Kangyur, rgyud, _śrī,_ 263a2.
 
- 19 Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10a4.
+@@ 19 Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10a4.
 
- 20 Toh 845 Kangyur, rgyud, _śrī,_ 260b5.
+@@ 20 Toh 845 Kangyur, rgyud, _śrī,_ 260b5.
 
- 21 Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10b4.
+@@ 21 Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10b4.
 
- 22 Toh 381 Kangyur, rgyud, _kha,_ 85a5.
+@@ 22 Toh 381 Kangyur, rgyud, _kha,_ 85a5.
 
- 23 Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10b6.
+@@ 23 Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10b6.
 
- 24 Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10b5.
+@@ 24 Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10b5.
 
- 25 _Fifty Verses on the Guru,_ Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10a4.
+@@ 25 _Fifty Verses on the Guru,_ Toh 3721 Tengyur, rgyud ’grel, _tshu,_ 10a4.
 
- 26 A full prostration, touching the ground with feet, hands, and head.
+@@ 26 A full prostration, touching the ground with feet, hands, and head.
 
- 27 Toh 845 Kangyur, rgyud, _śrī,_ 263a2.
+@@ 27 Toh 845 Kangyur, rgyud, _śrī,_ 263a2.
 
- 28 Jé Tsongkhapa, _Fulfilling the Hopes of Disciples: Commentary on the Fifty Verses on the Guru, ka,_ 5b5.
+@@ 28 Jé Tsongkhapa, _Fulfilling the Hopes of Disciples: Commentary on the Fifty Verses on the Guru, ka,_ 5b5.
 
- 29 Toh 1402 Tengyur, rgyud ’grel, _ba,_ 116a3.
+@@ 29 Toh 1402 Tengyur, rgyud ’grel, _ba,_ 116a3.
 
- 30 Toh 1402 Tengyur, rgyud ’grel, _ba_ 116a5.
+@@ 30 Toh 1402 Tengyur, rgyud ’grel, _ba_ 116a5.
 
- 31 Toh 845 Kangyur, rgyud, _śrī,_ 264a1.
+@@ 31 Toh 845 Kangyur, rgyud, _śrī,_ 264a1.
 
- 32 _gso sbyong_, _poṣadha._
+@@ 32 _gso sbyong_, _poṣadha._
 
- 33 Toh 418 Kangyur, rgyud, _nga,_ chap. 8, 27a7.
+@@ 33 Toh 418 Kangyur, rgyud, _nga,_ chap. 8, 27a7.
 
- 34 The seven initiations of childhood are the first initiations given in the Kālacakra initiation ceremony. They are discussed in detail below.
+@@ 34 The seven initiations of childhood are the first initiations given in the Kālacakra initiation ceremony. They are discussed in detail below.
 
- 35 Toh 845 Kangyur, rgyud, _śrī,_ 264a1.
+@@ 35 Toh 845 Kangyur, rgyud, _śrī,_ 264a1.
 
- 36 Toh 845 Kangyur, rgyud, _śrī,_ 263b7.
+@@ 36 Toh 845 Kangyur, rgyud, _śrī,_ 263b7.
 
- 37 Toh 362 Kangyur, rgyud, dbang v. 4, 58a5.
+@@ 37 Toh 362 Kangyur, rgyud, dbang v. 4, 58a5.
 
- 38 Toh 845 Kangyur, rgyud, _śrī,_ 264a7.
+@@ 38 Toh 845 Kangyur, rgyud, _śrī,_ 264a7.
 
- 39 Literally, generation of the Mahāyāna mind, referring to _bodhicitta_, the entrance to the Mahāyāna.
+@@ 39 Literally, generation of the Mahāyāna mind, referring to _bodhicitta_, the entrance to the Mahāyāna.
 
- 40 _Śrīcakrasaṃvaraṣekaprakriyopadeśa_, by Ghaṇṭāpāda (Vajraghaṇṭa), Toh 1431 Tengyur, rgyud ’grel, _wa,_ 219b5.
+@@ 40 _Śrīcakrasaṃvaraṣekaprakriyopadeśa_, by Ghaṇṭāpāda (Vajraghaṇṭa), Toh 1431 Tengyur, rgyud ’grel, _wa,_ 219b5.
 
- 41 Toh 845 Kangyur, rgyud, _śrī,_ 260a6.
+@@ 41 Toh 845 Kangyur, rgyud, _śrī,_ 260a6.
 
- 42 Toh 361 Kangyur, rgyud, _ka,_ 14a3.
+@@ 42 Toh 361 Kangyur, rgyud, _ka,_ 14a3.
 
- 43 Toh 1351 Tengyur, rgyud ’grel, _na,_ 238a1.
+@@ 43 Toh 1351 Tengyur, rgyud ’grel, _na,_ 238a1.
 
- 44 Toh 1352 Tengyur, rgyud ’grel, _na,_ 292a4.
+@@ 44 Toh 1352 Tengyur, rgyud ’grel, _na,_ 292a4.
 
- 45 Toh 845 Kangyur, rgyud, _śrī,_ 352b3.
+@@ 45 Toh 845 Kangyur, rgyud, _śrī,_ 352b3.
 
- 46 _kun spangs._ Those who have given all away.
+@@ 46 _kun spangs._ Those who have given all away.
 
- 47 Toh 845 Kangyur, rgyud, _śrī,_ 23b6.
+@@ 47 Toh 845 Kangyur, rgyud, _śrī,_ 23b6.
 
- 48 Toh 1343 Tengyur, rgyud ’grel, _ba_ 8a3.
+@@ 48 Toh 1343 Tengyur, rgyud ’grel, _ba_ 8a3.
 
- 49 Toh 845 Kangyur, rgyud, _śrī,_ 211a5.
+@@ 49 Toh 845 Kangyur, rgyud, _śrī,_ 211a5.
 
- 50 _A Precious Garland: The Ritual of the Thirteen-Deity Mandala,_ Jé Tsongkhapa, _tha,_ 5b1.
+@@ 50 _A Precious Garland: The Ritual of the Thirteen-Deity Mandala,_ Jé Tsongkhapa, _tha,_ 5b1.
 
- 51 _bsyen._ To approach or to come closer.
+@@ 51 _bsyen._ To approach or to come closer.
 
- 52 _A Precious Garland: The Ritual of the Thirteen Deity Mandala,_ Jé Tsongkhapa, _tha,_ 5b1.
+@@ 52 _A Precious Garland: The Ritual of the Thirteen Deity Mandala,_ Jé Tsongkhapa, _tha,_ 5b1.
 
- 53 Toh 845 Kangyur, rgyud, _śrī,_ 287a7.
+@@ 53 Toh 845 Kangyur, rgyud, _śrī,_ 287a7.
 
- 54 21,600 breaths in one day times 5.
+@@ 54 21,600 breaths in one day times 5.
 
- 55 Toh 845 Kangyur, rgyud, _śrī,_ 371b7.
+@@ 55 Toh 845 Kangyur, rgyud, _śrī,_ 371b7.
 
- 56 Takstang Lotsāwa Sherap Rinchen (b. 1405), the translator and reputed teacher of Khedrup Norsang Gyatso.
+@@ 56 Takstang Lotsāwa Sherap Rinchen (b. 1405), the translator and reputed teacher of Khedrup Norsang Gyatso.
 
- 57 Toh 1402 Tengyur, rgyud ’grel, _ba,_ passage begins from 128a7. Also called _Cakrasaṃvara Commentary._
+@@ 57 Toh 1402 Tengyur, rgyud ’grel, _ba,_ passage begins from 128a7. Also called _Cakrasaṃvara Commentary._
 
- 58 Toh 419 Tengyur, rgyud ’grel, 128b1.
+@@ 58 Toh 419 Tengyur, rgyud ’grel, 128b1.
 
- 59 Toh 361 Kangyur, rgyud, _ka,_ 14a6.
+@@ 59 Toh 361 Kangyur, rgyud, _ka,_ 14a6.
 
- 60 Toh 361 Kangyur, rgyud, _ka,_ 14b3. “Change, change” refers to “changing bliss” and to the vase and secret initiation. “Fall and then no farther fall” refers to the falling of the elemental bodhicitta and to the wisdom-knowledge and fourth initiation.
+@@ 60 Toh 361 Kangyur, rgyud, _ka,_ 14b3. “Change, change” refers to “changing bliss” and to the vase and secret initiation. “Fall and then no farther fall” refers to the falling of the elemental bodhicitta and to the wisdom-knowledge and fourth initiation.
 
- 61 Toh 1802 Tengyur, rgyud ’grel, _ngi,_ 45a6.
+@@ 61 Toh 1802 Tengyur, rgyud ’grel, _ngi,_ 45a6.
 
- 62 In ancient India a child was not named until a year after its birth.
+@@ 62 In ancient India a child was not named until a year after its birth.
 
- 63 Toh 1180 Tengyur, rgyud ’grel, _ka_ 39b2.
+@@ 63 Toh 1180 Tengyur, rgyud ’grel, _ka_ 39b2.
 
- 64 Toh 845 Kangyur, rgyud, _śrī,_ 260a3.
+@@ 64 Toh 845 Kangyur, rgyud, _śrī,_ 260a3.
 
- 65 Toh 1351 Tengyur, rgyud ’grel, 238a2.
+@@ 65 Toh 1351 Tengyur, rgyud ’grel, 238a2.
 
- 66 Usually called the vajra-master initiations but the additional “great lord” is relevant to a later discussion.
+@@ 66 Usually called the vajra-master initiations but the additional “great lord” is relevant to a later discussion.
 
- 67 Into the mandala.
+@@ 67 Into the mandala.
 
- 68 Toh 845 Kangyur, rgyud, _śrī,_ 328a7.
+@@ 68 Toh 845 Kangyur, rgyud, _śrī,_ 328a7.
 
- 69 Toh 845 Kangyur, rgyud, _śrī,_ 328b7.
+@@ 69 Toh 845 Kangyur, rgyud, _śrī,_ 328b7.
 
- 70 Tsalmin Chökyi Drakpa, fourteenth-century master who served under Jonang Chögyal and others. Brief details of his life found in _Great Compendium of Tibetan Astronomy_.
+@@ 70 Tsalmin Chökyi Drakpa, fourteenth-century master who served under Jonang Chögyal and others. Brief details of his life found in _Great Compendium of Tibetan Astronomy_.
 
- 71 Toh 845 Kangyur, rgyud, _śrī,_ 326a2 to 327b3.
+@@ 71 Toh 845 Kangyur, rgyud, _śrī,_ 326a2 to 327b3.
 
- 72 Toh 845 Kangyur, rgyud, _śrī,_ 328b7.
+@@ 72 Toh 845 Kangyur, rgyud, _śrī,_ 328b7.
 
- 73 Toh 845 Kangyur, rgyud, _śrī,_ 328a7.
+@@ 73 Toh 845 Kangyur, rgyud, _śrī,_ 328a7.
 
- 74 Toh 845 Kangyur, rgyud, _śrī,_ 326a2 to 327b3.
+@@ 74 Toh 845 Kangyur, rgyud, _śrī,_ 326a2 to 327b3.
 
- 75 Toh 845 Kangyur, rgyud, _śrī,_ 328b7.
+@@ 75 Toh 845 Kangyur, rgyud, _śrī,_ 328b7.
 
- 76 Toh 845 Kangyur, rgyud, _śrī,_ 326b3.
+@@ 76 Toh 845 Kangyur, rgyud, _śrī,_ 326b3.
 
- 77 Toh 845 Kangyur, rgyud, _śrī,_ 328b1.
+@@ 77 Toh 845 Kangyur, rgyud, _śrī,_ 328b1.
 
- 78 Toh 845 Kangyur, rgyud, _śrī,_ 325b6.
+@@ 78 Toh 845 Kangyur, rgyud, _śrī,_ 325b6.
 
- 79 Toh 845 Kangyur, rgyud, _śrī,_ 328b7.
+@@ 79 Toh 845 Kangyur, rgyud, _śrī,_ 328b7.
 
- 80 Toh 362 Kangyur, rgyud, _ka,_ dbang v. 119, 69b4. Here _śakti_ refers to the ten goddesses of the gnosis mandala.
+@@ 80 Toh 362 Kangyur, rgyud, _ka,_ dbang v. 119, 69b4. Here _śakti_ refers to the ten goddesses of the gnosis mandala.
 
- 81 Toh 845 Kangyur, rgyud, _śrī,_ 328a7.
+@@ 81 Toh 845 Kangyur, rgyud, _śrī,_ 328a7.
 
- 82 Toh 845 Kangyur, rgyud, _śrī,_ 329a1.
+@@ 82 Toh 845 Kangyur, rgyud, _śrī,_ 329a1.
 
- 83 Toh 361 Kangyur, rgyud, _ka_,14a7.
+@@ 83 Toh 361 Kangyur, rgyud, _ka_,14a7.
 
- 84 As in initiations other than Kālacakra.
+@@ 84 As in initiations other than Kālacakra.
 
- 85 See appendix 7 for a list of these phenomena.
+@@ 85 See appendix 7 for a list of these phenomena.
 
- 86 _Kālacakra Mandala Ritual,_ Toh 1359 Kangyur, rgyud, _ba,_ 122b6.
+@@ 86 _Kālacakra Mandala Ritual,_ Toh 1359 Kangyur, rgyud, _ba,_ 122b6.
 
- 87 Toh 361 Kangyur, rgyud, 14a7.
+@@ 87 Toh 361 Kangyur, rgyud, 14a7.
 
- 88 Toh 361 Kangyur, rgyud, 14b1.
+@@ 88 Toh 361 Kangyur, rgyud, 14b1.
 
- 89 The ten winds are also known as the ten perfections _(pha rol tu phyin pa, pāramitā)._
+@@ 89 The ten winds are also known as the ten perfections _(pha rol tu phyin pa, pāramitā)._
 
- 90 Love, compassion, joy, and equanimity — the four immeasurables — but here refers to the action faculties and their activities.
+@@ 90 Love, compassion, joy, and equanimity — the four immeasurables — but here refers to the action faculties and their activities.
 
- 91 The gnosis element and aggregate.
+@@ 91 The gnosis element and aggregate.
 
- 92 Toh 361 Kangyur, rgyud, 14b1.
+@@ 92 Toh 361 Kangyur, rgyud, 14b1.
 
- 93 Toh 845 Kangyur, rgyud, _śrī,_ 328a7.
+@@ 93 Toh 845 Kangyur, rgyud, _śrī,_ 328a7.
 
- 94 Toh 361 Kangyur, rgyud, _ka,_ 14b3.
+@@ 94 Toh 361 Kangyur, rgyud, _ka,_ 14b3.
 
- 95 Toh 361 Kangyur, rgyud, _ka,_ 14b3.
+@@ 95 Toh 361 Kangyur, rgyud, _ka,_ 14b3.
 
- 96 Toh 361 Kangyur, rgyud, 14b3.
+@@ 96 Toh 361 Kangyur, rgyud, 14b3.
 
- 97 Toh 1351 Tengyur, rgyud ’grel, 238a3.
+@@ 97 Toh 1351 Tengyur, rgyud ’grel, 238a3.
 
- 98 Advice to stay with the consort for ten years because the perfection of wisdom is of ten kinds and in each year one type is developed.
+@@ 98 Advice to stay with the consort for ten years because the perfection of wisdom is of ten kinds and in each year one type is developed.
 
- 99 “That which holds the rabbit” commonly refers to the moon, but here even moon is a metaphor.
+@@ 99 “That which holds the rabbit” commonly refers to the moon, but here even moon is a metaphor.
 
 100 Toh 362 Kangyur, rgyud, _ka,_ dbang v. 118/9, 69a4.
 
@@ -1296,185 +1296,185 @@
 
 @@ 9 Toh 1180 Tengyur, rgyud ’grel, _ka,_ 79b4.
 
- 10 Toh 1180 Tengyur, rgyud, _ka_, 80b3.
+@@ 10 Toh 1180 Tengyur, rgyud, _ka_, 80b3.
 
- 11 _Mañjuśrī-nama-saṃgīti._ See bibliography.
+@@ 11 _Mañjuśrī-nama-saṃgīti._ See bibliography.
 
- 12 Toh 845 Kangyur, rgyud, _śrī,_ 48b4.
+@@ 12 Toh 845 Kangyur, rgyud, _śrī,_ 48b4.
 
- 13 Toh 362 Kangyur, rgyud, _ka,_ v. 10, 78a7.
+@@ 13 Toh 362 Kangyur, rgyud, _ka,_ v. 10, 78a7.
 
- 14 The four activities of peace, increasing, power, and wrath.
+@@ 14 The four activities of peace, increasing, power, and wrath.
 
- 15 Toh 845 Kangyur, rgyud, _śrī,_ 201b7.
+@@ 15 Toh 845 Kangyur, rgyud, _śrī,_ 201b7.
 
- 16 _phun sum tshogs pa._
+@@ 16 _phun sum tshogs pa._
 
- 17 Toh 845 Kangyur, rgyud, _śrī,_ 203b2.
+@@ 17 Toh 845 Kangyur, rgyud, _śrī,_ 203b2.
 
- 18 As this passage is written in the _Great Commentary,_ it would appear to say that the mind _is_ the fire at the end of darkness, with “fire” referring to the death clear light, or foundation consciousness. Gyaltsap Darma Rinchen, however, in his _Practice of the Two Stages of Kālacakra,_ comments on this using the root quote from the _Condensed Tantra_ that speaks of the mind _after_ the fire and the darkness, referring to two appearances of light and darkness that arise just before the death clear light dawns.
+@@ 18 As this passage is written in the _Great Commentary,_ it would appear to say that the mind _is_ the fire at the end of darkness, with “fire” referring to the death clear light, or foundation consciousness. Gyaltsap Darma Rinchen, however, in his _Practice of the Two Stages of Kālacakra,_ comments on this using the root quote from the _Condensed Tantra_ that speaks of the mind _after_ the fire and the darkness, referring to two appearances of light and darkness that arise just before the death clear light dawns.
 
- 19 Toh 845 Kangyur, rgyud, _śrī,_ 203b2 to 203b5.
+@@ 19 Toh 845 Kangyur, rgyud, _śrī,_ 203b2 to 203b5.
 
- 20 _nyer thob_. So called because it is close to the dawning of the death clear light.
+@@ 20 _nyer thob_. So called because it is close to the dawning of the death clear light.
 
- 21 _sdom brtson pa_. One who practices restraint _(saṃvara),_ an ascetic, a monk.
+@@ 21 _sdom brtson pa_. One who practices restraint _(saṃvara),_ an ascetic, a monk.
 
- 22 By Gyaltsap Darma Rinchen in his _Practice of the Two Stages of Kālacakra_.
+@@ 22 By Gyaltsap Darma Rinchen in his _Practice of the Two Stages of Kālacakra_.
 
- 23 As “nature” and not as “form.”
+@@ 23 As “nature” and not as “form.”
 
- 24 The gist of this discussion is that the _Vimalaprabhā_ passage “meditate upon them [the three realms] as empty forms beyond the reality of matter,” which follows on from the above passage and is a summary of the section, appears to say that here in the meditations of the four gateways to freedom, the meditation is not one on the ultimate-truth emptiness but on conventional-truth empty form. This would contradict the assertion that this section is a meditation on the accumulation of wisdom. However Gyaltsap Jé says that the translation is at fault and that “form” _(gzugs_, _rūpa)_ in the above sentence should have been translated as “nature.” This would make the sentence an instruction to meditate on ultimate or nonaspected emptiness. However not all instances of rūpa can be rendered as “nature,” because phrases such as “devoid of all aspects” and “emptiness beyond the nature of matter” are often used as synonyms of conventional-truth empty form.
+@@ 24 The gist of this discussion is that the _Vimalaprabhā_ passage “meditate upon them [the three realms] as empty forms beyond the reality of matter,” which follows on from the above passage and is a summary of the section, appears to say that here in the meditations of the four gateways to freedom, the meditation is not one on the ultimate-truth emptiness but on conventional-truth empty form. This would contradict the assertion that this section is a meditation on the accumulation of wisdom. However Gyaltsap Jé says that the translation is at fault and that “form” _(gzugs_, _rūpa)_ in the above sentence should have been translated as “nature.” This would make the sentence an instruction to meditate on ultimate or nonaspected emptiness. However not all instances of rūpa can be rendered as “nature,” because phrases such as “devoid of all aspects” and “emptiness beyond the nature of matter” are often used as synonyms of conventional-truth empty form.
 
- 25 Toh 845 Kangyur, rgyud, _śrī,_ 203a4.
+@@ 25 Toh 845 Kangyur, rgyud, _śrī,_ 203a4.
 
- 26 _chos ’byung, dharmabhava._
+@@ 26 _chos ’byung, dharmabhava._
 
- 27 The 30th or final day of a month.
+@@ 27 The 30th or final day of a month.
 
- 28 The seed syllable has ten component parts, because the _haṃ_ is broken down into four. These are the letter _ha_, the crescent of the moon, the disk of the full moon, and the _nāda_ or twist at its very top.
+@@ 28 The seed syllable has ten component parts, because the _haṃ_ is broken down into four. These are the letter _ha_, the crescent of the moon, the disk of the full moon, and the _nāda_ or twist at its very top.
 
- 29 Toh 845 Kangyur, rgyud, _śrī,_ 203b7.
+@@ 29 Toh 845 Kangyur, rgyud, _śrī,_ 203b7.
 
- 30 Toh 845 Kangyur, rgyud, _śrī,_ 204a6.
+@@ 30 Toh 845 Kangyur, rgyud, _śrī,_ 204a6.
 
- 31 Meru tapers toward its base and is half its upper diameter at its midway point.
+@@ 31 Meru tapers toward its base and is half its upper diameter at its midway point.
 
- 32 Just as _lagna_ refers externally to the twelve zodiacal constellations appearing in a single day over the horizon at a rate of one every two hours, so here it refers to the twelve inner “ascendants” or wind movements that occur about every two hours between the petals of the navel cakra.
+@@ 32 Just as _lagna_ refers externally to the twelve zodiacal constellations appearing in a single day over the horizon at a rate of one every two hours, so here it refers to the twelve inner “ascendants” or wind movements that occur about every two hours between the petals of the navel cakra.
 
- 33 The 360 zodiacal days it takes for the sun to move once through all twelve houses.
+@@ 33 The 360 zodiacal days it takes for the sun to move once through all twelve houses.
 
- 34 The fifteen days of waxing and fifteen of waning, multiplied by twelve.
+@@ 34 The fifteen days of waxing and fifteen of waning, multiplied by twelve.
 
- 35 _tsheg drag_ (or _rnam bcad_)_._ Echo-like aspiration of preceding vowel, romanized as _ṃ._
+@@ 35 _tsheg drag_ (or _rnam bcad_)_._ Echo-like aspiration of preceding vowel, romanized as _ṃ._
 
- 36 Toh 845 Kangyur, rgyud, _śrī,_ 150a4.
+@@ 36 Toh 845 Kangyur, rgyud, _śrī,_ 150a4.
 
- 37 _rjes su nga ro_ (or _thig kor_). Nasalizing of previous vowel, romanized as _ṃ._
+@@ 37 _rjes su nga ro_ (or _thig kor_). Nasalizing of previous vowel, romanized as _ṃ._
 
- 38 Toh 845 Kangyur, rgyud, _śrī,_ 150a3.
+@@ 38 Toh 845 Kangyur, rgyud, _śrī,_ 150a3.
 
- 39 Toh 845 Kangyur, rgyud, _śrī,_ 152b7.
+@@ 39 Toh 845 Kangyur, rgyud, _śrī,_ 152b7.
 
- 40 Toh 845 Kangyur, rgyud, _śrī,_ 152b7.
+@@ 40 Toh 845 Kangyur, rgyud, _śrī,_ 152b7.
 
- 41 Toh 845 Kangyur, rgyud, _śrī,_ 150a3.
+@@ 41 Toh 845 Kangyur, rgyud, _śrī,_ 150a3.
 
- 42 Each of the houses of Aries, Taurus, etc., mentioned above is one house or zodiacal month of thirty days, and each of the months of Caitra, Vaiśākha, etc., is a lunar month of thirty days.
+@@ 42 Each of the houses of Aries, Taurus, etc., mentioned above is one house or zodiacal month of thirty days, and each of the months of Caitra, Vaiśākha, etc., is a lunar month of thirty days.
 
- 43 They either begin from the new moon (waxing-led) or from the full moon (waning-led).
+@@ 43 They either begin from the new moon (waxing-led) or from the full moon (waning-led).
 
- 44 “Completed” means not dying before one’s time, which here is one hundred years.
+@@ 44 “Completed” means not dying before one’s time, which here is one hundred years.
 
- 45 Toh 845 Kangyur, rgyud, _śrī,_ 213a1.
+@@ 45 Toh 845 Kangyur, rgyud, _śrī,_ 213a1.
 
- 46 Here and in the other mandala placements, right and left mean clockwise and counterclockwise, respectively, or right and left from within the mandala facing out.
+@@ 46 Here and in the other mandala placements, right and left mean clockwise and counterclockwise, respectively, or right and left from within the mandala facing out.
 
- 47 Also called Indra.
+@@ 47 Also called Indra.
 
- 48 Toh 845 Kangyur, rgyud, _śrī,_ 213a2.
+@@ 48 Toh 845 Kangyur, rgyud, _śrī,_ 213a2.
 
- 49 Toh 845 Kangyur, rgyud, _śrī,_ 213a4.
+@@ 49 Toh 845 Kangyur, rgyud, _śrī,_ 213a4.
 
- 50 Viṣṇu.
+@@ 50 Viṣṇu.
 
- 51 Toh 845 Kangyur, rgyud, _śrī,_ 213a7.
+@@ 51 Toh 845 Kangyur, rgyud, _śrī,_ 213a7.
 
- 52 Toh 845 Kangyur, rgyud, _śrī,_ 213b5.
+@@ 52 Toh 845 Kangyur, rgyud, _śrī,_ 213b5.
 
- 53 Toh 845 Kangyur, rgyud, _śrī,_ 213b7.
+@@ 53 Toh 845 Kangyur, rgyud, _śrī,_ 213b7.
 
- 54 The entourage lunar-day deities are all female.
+@@ 54 The entourage lunar-day deities are all female.
 
- 55 Toh 845 Kangyur, rgyud, _śrī,_ 225a4.
+@@ 55 Toh 845 Kangyur, rgyud, _śrī,_ 225a4.
 
- 56 The ninety deities of ENE, ESE, and SE.
+@@ 56 The ninety deities of ENE, ESE, and SE.
 
- 57 _nor sbyin._ Also called _gnod sbyin_ (Yakṣa).
+@@ 57 _nor sbyin._ Also called _gnod sbyin_ (Yakṣa).
 
- 58 Rongpa Sherap Sengé, thirteenth-century master in the Ra tradition.
+@@ 58 Rongpa Sherap Sengé, thirteenth-century master in the Ra tradition.
 
- 59 Two lotuses of deities minus the consort of the principal figure.
+@@ 59 Two lotuses of deities minus the consort of the principal figure.
 
- 60 Toh 845 Kangyur, rgyud, _śrī,_ 363a1.
+@@ 60 Toh 845 Kangyur, rgyud, _śrī,_ 363a1.
 
- 61 Toh 845 Kangyur, rgyud, _śrī,_ 363a4.
+@@ 61 Toh 845 Kangyur, rgyud, _śrī,_ 363a4.
 
- 62 Toh 845 Kangyur, rgyud, _śrī,_ 215b2.
+@@ 62 Toh 845 Kangyur, rgyud, _śrī,_ 215b2.
 
- 63 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 106b1.
+@@ 63 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 106b1.
 
- 64 Club or staff with skull at one end, often carried by Śiva.
+@@ 64 Club or staff with skull at one end, often carried by Śiva.
 
- 65 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 107a4.
+@@ 65 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 107a4.
 
- 66 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 104a5.
+@@ 66 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 104a5.
 
- 67 Instead of saying that she is _embraced_ by Vajrapāṇi.
+@@ 67 Instead of saying that she is _embraced_ by Vajrapāṇi.
 
- 68 Toh 845 Kangyur, rgyud, _śrī,_ 275b3.
+@@ 68 Toh 845 Kangyur, rgyud, _śrī,_ 275b3.
 
- 69 Toh 845 Kangyur, rgyud, _śrī,_ 275b4.
+@@ 69 Toh 845 Kangyur, rgyud, _śrī,_ 275b4.
 
- 70 Those who follow Abhayākaragupta in their presentation of the colors.
+@@ 70 Those who follow Abhayākaragupta in their presentation of the colors.
 
- 71 Toh 845 Kangyur, rgyud, _śrī,_ 275b5.
+@@ 71 Toh 845 Kangyur, rgyud, _śrī,_ 275b5.
 
- 72 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 105a4.
+@@ 72 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 105a4.
 
- 73 _’phrog byed._ Hari is a title given to different gods. Previously it was listed as epithet of Rudra, and here as an epithet of Viṣṇu.
+@@ 73 _’phrog byed._ Hari is a title given to different gods. Previously it was listed as epithet of Rudra, and here as an epithet of Viṣṇu.
 
- 74 Toh 845 Kangyur, rgyud, _śrī,_ 225a2.
+@@ 74 Toh 845 Kangyur, rgyud, _śrī,_ 225a2.
 
- 75 Toh 845 Kangyur, rgyud, _śrī,_ 275b4.
+@@ 75 Toh 845 Kangyur, rgyud, _śrī,_ 275b4.
 
- 76 Toh 845 Kangyur, rgyud, _śrī,_ 275b5.
+@@ 76 Toh 845 Kangyur, rgyud, _śrī,_ 275b5.
 
- 77 The colors normally assigned to the four directions in Kālacakra are black in the east, white in the north, red in the south, and yellow in the west.
+@@ 77 The colors normally assigned to the four directions in Kālacakra are black in the east, white in the north, red in the south, and yellow in the west.
 
- 78 Toh 845 Kangyur, rgyud, _śrī,_ 214b6.
+@@ 78 Toh 845 Kangyur, rgyud, _śrī,_ 214b6.
 
- 79 Toh 845 Kangyur, rgyud, _śrī,_ 215b1.
+@@ 79 Toh 845 Kangyur, rgyud, _śrī,_ 215b1.
 
- 80 Therefore each male and female tathāgata and bodhisattva appears twice.
+@@ 80 Therefore each male and female tathāgata and bodhisattva appears twice.
 
- 81 Toh 845 Kangyur, rgyud, _śrī,_ 223b5.
+@@ 81 Toh 845 Kangyur, rgyud, _śrī,_ 223b5.
 
- 82 Toh 845 Kangyur, rgyud, _śrī,_ 221a4.
+@@ 82 Toh 845 Kangyur, rgyud, _śrī,_ 221a4.
 
- 83 Toh 845 Kangyur, rgyud, _śrī,_ 224a5.
+@@ 83 Toh 845 Kangyur, rgyud, _śrī,_ 224a5.
 
- 84 The thirty-six desire goddesses inhabit the speech mandala; the thirty-six non-desire goddesses inhabit the body mandala.
+@@ 84 The thirty-six desire goddesses inhabit the speech mandala; the thirty-six non-desire goddesses inhabit the body mandala.
 
- 85 Khedrup Jé, Collected Works, vol. _cha,_ 55a2.
+@@ 85 Khedrup Jé, Collected Works, vol. _cha,_ 55a2.
 
- 86 Toh 845 Kangyur, rgyud, _śrī,_ 214a3.
+@@ 86 Toh 845 Kangyur, rgyud, _śrī,_ 214a3.
 
- 87 Not a facial description but a word-numeral for “one,” there being one moon, or “that with rabbit.”
+@@ 87 Not a facial description but a word-numeral for “one,” there being one moon, or “that with rabbit.”
 
- 88 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 109a1.
+@@ 88 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 109a1.
 
- 89 Toh 845 Kangyur, rgyud, _śrī,_ 215b6.
+@@ 89 Toh 845 Kangyur, rgyud, _śrī,_ 215b6.
 
- 90 Toh 845 Kangyur, rgyud, _śrī,_ 216a7.
+@@ 90 Toh 845 Kangyur, rgyud, _śrī,_ 216a7.
 
- 91 Khedrup Jé, Collected Works, vol. _cha,_ 55a2. Vibhūticandra was a twelfth-century Nepalese master.
+@@ 91 Khedrup Jé, Collected Works, vol. _cha,_ 55a2. Vibhūticandra was a twelfth-century Nepalese master.
 
- 92 _gtum mo, caṇḍālī_. Fierce woman_._ This refers not to the _caṇḍālī,_ or inner fire, of the completion stage but rather to wrathful female deities.
+@@ 92 _gtum mo, caṇḍālī_. Fierce woman_._ This refers not to the _caṇḍālī,_ or inner fire, of the completion stage but rather to wrathful female deities.
 
- 93 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 96a3.
+@@ 93 Toh 1358 Tengyur, rgyud ’grel, _ba,_ 96a3.
 
- 94 Toh 1180 Tengyur, rgyud, _ka_, chap 1. (_Deities_ subchapter), 37b1.
+@@ 94 Toh 1180 Tengyur, rgyud, _ka_, chap 1. (_Deities_ subchapter), 37b1.
 
- 95 Toh 845 Kangyur, rgyud, _śrī,_ 396a7.
+@@ 95 Toh 845 Kangyur, rgyud, _śrī,_ 396a7.
 
- 96 See Khedrup Jé, Collected Works, vol. _cha,_ 30a5.
+@@ 96 See Khedrup Jé, Collected Works, vol. _cha,_ 30a5.
 
- 97 Toh 845 Kangyur, rgyud, _śrī,_ 393a2.
+@@ 97 Toh 845 Kangyur, rgyud, _śrī,_ 393a2.
 
- 98 Toh 845 Kangyur, rgyud, _śrī,_ 393a3.
+@@ 98 Toh 845 Kangyur, rgyud, _śrī,_ 393a3.
 
- 99 _Vajragarbha Commentary_, Toh 1180 Tengyur, rgyud, _ka_ (_Deities_ subchapter), 37b1.
+@@ 99 _Vajragarbha Commentary_, Toh 1180 Tengyur, rgyud, _ka_ (_Deities_ subchapter), 37b1.
 
 100 The vajra.
 
@@ -1898,185 +1898,185 @@
 
 @@ 9 _bem po._ Composed of atoms, inanimate.
 
- 10 Toh 845 Kangyur, rgyud, _śrī,_ 390a3.
+@@ 10 Toh 845 Kangyur, rgyud, _śrī,_ 390a3.
 
- 11 Toh 1802 Tengyur, rgyud ’grel, _di,_ 45a1.
+@@ 11 Toh 1802 Tengyur, rgyud ’grel, _di,_ 45a1.
 
- 12 One of the empty-form signs that appear at the accomplishment of the yoga of withdrawal.
+@@ 12 One of the empty-form signs that appear at the accomplishment of the yoga of withdrawal.
 
- 13 Toh 443 Kangyur, rgyud, _cha,_ 154a5.
+@@ 13 Toh 443 Kangyur, rgyud, _cha,_ 154a5.
 
- 14 In this work _meditative concentration_ is a translation of _ting nge ’dzin (samādhi),_ while _meditative absorption_ is _bsam gtan (dhyāna)._
+@@ 14 In this work _meditative concentration_ is a translation of _ting nge ’dzin (samādhi),_ while _meditative absorption_ is _bsam gtan (dhyāna)._
 
- 15 Toh 443 Kangyur, rgyud, _cha,_ 154a5.
+@@ 15 Toh 443 Kangyur, rgyud, _cha,_ 154a5.
 
- 16 Jé Tsongkhapa, _Vajra Verses_, Collected Works, vol. _da,_ 1a1.
+@@ 16 Jé Tsongkhapa, _Vajra Verses_, Collected Works, vol. _da,_ 1a1.
 
- 17 Jé Tsongkhapa, Collected Works, vol. _da,_ 3b3.
+@@ 17 Jé Tsongkhapa, Collected Works, vol. _da,_ 3b3.
 
- 18 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224a5.
+@@ 18 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224a5.
 
- 19 Toh 362 Kangyur, rgyud, _ka,_ v. 116, 89b3.
+@@ 19 Toh 362 Kangyur, rgyud, _ka,_ v. 116, 89b3.
 
- 20 Toh 845 Kangyur, rgyud, _śrī,_ 237a5.
+@@ 20 Toh 845 Kangyur, rgyud, _śrī,_ 237a5.
 
- 21 _dran shes._
+@@ 21 _dran shes._
 
- 22 _zhi gnas, śamatha._
+@@ 22 _zhi gnas, śamatha._
 
- 23 Toh 4210 Tengyur, tshad ma, _che,_ v. 1, 111b6.
+@@ 23 Toh 4210 Tengyur, tshad ma, _che,_ v. 1, 111b6.
 
- 24 Toh 845 Kangyur, rgyud, _śrī,_ 237a6.
+@@ 24 Toh 845 Kangyur, rgyud, _śrī,_ 237a6.
 
- 25 _sha’i mig._ Does not refer to the physical eye but to one of the five clairvoyant “eyes.”
+@@ 25 _sha’i mig._ Does not refer to the physical eye but to one of the five clairvoyant “eyes.”
 
- 26 The ordinary sense organs produced at birth as a result of ripening karma.
+@@ 26 The ordinary sense organs produced at birth as a result of ripening karma.
 
- 27 Toh 845 Kangyur, rgyud, _śrī,_ 388b7.
+@@ 27 Toh 845 Kangyur, rgyud, _śrī,_ 388b7.
 
- 28 Toh 845 Kangyur, rgyud, _śrī,_ 235b5.
+@@ 28 Toh 845 Kangyur, rgyud, _śrī,_ 235b5.
 
- 29 The inner and outer samaya are practices that precede the yoga of withdrawal. Therefore, if they are posited as approximation, withdrawal becomes near accomplishment.
+@@ 29 The inner and outer samaya are practices that precede the yoga of withdrawal. Therefore, if they are posited as approximation, withdrawal becomes near accomplishment.
 
- 30 Toh 845 Kangyur, rgyud, _śrī,_ 391a3.
+@@ 30 Toh 845 Kangyur, rgyud, _śrī,_ 391a3.
 
- 31 Earth, water, fire, air, and space is the dissolution order.
+@@ 31 Earth, water, fire, air, and space is the dissolution order.
 
- 32 Toh 845 Kangyur, rgyud, _śrī,_ 437b4.
+@@ 32 Toh 845 Kangyur, rgyud, _śrī,_ 437b4.
 
- 33 Toh 845 Kangyur, rgyud, _śrī,_ 395a2.
+@@ 33 Toh 845 Kangyur, rgyud, _śrī,_ 395a2.
 
- 34 Jé Tsongkhapa, Collected Works, vol. _da,_ 6a2.
+@@ 34 Jé Tsongkhapa, Collected Works, vol. _da,_ 6a2.
 
- 35 Toh 845 Kangyur, rgyud, _śrī,_ 390b5.
+@@ 35 Toh 845 Kangyur, rgyud, _śrī,_ 390b5.
 
- 36 Toh 845 Kangyur, rgyud, _śrī,_ 390b6.
+@@ 36 Toh 845 Kangyur, rgyud, _śrī,_ 390b6.
 
- 37 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
+@@ 37 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
 
- 38 Toh 845 Kangyur, rgyud, _śrī,_ 390a2.
+@@ 38 Toh 845 Kangyur, rgyud, _śrī,_ 390a2.
 
- 39 Toh 1388 Tengyur, rgyud ’grel, _ba,_ 8b7.
+@@ 39 Toh 1388 Tengyur, rgyud ’grel, _ba,_ 8b7.
 
- 40 _Six Yogas,_ Toh 1375 Tengyur, rgyud ’grel, _ba,_ 251b6.
+@@ 40 _Six Yogas,_ Toh 1375 Tengyur, rgyud ’grel, _ba,_ 251b6.
 
- 41 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 251b6.
+@@ 41 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 251b6.
 
- 42 Toh 845 Kangyur, rgyud, _śrī,_ 238a6.
+@@ 42 Toh 845 Kangyur, rgyud, _śrī,_ 238a6.
 
- 43 Wrathful deity found in the body mandala.
+@@ 43 Wrathful deity found in the body mandala.
 
- 44 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224b1.
+@@ 44 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224b1.
 
- 45 The opponents cannot agree with the consequence that the meditations of withdrawal are not meditations that involve practices of mental placement because of scriptural authority that says otherwise.
+@@ 45 The opponents cannot agree with the consequence that the meditations of withdrawal are not meditations that involve practices of mental placement because of scriptural authority that says otherwise.
 
- 46 _yid la byed pa._
+@@ 46 _yid la byed pa._
 
- 47 This refers to the seven main features of the standard meditation posture, cross-legged, hands cupped at navel, and so forth. The consequence hinges on the fact that the Perfection or Sutra Vehicle is a nontantric path and therefore does not involve manipulation of the winds.
+@@ 47 This refers to the seven main features of the standard meditation posture, cross-legged, hands cupped at navel, and so forth. The consequence hinges on the fact that the Perfection or Sutra Vehicle is a nontantric path and therefore does not involve manipulation of the winds.
 
- 48 Toh 845 Kangyur, rgyud, _śrī,_ 388b1.
+@@ 48 Toh 845 Kangyur, rgyud, _śrī,_ 388b1.
 
- 49 Toh 1402 Tengyur, rgyud ’grel, _ba,_ 132b5.
+@@ 49 Toh 1402 Tengyur, rgyud ’grel, _ba,_ 132b5.
 
- 50 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
+@@ 50 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
 
- 51 Toh 1371 Tengyur, rgyud ’grel, _ba,_ 223a6.
+@@ 51 Toh 1371 Tengyur, rgyud ’grel, _ba,_ 223a6.
 
- 52 Toh 1374 Tengyur, rgyud ’grel, _ba,_ 251b2.
+@@ 52 Toh 1374 Tengyur, rgyud ’grel, _ba,_ 251b2.
 
- 53 Toh 1371 Tengyur, rgyud ’grel, _ba_, 223a6.
+@@ 53 Toh 1371 Tengyur, rgyud ’grel, _ba_, 223a6.
 
- 54 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224b1.
+@@ 54 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224b1.
 
- 55 Toh 1374 Tengyur, rgyud ’grel, _ba,_ 250b2.
+@@ 55 Toh 1374 Tengyur, rgyud ’grel, _ba,_ 250b2.
 
- 56 The cross-legged full-lotus position.
+@@ 56 The cross-legged full-lotus position.
 
- 57 Here _mudrā_ refers to a symbolic positioning of the hands, in this case clenched fists on the sides of the thighs. Elsewhere in the book it is predominantly used to mean consort.
+@@ 57 Here _mudrā_ refers to a symbolic positioning of the hands, in this case clenched fists on the sides of the thighs. Elsewhere in the book it is predominantly used to mean consort.
 
- 58 Toh 845 Kangyur, rgyud, _śrī,_ 344b3.
+@@ 58 Toh 845 Kangyur, rgyud, _śrī,_ 344b3.
 
- 59 Toh 845 Kangyur, rgyud, _śrī,_ 238b3.
+@@ 59 Toh 845 Kangyur, rgyud, _śrī,_ 238b3.
 
- 60 Toh 427 Kangyur, rgyud, _nga,_ 178b3.
+@@ 60 Toh 427 Kangyur, rgyud, _nga,_ 178b3.
 
- 61 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
+@@ 61 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
 
- 62 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224b1.
+@@ 62 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224b1.
 
- 63 Toh 1374 Tengyur, rgyud ’grel, _ba,_ 251b3.
+@@ 63 Toh 1374 Tengyur, rgyud ’grel, _ba,_ 251b3.
 
- 64 Toh 417 Kangyur, rgyud, _ka,_ part 2, 14b3.
+@@ 64 Toh 417 Kangyur, rgyud, _ka,_ part 2, 14b3.
 
- 65 Toh 845 Kangyur, rgyud, _śrī,_ 236b3.
+@@ 65 Toh 845 Kangyur, rgyud, _śrī,_ 236b3.
 
- 66 Toh 845 Kangyur, rgyud, _śrī,_ 411a6.
+@@ 66 Toh 845 Kangyur, rgyud, _śrī,_ 411a6.
 
- 67 Toh 845 Kangyur, rgyud, _śrī,_ 411b2.
+@@ 67 Toh 845 Kangyur, rgyud, _śrī,_ 411b2.
 
- 68 In _Great Exposition of Secret Mantra_, p. 564_,_ Tsongkhapa suggests that this refers to a sutra of the same name, possibly _Ratnapradīpa, (Rin po che’i sgron ma)_, Toh 2318.
+@@ 68 In _Great Exposition of Secret Mantra_, p. 564_,_ Tsongkhapa suggests that this refers to a sutra of the same name, possibly _Ratnapradīpa, (Rin po che’i sgron ma)_, Toh 2318.
 
- 69 _bems po’i stong pa nyid_. This phrase occurs a few times in Kālacakra literature. It is often used as a description of Rangtong phenomena in the sense of their being nihilistic and without essence. See Rendawa in Stearns, p. 59. This passage as it appears in the _Great Exposition of Secret Mantra_, p. 564, and in the translator’s copy of the _Vimalaprabhā,_ has “inanimate and empty” _(bems po dang stong pa nyid)_. _Bem(s) po_ can also mean “composed of atoms.”
+@@ 69 _bems po’i stong pa nyid_. This phrase occurs a few times in Kālacakra literature. It is often used as a description of Rangtong phenomena in the sense of their being nihilistic and without essence. See Rendawa in Stearns, p. 59. This passage as it appears in the _Great Exposition of Secret Mantra_, p. 564, and in the translator’s copy of the _Vimalaprabhā,_ has “inanimate and empty” _(bems po dang stong pa nyid)_. _Bem(s) po_ can also mean “composed of atoms.”
 
- 70 Hoshang, or Hvashang, Mahāyāna: Chinese abbot defeated in debate on Tibetan soil by the Indian pandit Kamalaśīla during the reign of the Tibetan king Trisong Detsen in the ninth century. See _Great Lexicon,_ p. 3,074, and Hopkins, p. 533.
+@@ 70 Hoshang, or Hvashang, Mahāyāna: Chinese abbot defeated in debate on Tibetan soil by the Indian pandit Kamalaśīla during the reign of the Tibetan king Trisong Detsen in the ninth century. See _Great Lexicon,_ p. 3,074, and Hopkins, p. 533.
 
- 71 Toh 1180 Tengyur, rgyud, _ka,_ chap. 2, 80b6.
+@@ 71 Toh 1180 Tengyur, rgyud, _ka,_ chap. 2, 80b6.
 
- 72 Toh 418 Kangyur, rgyud, _nga,_ 14b3.
+@@ 72 Toh 418 Kangyur, rgyud, _nga,_ 14b3.
 
- 73 Toh 1180 Tengyur, rgyud, _ka,_ chap. 2, 80b4.
+@@ 73 Toh 1180 Tengyur, rgyud, _ka,_ chap. 2, 80b4.
 
- 74 Toh 418 Kangyur, rgyud, _nga,_ 80b6.
+@@ 74 Toh 418 Kangyur, rgyud, _nga,_ 80b6.
 
- 75 Toh 1180 Tengyur, rgyud, _ka,_ 80b7.
+@@ 75 Toh 1180 Tengyur, rgyud, _ka,_ 80b7.
 
- 76 Toh 1180 Tengyur, rgyud, _ka,_ 81a1.
+@@ 76 Toh 1180 Tengyur, rgyud, _ka,_ 81a1.
 
- 77 Toh 362 Kangyur, rgyud, _ka,_ v. 115.
+@@ 77 Toh 362 Kangyur, rgyud, _ka,_ v. 115.
 
- 78 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
+@@ 78 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
 
- 79 Toh 1351 Tengyur, rgyud ’grel, _na,_ 250b7.
+@@ 79 Toh 1351 Tengyur, rgyud ’grel, _na,_ 250b7.
 
- 80 Toh 1374 Tengyur, rgyud ’grel, _ba,_ 251b3.
+@@ 80 Toh 1374 Tengyur, rgyud ’grel, _ba,_ 251b3.
 
- 81 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224b2.
+@@ 81 Toh 1372 Tengyur, rgyud ’grel, _ba,_ 224b2.
 
- 82 Toh 845 Kangyur, rgyud, _śrī,_ 16b4.
+@@ 82 Toh 845 Kangyur, rgyud, _śrī,_ 16b4.
 
- 83 Toh 1402 Tengyur, rgyud ’grel, 131a7.
+@@ 83 Toh 1402 Tengyur, rgyud ’grel, 131a7.
 
- 84 Toh 1387 Tengyur, rgyud ’grel, _ba,_ 297b5.
+@@ 84 Toh 1387 Tengyur, rgyud ’grel, _ba,_ 297b5.
 
- 85 _Filled with Good Qualities,_ Toh 1388 Tengyur, rgyud ’grel, _ba,_ 325b5.
+@@ 85 _Filled with Good Qualities,_ Toh 1388 Tengyur, rgyud ’grel, _ba,_ 325b5.
 
- 86 _Instructions on Praṇāyāmā and Retention,_ 3b7; and _Instructions on Withdrawal and Meditative Absorption,_ 10a5.
+@@ 86 _Instructions on Praṇāyāmā and Retention,_ 3b7; and _Instructions on Withdrawal and Meditative Absorption,_ 10a5.
 
- 87 Toh 845 Kangyur, rgyud, _śrī,_ 16b2.
+@@ 87 Toh 845 Kangyur, rgyud, _śrī,_ 16b2.
 
- 88 Toh 427 Kangyur, rgyud, _nga,_ 178b3.
+@@ 88 Toh 427 Kangyur, rgyud, _nga,_ 178b3.
 
- 89 Toh 845 Kangyur, rgyud, _śrī,_ 234a1.
+@@ 89 Toh 845 Kangyur, rgyud, _śrī,_ 234a1.
 
- 90 _sna_. Tip, end, peak, etc.
+@@ 90 _sna_. Tip, end, peak, etc.
 
- 91 Toh 845 Kangyur, rgyud, _śrī,_ 233b6.
+@@ 91 Toh 845 Kangyur, rgyud, _śrī,_ 233b6.
 
- 92 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
+@@ 92 Toh 845 Kangyur, rgyud, _śrī,_ 388b2.
 
- 93 Toh 427 Kangyur, rgyud, _nga,_ 178b3.
+@@ 93 Toh 427 Kangyur, rgyud, _nga,_ 178b3.
 
- 94 _bgegs mthar byed_. “He who puts an end to obstruction.” Also a wrathful protector of the Kālacakra mind mandala.
+@@ 94 _bgegs mthar byed_. “He who puts an end to obstruction.” Also a wrathful protector of the Kālacakra mind mandala.
 
- 95 _bdud rtsi ‘khyil ba._ Coil of nectar.
+@@ 95 _bdud rtsi ‘khyil ba._ Coil of nectar.
 
- 96 Toh 845 Kangyur, rgyud, _śrī,_ 238b4.
+@@ 96 Toh 845 Kangyur, rgyud, _śrī,_ 238b4.
 
- 97 Toh 443 Kangyur, rgyud, _cha_ (Guhyasamāja)_,_ 154b2.
+@@ 97 Toh 443 Kangyur, rgyud, _cha_ (Guhyasamāja)_,_ 154b2.
 
- 98 Toh 1402 Tengyur, rgyud ’grel, 133a1.
+@@ 98 Toh 1402 Tengyur, rgyud ’grel, 133a1.
 
- 99 Toh 1351 Tengyur, rgyud ’grel, _na,_ 250a7.
+@@ 99 Toh 1351 Tengyur, rgyud ’grel, _na,_ 250a7.
 
 100 Toh 1372 Tengyur, rgyud ’grel, 224b2.
 

@@ -428,3 +428,11 @@
     font-size: 1.5rem;
   }
 }
+
+/* Search highlighting */
+.search-highlight {
+  background: rgba(255, 215, 0, 0.5);
+  color: inherit;
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+}

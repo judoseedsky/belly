@@ -2,6 +2,45 @@ import './DakiniTeachings.css';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 
+// Tooltip component for hover/tap display
+function Tooltip({ children, content, type }) {
+  const [show, setShow] = useState(false);
+  const wrapperRef = useRef(null);
+
+  useEffect(() => {
+    if (!show) return;
+    const handleClickOutside = (e) => {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target)) {
+        setShow(false);
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+    };
+  }, [show]);
+
+  return (
+    <span
+      ref={wrapperRef}
+      className={`tooltip-wrapper tooltip-${type}`}
+      onMouseEnter={() => setShow(true)}
+      onMouseLeave={() => setShow(false)}
+      onClick={(e) => {
+        e.stopPropagation();
+        setShow(!show);
+      }}
+    >
+      {children}
+      {show && content && (
+        <span className="tooltip-content">{content}</span>
+      )}
+    </span>
+  );
+}
+
 const chapters = [
   { id: 'first', num: 1, name: 'The Teachings of Ascending with the Conduct', shortName: 'Conduct' },
   { id: 'refuge', num: 2, name: 'Taking Refuge', shortName: 'Refuge' },
@@ -12,28 +51,13 @@ const chapters = [
   { id: 'glossary', num: 7, name: 'Glossary', shortName: 'Glossary', isGlossary: true },
 ];
 
-// Format text to highlight speaker names
-const formatText = (text) => {
-  const speakerMatch = text.match(/^((?:Master Padma|The master|The great master|The nirmanakaya master|Lady Tsogyal)\s+(?:said|asked|replied):?\s*)/i);
-  if (speakerMatch) {
-    const attribution = speakerMatch[1];
-    const rest = text.slice(speakerMatch[0].length);
-    return (
-      <>
-        <span className="speaker-name">{attribution}</span>{rest}
-      </>
-    );
-  }
-  return text;
-};
-
 // Parse glossary content into entries
 const parseGlossary = (content) => {
   const entries = [];
 
   // Clean content: join lines, remove page headers, fix common OCR artifacts
   const cleanContent = content
-    .replace(/\d+\s*Glossary\s*['\*]?\s*/g, '')
+    .replace(/\d+\s*Glossary\s*['*]?\s*/g, '')
     .replace(/\n(?!\n)/g, ' ')
     .replace(/\s+/g, ' ')
     .replace(/a\.ctions/g, 'actions')
@@ -90,7 +114,21 @@ function DakiniTeachings() {
   const [searchResults, setSearchResults] = useState([]);
   const [parsedChapters, setParsedChapters] = useState({});
   const [expandedGlossary, setExpandedGlossary] = useState({});
+  const [glossaryLookup, setGlossaryLookup] = useState({});
+  const [activeSearchTerm, setActiveSearchTerm] = useState('');
   const contentRef = useRef(null);
+
+  // Highlight search terms in text
+  const highlightSearch = (text) => {
+    if (!activeSearchTerm || activeSearchTerm.length < 2) return text;
+    const regex = new RegExp(`(${activeSearchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    const parts = text.split(regex);
+    return parts.map((part, i) =>
+      part.toLowerCase() === activeSearchTerm.toLowerCase()
+        ? <mark key={i} className="search-highlight">{part}</mark>
+        : part
+    );
+  };
 
   // Default to chapter 1 if no chapter specified
   const currentChapter = chapter ? parseInt(chapter) : 1;
@@ -121,10 +159,69 @@ function DakiniTeachings() {
       });
   }, []);
 
+  // Build glossary lookup when chapters are loaded
+  useEffect(() => {
+    if (parsedChapters.glossary) {
+      const entries = parseGlossary(parsedChapters.glossary);
+      const lookup = {};
+      entries.forEach(entry => {
+        // Extract just the term name (before the parentheses with Tibetan)
+        const termMatch = entry.term.match(/^([A-Z][A-Z\-'\s]*)/);
+        if (termMatch) {
+          const termKey = termMatch[1].trim().toLowerCase();
+          lookup[termKey] = entry.definition;
+        }
+      });
+      setGlossaryLookup(lookup);
+    }
+  }, [parsedChapters]);
+
   // Reset expanded glossary when changing chapters
   useEffect(() => {
     setExpandedGlossary({});
   }, [currentChapter]);
+
+  // Wrap glossary terms in tooltips
+  const wrapGlossaryTerms = (text) => {
+    if (!text || Object.keys(glossaryLookup).length === 0) {
+      return highlightSearch(text);
+    }
+
+    // Sort terms by length (longest first)
+    const terms = Object.keys(glossaryLookup).sort((a, b) => b.length - a.length);
+    const escapedTerms = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const pattern = new RegExp(`\\b(${escapedTerms.join('|')})\\b`, 'gi');
+
+    const parts = text.split(pattern);
+
+    return parts.map((part, i) => {
+      const termLower = part.toLowerCase();
+      const definition = glossaryLookup[termLower];
+      if (definition) {
+        return (
+          <Tooltip key={i} content={definition} type="glossary">
+            <span className="glossary-term-auto">{highlightSearch(part)}</span>
+          </Tooltip>
+        );
+      }
+      return highlightSearch(part);
+    });
+  };
+
+  // Format text with speaker names and glossary terms
+  const formatTextWithGlossary = (text) => {
+    const speakerMatch = text.match(/^((?:Master Padma|The master|The great master|The nirmanakaya master|Lady Tsogyal)\s+(?:said|asked|replied):?\s*)/i);
+    if (speakerMatch) {
+      const attribution = speakerMatch[1];
+      const rest = text.slice(speakerMatch[0].length);
+      return (
+        <>
+          <span className="speaker-name">{highlightSearch(attribution)}</span>{wrapGlossaryTerms(rest)}
+        </>
+      );
+    }
+    return wrapGlossaryTerms(text);
+  };
 
   const toggleGlossary = (idx) => {
     setExpandedGlossary(prev => ({
@@ -167,13 +264,17 @@ function DakiniTeachings() {
     if (result.chapterNum !== currentChapter) {
       navigate(`/dakini-teachings/${result.chapterNum}`);
     }
+    // Set the search term for highlighting
+    setActiveSearchTerm(result.matchText);
     setSearchOpen(false);
-    // Use window.find after a delay to allow navigation
+
+    // Scroll to the highlighted match after render
     setTimeout(() => {
-      if (window.find) {
-        window.find(result.matchText, false, false, true);
+      const highlights = document.querySelectorAll('mark.search-highlight');
+      if (highlights.length > 0) {
+        highlights[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-    }, 100);
+    }, 200);
   };
 
   // Get current chapter info and content
@@ -268,7 +369,7 @@ function DakiniTeachings() {
                 ) : (
                   paragraphs.map((para, idx) => (
                     <p key={idx} className="teaching-para">
-                      {formatText(para.trim())}
+                      {formatTextWithGlossary(para.trim())}
                     </p>
                   ))
                 )}

@@ -188,22 +188,12 @@
 
 .hymn-text .outline-item {
   text-indent: 0;
-  padding-left: 2.5rem;
+  padding-left: 1.5rem;
   margin-bottom: 0.75rem;
-  position: relative;
   line-height: 1.6;
 }
 
-.hymn-text .outline-item::before {
-  content: "";
-  position: absolute;
-  left: 0.5rem;
-  top: 0.6em;
-  width: 6px;
-  height: 6px;
-  border: 1px solid rgba(60, 40, 20, 0.4);
-  border-radius: 50%;
-}
+/* outline-item has numbers in text, no bullet needed */
 
 .hymn-text h3 {
   font-size: 1.1rem;
@@ -351,6 +341,37 @@
   min-width: 3rem;
 }
 
+.hymn-text .note-number.note-link {
+  cursor: pointer;
+  color: #8b4513;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.hymn-text .note-number.note-link:hover {
+  color: #5a2d0a;
+  text-decoration-style: solid;
+}
+
+/* Highlighted note reference when navigated from notes section */
+.note-ref.note-highlighted {
+  background: rgba(255, 215, 0, 0.6);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  animation: noteHighlight 2s ease-out;
+}
+
+@keyframes noteHighlight {
+  0% {
+    background: rgba(255, 215, 0, 0.9);
+    transform: scale(1.2);
+  }
+  100% {
+    background: rgba(255, 215, 0, 0.6);
+    transform: scale(1);
+  }
+}
+
 .hymn-text .note-toggle {
   font-size: 1.2rem;
   opacity: 0.5;
@@ -429,6 +450,11 @@
 
 .tooltip-wrapper .glossary-term {
   border-bottom: 1px dotted #8b4513;
+  cursor: help;
+}
+
+.tooltip-wrapper .glossary-term-auto {
+  border-bottom: 1px dotted rgba(139, 69, 19, 0.5);
   cursor: help;
 }
 
@@ -724,4 +750,13 @@
     font-size: 0.65rem;
     white-space: nowrap;
   }
+}
+
+
+/* Search highlighting */
+.search-highlight {
+  background: rgba(255, 215, 0, 0.5);
+  color: inherit;
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
 }

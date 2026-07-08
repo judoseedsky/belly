@@ -7,7 +7,20 @@ function GospelOfPhilip() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [text, setText] = useState('');
+  const [activeSearchTerm, setActiveSearchTerm] = useState('');
   const contentRef = useRef(null);
+
+  // Highlight search terms in text
+  const highlightSearch = (text) => {
+    if (!activeSearchTerm || activeSearchTerm.length < 2) return text;
+    const regex = new RegExp(`(${activeSearchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    const parts = text.split(regex);
+    return parts.map((part, i) =>
+      part.toLowerCase() === activeSearchTerm.toLowerCase()
+        ? <mark key={i} className="search-highlight">{part}</mark>
+        : part
+    );
+  };
 
   // Load text on mount
   useEffect(() => {
@@ -39,10 +52,16 @@ function GospelOfPhilip() {
   };
 
   const navigateToResult = (result) => {
+    setActiveSearchTerm(searchQuery);
     setSearchOpen(false);
-    if (window.find) {
-      window.find(searchQuery, false, false, true);
-    }
+
+    // Scroll to the highlighted match after render
+    setTimeout(() => {
+      const highlights = document.querySelectorAll('mark.search-highlight');
+      if (highlights.length > 0) {
+        highlights[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }, 150);
   };
 
   // Split text into paragraphs
@@ -87,7 +106,7 @@ function GospelOfPhilip() {
             <p className="scroll-attribution">Translated by Wesley W. Isenberg</p>
 
             {paragraphs.map((para, idx) => (
-              <p key={idx}>{para}</p>
+              <p key={idx}>{highlightSearch(para)}</p>
             ))}
 
             <p className="gospel-ending">The Gospel According to Philip</p>

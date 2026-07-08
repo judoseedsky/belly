@@ -54,8 +54,10 @@ function OrnamentOfStainlessLight() {
   const [expandedNoteSections, setExpandedNoteSections] = useState({});
   const [notesLookup, setNotesLookup] = useState({});
   const [glossaryLookup, setGlossaryLookup] = useState({});
+  const [noteSourceMap, setNoteSourceMap] = useState({}); // Map note number -> section where it appears
   const [searchOpen, setSearchOpen] = useState(false);
   const [activeSearchResult, setActiveSearchResult] = useState(null);
+  const [highlightNoteNum, setHighlightNoteNum] = useState(null); // Note number to highlight
   const [allContent, setAllContent] = useState({}); // All sections content for search
   const scrollContainerRef = useRef(null);
 
@@ -69,20 +71,68 @@ function OrnamentOfStainlessLight() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
 
-  // Load all sections content for search
+  // Load all sections content for search and build note source map
   const loadAllContent = async () => {
     if (Object.keys(allContent).length > 0) return allContent;
     const contentMap = {};
+    const noteMap = {};
     await Promise.all(sections.map(async (section) => {
       try {
         const response = await fetch(`/texts/${section.file}`);
-        contentMap[section.id] = await response.text();
+        const text = await response.text();
+        contentMap[section.id] = text;
+
+        // Find all note references (^num^) in this section
+        const noteRefs = text.matchAll(/\^(\d+)\^/g);
+        for (const match of noteRefs) {
+          const noteNum = match[1];
+          if (!noteMap[noteNum]) {
+            noteMap[noteNum] = section.id;
+          }
+        }
       } catch (err) {
         contentMap[section.id] = '';
       }
     }));
     setAllContent(contentMap);
+    setNoteSourceMap(noteMap);
     return contentMap;
+  };
+
+  // Navigate to a note reference in the text
+  const navigateToNoteInText = async (noteNum) => {
+    // Load all content if needed to get note source map
+    if (Object.keys(noteSourceMap).length === 0) {
+      await loadAllContent();
+    }
+
+    const sourceSection = noteSourceMap[noteNum];
+    if (sourceSection) {
+      // Switch to the section containing the note
+      setCurrentSection(sourceSection);
+      setHighlightNoteNum(noteNum);
+
+      // After section loads, scroll to the note reference
+      setTimeout(() => {
+        const noteRef = document.querySelector(`sup.note-ref[data-note="${noteNum}"]`);
+        if (noteRef) {
+          // Expand all collapsed chapters to make sure the note is visible
+          const chapters = document.querySelectorAll('.chapter-header');
+          chapters.forEach((ch, idx) => {
+            const content = ch.nextElementSibling;
+            if (content && content.contains(noteRef)) {
+              setExpandedChapters(prev => ({ ...prev, [idx]: true }));
+            }
+          });
+
+          setTimeout(() => {
+            noteRef.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            // Clear highlight after animation
+            setTimeout(() => setHighlightNoteNum(null), 3000);
+          }, 100);
+        }
+      }, 300);
+    }
   };
 
   const handleSearch = async (query) => {
@@ -277,7 +327,7 @@ function OrnamentOfStainlessLight() {
 
   const highlightSearch = (text) => {
     if (!searchQuery || searchQuery.length < 2) return text;
-    const regex = new RegExp(`(${searchQuery})`, 'gi');
+    const regex = new RegExp(`(${searchQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
     const parts = text.split(regex);
     return parts.map((part, i) =>
       part.toLowerCase() === searchQuery.toLowerCase()
@@ -286,12 +336,41 @@ function OrnamentOfStainlessLight() {
     );
   };
 
+  // Wrap glossary terms in tooltips wherever they appear in plain text
+  const wrapGlossaryTerms = (text, keyPrefix = '') => {
+    if (!text || Object.keys(glossaryLookup).length === 0) {
+      return highlightSearch(text);
+    }
+
+    // Sort terms by length (longest first) to match multi-word terms before single words
+    const terms = Object.keys(glossaryLookup).sort((a, b) => b.length - a.length);
+
+    // Create regex pattern for all terms (word boundaries, case insensitive)
+    const escapedTerms = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const pattern = new RegExp(`\\b(${escapedTerms.join('|')})\\b`, 'gi');
+
+    const parts = text.split(pattern);
+
+    return parts.map((part, i) => {
+      const termLower = part.toLowerCase();
+      const glossaryEntry = glossaryLookup[termLower];
+      if (glossaryEntry) {
+        return (
+          <Tooltip key={`${keyPrefix}${i}`} content={glossaryEntry.definition} type="glossary">
+            <span className="glossary-term-auto">{highlightSearch(part)}</span>
+          </Tooltip>
+        );
+      }
+      return highlightSearch(part);
+    });
+  };
+
   const renderText = (text) => {
     // Handle bold **text**, italics _text_, superscripts ^num^, and section markers [num]
     const parts = text.split(/(\*\*[^*]+\*\*|_[^_]+_|\^[^^]+\^|\[\d+\])/g);
     return parts.map((part, i) => {
       if (part.startsWith('**') && part.endsWith('**')) {
-        return <strong key={i}>{highlightSearch(part.slice(2, -2))}</strong>;
+        return <strong key={i}>{wrapGlossaryTerms(part.slice(2, -2), `b${i}-`)}</strong>;
       }
       if (part.startsWith('_') && part.endsWith('_')) {
         const term = part.slice(1, -1);
@@ -309,19 +388,25 @@ function OrnamentOfStainlessLight() {
       if (part.startsWith('^') && part.endsWith('^')) {
         const noteNum = part.slice(1, -1);
         const noteContent = notesLookup[noteNum];
+        const isHighlighted = highlightNoteNum === noteNum;
         if (noteContent) {
           return (
             <Tooltip key={i} content={noteContent} type="note">
-              <sup className="note-ref">{noteNum}</sup>
+              <sup
+                className={`note-ref ${isHighlighted ? 'note-highlighted' : ''}`}
+                data-note={noteNum}
+              >
+                {noteNum}
+              </sup>
             </Tooltip>
           );
         }
-        return <sup key={i}>{noteNum}</sup>;
+        return <sup key={i} data-note={noteNum}>{noteNum}</sup>;
       }
       if (part.match(/^\[\d+\]$/)) {
         return <span key={i} className="section-marker">{part}</span>;
       }
-      return highlightSearch(part);
+      return wrapGlossaryTerms(part, `t${i}-`);
     });
   };
 
@@ -487,9 +572,20 @@ function OrnamentOfStainlessLight() {
                       const noteExpanded = expandedNotes[`${idx}-${i}`];
                       return (
                         <div key={i} className={`note-entry ${noteExpanded ? 'expanded' : ''}`}>
-                          <div className="note-header" onClick={() => setExpandedNotes(prev => ({...prev, [`${idx}-${i}`]: !prev[`${idx}-${i}`]}))}>
-                            <span className="note-number">{noteMatch[1]}</span>
-                            <span className="note-toggle">{noteExpanded ? '−' : '+'}</span>
+                          <div className="note-header">
+                            <span
+                              className="note-number note-link"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                navigateToNoteInText(noteMatch[1]);
+                              }}
+                              title="Click to find in text"
+                            >
+                              {noteMatch[1]}
+                            </span>
+                            <span className="note-toggle" onClick={() => setExpandedNotes(prev => ({...prev, [`${idx}-${i}`]: !prev[`${idx}-${i}`]}))}>
+                              {noteExpanded ? '−' : '+'}
+                            </span>
                           </div>
                           {noteExpanded && <div className="note-text">{renderText(noteMatch[2])}</div>}
                         </div>

@@ -3,21 +3,6 @@ import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 
 // Chapter data with Sanskrit names and English titles
-// Format verse text to highlight speaker names
-const formatVerseText = (text) => {
-  const speakerMatch = text.match(/^((?:Arjun|Shree Krishna|Sanjay|Dhritarashtra|The Supreme Lord|The Lord|Lord Krishna|Krishna)\s+said:?\s*)/i);
-  if (speakerMatch) {
-    const attribution = speakerMatch[1];
-    const rest = text.slice(speakerMatch[0].length);
-    return (
-      <>
-        <span className="speaker-name">{attribution}</span>{rest}
-      </>
-    );
-  }
-  return text;
-};
-
 const chapters = [
   { num: 1, name: 'Arjun Vishad Yog', subtitle: 'Lamenting the Consequences of War' },
   { num: 2, name: 'Sankhya Yog', subtitle: 'The Yog of Analytical Knowledge' },
@@ -45,7 +30,36 @@ function BhagavadGita() {
   const [searchResults, setSearchResults] = useState([]);
   const [parsedChapters, setParsedChapters] = useState([]);
   const [currentChapter, setCurrentChapter] = useState(1);
+  const [activeSearchTerm, setActiveSearchTerm] = useState('');
+  const [targetVerse, setTargetVerse] = useState(null);
   const contentRef = useRef(null);
+
+  // Highlight search terms in text
+  const highlightSearch = (text) => {
+    if (!activeSearchTerm || activeSearchTerm.length < 2) return text;
+    const regex = new RegExp(`(${activeSearchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    const parts = text.split(regex);
+    return parts.map((part, i) =>
+      part.toLowerCase() === activeSearchTerm.toLowerCase()
+        ? <mark key={i} className="search-highlight">{part}</mark>
+        : part
+    );
+  };
+
+  // Format verse text with speaker highlighting and search highlighting
+  const formatVerseTextWithHighlight = (text) => {
+    const speakerMatch = text.match(/^((?:Arjun|Shree Krishna|Sanjay|Dhritarashtra|The Supreme Lord|The Lord|Lord Krishna|Krishna)\s+said:?\s*)/i);
+    if (speakerMatch) {
+      const attribution = speakerMatch[1];
+      const rest = text.slice(speakerMatch[0].length);
+      return (
+        <>
+          <span className="speaker-name">{highlightSearch(attribution)}</span>{highlightSearch(rest)}
+        </>
+      );
+    }
+    return highlightSearch(text);
+  };
 
   // Load and parse text on mount
   useEffect(() => {
@@ -121,13 +135,18 @@ function BhagavadGita() {
     if (result.chapterNum !== currentChapter) {
       setCurrentChapter(result.chapterNum);
     }
+    // Set the search term for highlighting
+    setActiveSearchTerm(result.matchText);
+    setTargetVerse(`${result.chapterNum}.${result.verseNum}`);
     setSearchOpen(false);
-    // Use window.find after a delay
+
+    // Scroll to the highlighted match after render
     setTimeout(() => {
-      if (window.find) {
-        window.find(result.matchText, false, false, true);
+      const highlights = document.querySelectorAll('mark.search-highlight');
+      if (highlights.length > 0) {
+        highlights[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-    }, 100);
+    }, 150);
   };
 
   return (
@@ -194,7 +213,7 @@ function BhagavadGita() {
                   {chapter.verses.map((verse, idx) => (
                     <div key={idx} className="verse-block">
                       <div className="verse-number">Bhagavad Gita {chapter.num}.{verse.verse}</div>
-                      <p className="verse-text">{formatVerseText(verse.text)}</p>
+                      <p className="verse-text">{formatVerseTextWithHighlight(verse.text)}</p>
                     </div>
                   ))}
                 </section>
