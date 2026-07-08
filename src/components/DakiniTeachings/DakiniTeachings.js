@@ -3,13 +3,13 @@ import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 
 const chapters = [
-  { id: 'first', num: 1, name: 'First of All', shortName: 'First' },
+  { id: 'first', num: 1, name: 'The Teachings of Ascending with the Conduct', shortName: 'Conduct' },
   { id: 'refuge', num: 2, name: 'Taking Refuge', shortName: 'Refuge' },
-  { id: 'foundations', num: 3, name: 'The Ten Foundations', shortName: 'Foundations' },
-  { id: 'vajramaster', num: 4, name: 'The Vajra Master', shortName: 'Master' },
-  { id: 'mindtraining', num: 5, name: 'Mind Training', shortName: 'Training' },
-  { id: 'essence', num: 6, name: 'Refined Essence', shortName: 'Essence' },
-  { id: 'glossary', num: 7, name: 'Glossary', shortName: 'Glossary' },
+  { id: 'foundations', num: 3, name: 'The Ten Foundations of Secret Mantra', shortName: 'Foundations' },
+  { id: 'vajramaster', num: 4, name: 'The Vajra Master and the Yidam Deity', shortName: 'Vajra' },
+  { id: 'mindtraining', num: 5, name: 'Vajrayana Mind Training', shortName: 'Mind' },
+  { id: 'essence', num: 6, name: 'The Refined Essence of Oral Instructions', shortName: 'Essence' },
+  { id: 'glossary', num: 7, name: 'Glossary', shortName: 'Glossary', isGlossary: true },
 ];
 
 // Format text to highlight speaker names
@@ -27,6 +27,61 @@ const formatText = (text) => {
   return text;
 };
 
+// Parse glossary content into entries
+const parseGlossary = (content) => {
+  const entries = [];
+
+  // Clean content: join lines, remove page headers, fix common OCR artifacts
+  const cleanContent = content
+    .replace(/\d+\s*Glossary\s*['\*]?\s*/g, '')
+    .replace(/\n(?!\n)/g, ' ')
+    .replace(/\s+/g, ' ')
+    .replace(/a\.ctions/g, 'actions')
+    .replace(/\. ,/g, ',')
+    .trim();
+
+  // Pattern: ALL-CAPS words (may include Of, THE, AND, etc.) followed by (tibetan text)
+  // This matches: "TERM (tibetan)" or "BILLIONFOLD UNIVERSE (tibetan)"
+  const entryPattern = /([A-Z][A-Z\-']*(?:\s+(?:OF|THE|AND|IN|TO|WITH|FOR|OR|A|AN|[A-Z][A-Z\-']*))*)\s*(\([^)]+\))\s*/g;
+
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = entryPattern.exec(cleanContent)) !== null) {
+    if (lastIndex > 0) {
+      // Get the definition from previous entry
+      const prevDef = cleanContent.slice(lastIndex, match.index).trim();
+      if (parts.length > 0 && prevDef) {
+        parts[parts.length - 1].definition = prevDef;
+      }
+    }
+    parts.push({
+      term: match[1].trim(),
+      tibetan: match[2],
+      definition: ''
+    });
+    lastIndex = entryPattern.lastIndex;
+  }
+
+  // Get the last definition
+  if (parts.length > 0 && lastIndex < cleanContent.length) {
+    parts[parts.length - 1].definition = cleanContent.slice(lastIndex).trim();
+  }
+
+  // Format entries
+  for (const part of parts) {
+    if (part.term.length > 2 && part.definition.length > 3) {
+      entries.push({
+        term: `${part.term} ${part.tibetan}`,
+        definition: part.definition
+      });
+    }
+  }
+
+  return entries;
+};
+
 function DakiniTeachings() {
   const { chapter } = useParams();
   const navigate = useNavigate();
@@ -34,6 +89,7 @@ function DakiniTeachings() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [parsedChapters, setParsedChapters] = useState({});
+  const [expandedGlossary, setExpandedGlossary] = useState({});
   const contentRef = useRef(null);
 
   // Default to chapter 1 if no chapter specified
@@ -64,6 +120,18 @@ function DakiniTeachings() {
         setParsedChapters(chapterMap);
       });
   }, []);
+
+  // Reset expanded glossary when changing chapters
+  useEffect(() => {
+    setExpandedGlossary({});
+  }, [currentChapter]);
+
+  const toggleGlossary = (idx) => {
+    setExpandedGlossary(prev => ({
+      ...prev,
+      [idx]: !prev[idx]
+    }));
+  };
 
   const handleSearch = (query) => {
     setSearchQuery(query);
@@ -97,15 +165,22 @@ function DakiniTeachings() {
   // Get current chapter info and content
   const currentChapterInfo = chapters[currentChapter - 1];
   const currentContent = parsedChapters[currentChapterInfo?.id] || '';
+  const isGlossary = currentChapterInfo?.isGlossary;
 
-  // Process content into paragraphs
-  const processedContent = currentContent
-    .replace(/\n(?!\n)/g, ' ')
-    .replace(/\s+/g, ' ')
-    .replace(/(Master Padma said:|The master said:|The great master said:|Lady Tsogyal asked:|The master replied:|The nirmanakaya master said:)/gi, '\n\n$1')
-    .trim();
+  // Process content into paragraphs or glossary entries
+  let paragraphs = [];
+  let glossaryEntries = [];
 
-  const paragraphs = processedContent.split('\n\n').filter(p => p.trim());
+  if (isGlossary) {
+    glossaryEntries = parseGlossary(currentContent);
+  } else {
+    const processedContent = currentContent
+      .replace(/\n(?!\n)/g, ' ')
+      .replace(/\s+/g, ' ')
+      .replace(/(Master Padma said:|The master said:|The great master said:|Lady Tsogyal asked:|The master replied:|The nirmanakaya master said:)/gi, '\n\n$1')
+      .trim();
+    paragraphs = processedContent.split('\n\n').filter(p => p.trim());
+  }
 
   return (
     <div className="dakini-page-wrapper">
@@ -155,18 +230,40 @@ function DakiniTeachings() {
             <p className="scroll-attribution">Translated by Erik Pema Kunsang</p>
 
             <section className="chapter-section">
-              <h2>Chapter {currentChapter}: {currentChapterInfo?.name}</h2>
+              {isGlossary ? (
+                <h2>Glossary</h2>
+              ) : (
+                <h2>Chapter {currentChapter}: {currentChapterInfo?.name}</h2>
+              )}
 
               <div className="teaching-content">
-                {paragraphs.map((para, idx) => (
-                  <p key={idx} className="teaching-para">
-                    {formatText(para.trim())}
-                  </p>
-                ))}
+                {isGlossary ? (
+                  <dl className="glossary-list">
+                    {glossaryEntries.map((entry, idx) => (
+                      <div key={idx} className={`glossary-entry ${expandedGlossary[idx] ? 'expanded' : ''}`}>
+                        <dt onClick={() => toggleGlossary(idx)}>
+                          {entry.term}
+                          <span className="glossary-toggle">{expandedGlossary[idx] ? '−' : '+'}</span>
+                        </dt>
+                        {expandedGlossary[idx] && (
+                          <dd>{entry.definition}</dd>
+                        )}
+                      </div>
+                    ))}
+                  </dl>
+                ) : (
+                  paragraphs.map((para, idx) => (
+                    <p key={idx} className="teaching-para">
+                      {formatText(para.trim())}
+                    </p>
+                  ))
+                )}
               </div>
             </section>
 
-            <p className="dakini-ending">Thus were the Dakini Teachings concealed as treasure.</p>
+            {!isGlossary && (
+              <p className="dakini-ending">Thus were the Dakini Teachings concealed as treasure.</p>
+            )}
           </div>
           <div className="scroll-bottom"></div>
         </div>
