@@ -480,7 +480,7 @@
 }
 
 /* Chapter navigation */
-.chapter-nav {
+.hymn-page .chapter-nav {
   position: fixed;
   bottom: 2rem;
   left: 50%;
@@ -497,7 +497,7 @@
   z-index: 100;
 }
 
-.chapter-nav a {
+.hymn-page .chapter-nav a {
   color: white;
   text-decoration: none;
   font-size: 1rem;
@@ -506,16 +506,16 @@
   border-radius: 2px;
 }
 
-.chapter-nav a:hover {
+.hymn-page .chapter-nav a:hover {
   background: rgba(255, 255, 255, 0.3);
   text-decoration: none;
 }
 
-.chapter-nav.expanded {
+.hymn-page .chapter-nav.expanded {
   gap: 0;
 }
 
-.chapter-nav.expanded a {
+.hymn-page .chapter-nav.expanded a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -523,17 +523,18 @@
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.chapter-nav.expanded a:last-of-type {
+.hymn-page .chapter-nav.expanded a:last-of-type {
   border-right: none;
 }
 
 
-.ch-num {
+.hymn-page .ch-num {
   font-size: 1.1rem;
   font-weight: bold;
 }
 
-.ch-name {
+.hymn-page .ch-name {
+  display: block;
   font-size: 0.7rem;
   opacity: 0.8;
   margin-top: 0.2rem;
@@ -694,7 +695,7 @@
     padding: 2rem 1.5rem;
   }
 
-  .chapter-nav.ornament-nav {
+  .hymn-page .chapter-nav.ornament-nav {
     bottom: 1rem;
     padding: 0.4rem 0.5rem;
     left: 1rem;
@@ -710,16 +711,16 @@
     -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
   }
 
-  .chapter-nav.ornament-nav::-webkit-scrollbar {
+  .hymn-page .chapter-nav.ornament-nav::-webkit-scrollbar {
     display: none;
   }
 
-  .chapter-nav.ornament-nav.expanded a {
+  .hymn-page .chapter-nav.ornament-nav.expanded a {
     padding: 0.4rem 0.6rem;
     flex-shrink: 0;
   }
 
-  .ch-name {
+  .hymn-page .ch-name {
     font-size: 0.65rem;
     white-space: nowrap;
   }
