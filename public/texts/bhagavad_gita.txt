@@ -1,7 +1,9 @@
 BG 1.1: Dhritarashtra said: O Sanjay, after gathering on the holy field of Kurukshetra, and desiring to fight, what did my sons and the sons of Pandu do?
 BG 1.2: Sanjay said: On observing the Pandava army standing in military formation, King Duryodhan approached his teacher Dronacharya, and said the following words.
-BG 1.3: Duryodhan said: Respected teacher!  Behold the mighty army of the sons of Pandu, so expertly arrayed for battle by your own gifted disciple, the son of Drupad.
-BG 1.4: Behold in their ranks are many powerful warriors, like Yuyudhan, Virat, and Drupad, wielding mighty bows and equal in military prowess to Bheem and Arjun.  There are also accomplished heroes like Dhri
+BG 1.3: Duryodhan said: Respected teacher! Behold the mighty army of the sons of Pandu, so expertly arrayed for battle by your own gifted disciple, the son of Drupad.
+BG 1.4: Behold in their ranks are many powerful warriors, like Yuyudhan, Virat, and Drupad, wielding mighty bows and equal in military prowess to Bheem and Arjun.
+BG 1.5: There are also accomplished heroes like Dhrishtaketu, Chekitan, the valiant King of Kashi, Purujit, Kuntibhoj, and Shaibya—all the best of men.
+BG 1.6: In their ranks, they also have the courageous Yudhamanyu, the gallant Uttamauja, the son of Subhadra, and the sons of Draupadi, who are all great warrior chiefs.
 BG 1.7: O best of Brahmins, hear too about the principal generals on our side, who are especially qualified to lead. These I now recount unto you.
 BG 1.8: There are personalities like yourself, Bheeshma, Karna, Kripa, Ashwatthama, Vikarn, and Bhurishrava, who are ever victorious in battle.
 BG 1.9: Also, there are many other heroic warriors, who are prepared to lay down their lives for my sake. They are all skilled in the art of warfare, and equipped with various kinds of weapons.
@@ -11,49 +13,58 @@ BG 1.12: Then, the grand old man of the Kuru dynasty, the glorious patriarch Bhe
 BG 1.13: Thereafter, conches, kettledrums, bugles, trumpets, and horns suddenly blared forth, and their combined sound was overwhelming.
 BG 1.14: Then, from amidst the Pandava army, seated in a glorious chariot drawn by white horses, Madhav and Arjun blew their Divine conch shells.
 BG 1.15: Hrishikesh blew his conch shell, called Panchajanya, and Arjun blew the Devadutta. Bheem, the voracious eater and performer of herculean tasks, blew his mighty conch, called Paundra.
-BG 1.16: King Yudhishthir, blew the Anantavijay, while Nakul and Sahadev blew the Sughosh and Manipushpak. The excellent archer and king of Kashi, the great warrior Shikhandi, Dhrishtadyumna, Virat, and the in
+BG 1.16: King Yudhishthir, the son of Kunti, blew the Anantavijay, while Nakul and Sahadev blew the Sughosh and Manipushpak.
+BG 1.17: The excellent archer and king of Kashi, the great warrior Shikhandi, Dhrishtadyumna, Virat, and the invincible Satyaki, all blew their respective conch shells.
+BG 1.18: Drupad, the five sons of Draupadi, and the mighty-armed Abhimanyu, son of Subhadra, also blew their respective conch shells, O King.
 BG 1.19: The terrific sound thundered across the sky and the earth, and shattered the hearts of your sons, O Dhritarasthra.
-BG 1.20: At that time, the son of Pandu, Arjun, who had the insignia of Hanuman on the flag of his chariot, took up his bow. Seeing your sons arrayed against him, O King, Arjun then spoke the following words t
-BG 1.21: Arjun said: O Infallible One, please take my chariot to the middle of both armies, so that I may look at the warriors arrayed for battle, whom I must fight in this great combat.
+BG 1.20: At that time, the son of Pandu, Arjun, who had the insignia of Hanuman on the flag of his chariot, took up his bow. Seeing your sons arrayed against him, O King, Arjun then spoke the following words to Shree Krishna.
+BG 1.21: Arjun said: O Infallible One, please take my chariot to the middle of both armies.
+BG 1.22: I wish to see those who have come here to fight on behalf of the evil-minded son of Dhritarashtra, and with whom I must engage in this act of war.
 BG 1.23: I desire to see those who have come here to fight on the side of the evil-minded son of Dhritarasthra, wishing to please him.
 BG 1.24: Sanjay said: O Dhritarasthra, having thus been addressed by Arjun, the conqueror of sleep, Shree Krishna then drew the magnificent chariot between the two armies.
 BG 1.25: In the presence of Bheeshma, Dronacharya, and all the other kings, Shree Krishna said: O Parth, behold these Kurus gathered here.
 BG 1.26: There, Arjun could see stationed in both armies, his fathers, grandfathers, teachers, maternal uncles, brothers, cousins, sons, nephews, grand-nephews, friends, fathers-in-law, and well-wishers.
 BG 1.27: Seeing all his relatives present there, Arjun, the son of Kunti, was overwhelmed with compassion, and with deep sorrow, spoke the following words.
 BG 1.28: Arjun said: O Krishna, seeing my own kinsmen arrayed for battle here and intent on killing each other, my limbs are giving way and my mouth is drying up.
-BG 1.29: My whole body shudders; my hair is standing on end. My bow, the Gāṇḍīv, is slipping from my hand, and my skin is burning all over. My mind is in quandary and whirling in confusion; I am unable to hold
-BG 1.32: O Krishna, I do not desire victory, kingdom, or the happiness accruing to it. Of what avail will be a kingdom, pleasures, or even life itself, when the very persons for whom we covet them, are standin
-BG 1.34: Teachers, fathers, sons, grandfathers, maternal uncles, grandsons, fathers-in-law, grand-nephews, brothers-in-law, and other kinsmen are present here, staking their lives and riches. O Madhusudan, I d
-BG 1.36: O Maintainer of all living entities, what pleasure will we derive from killing the sons of Dhritarasthra? Even though they may be aggressors, sin will certainly come upon us if we slay them. Hence, it
-BG 1.38: Their thoughts are overpowered by greed and they see no wrong in annihilating their relatives or wreaking treachery upon friends. Yet, O Janardan (Krishna), why should we, who can clearly see the crim
+BG 1.29: My whole body shudders; my hair is standing on end. My bow, the Gandiv, is slipping from my hand, and my skin is burning all over.
+BG 1.30: My mind is in quandary and whirling in confusion; I am unable to hold myself steady any longer.
+BG 1.31: I only see omens of misfortune, O Krishna. I do not foresee how any good can come from killing my own kinsmen in this battle.
+BG 1.32: O Krishna, I do not desire victory, kingdom, or the happiness accruing to it. Of what avail will be a kingdom, pleasures, or even life itself?
+BG 1.33: When the very persons for whom we covet these—teachers, fathers, sons, grandfathers, maternal uncles, grandsons, fathers-in-law, grand-nephews, brothers-in-law—are standing before us for battle.
+BG 1.34: O Madhusudan, I do not wish to slay them, even if they attack me. If we kill them, even to gain dominion over the three worlds, how can we ever hope to be happy?
+BG 1.35: Let alone this earth, I would not kill them even for the sovereignty of the three worlds.
+BG 1.36: O Maintainer of all living entities, what pleasure will we derive from killing the sons of Dhritarasthra? Even though they may be aggressors, sin will certainly come upon us if we slay them.
+BG 1.37: Hence, it would not be proper for us to kill our own kinsmen, the sons of Dhritarasthra. Indeed, how can we be happy after killing our own relatives?
+BG 1.38: Their thoughts are overpowered by greed and they see no wrong in annihilating their relatives or wreaking treachery upon friends.
+BG 1.39: Yet, O Janardan, why should we, who can clearly see the crime in killing our kindred, not turn away from this sin?
 BG 1.40: When a dynasty is destroyed, its traditions get vanquished, and the rest of the family becomes involved in irreligion.
-BG 1.41: With the preponderance of vice, O Krishna, the women of the family become immoral; and from the immorality of women, O descendent of Vrishni, unwanted progeny are born.
-BG 1.42: An increase in unwanted children results in hellish life both for the family and for those who destroy the family. Deprived of sacrificial offerings, the ancestors of such corrupt families also fall.
-BG 1.43: Through the evil deeds of those who destroy the family tradition and thus give rise to unwanted progeny, a variety of social and family welfare activities are ruined.
-BG 1.44: O Janardan (Krishna), I have heard from the learned that those who destroy family traditions dwell in hell for an indefinite period of time.
-BG 1.45: Alas! How strange it is that we have set our mind to perform this great sin with horrifying consequences. Driven by the desire for kingly pleasures, we are intent on killing our own kinsmen. It would
+BG 1.41: With the preponderance of vice, O Krishna, the women of the family become immoral; and from the immorality of women, O descendant of Vrishni, unwanted progeny are born.
+BG 1.42: An increase in unwanted children results in hellish life both for the family and for those who destroy the family. Deprived of the sacrificial offerings, the ancestors of such corrupt families also fall.
+BG 1.43: Through the evil deeds of those who destroy the family tradition and give rise to unwanted progeny, a variety of social and family welfare activities are ruined.
+BG 1.44: O Janardan, I have heard from the learned that those who destroy family traditions dwell in hell for an indefinite period of time.
+BG 1.45: Alas! How strange it is that we have set our mind to perform this great sin. Driven by the desire for kingly pleasures, we are intent on killing our own kinsmen.
+BG 1.46: It would be better if, with weapons in hand, the sons of Dhritarashtra kill me unarmed and unresisting on the battlefield.
 BG 1.47: Sanjay said: Speaking thus, Arjun cast aside his bow and arrows, and sank into the seat of his chariot, his mind in distress and overwhelmed with grief.
-
 BG 2.1: Sanjay said: Seeing Arjun overwhelmed with pity, his mind grief-stricken, and his eyes full of tears, Shree Krishna spoke the following words.
-BG 2.2: The Supreme Lord said: My dear Arjun, how has this delusion overcome you in this hour of peril?  It is not befitting an honorable person.  It leads not to the higher abodes, but to disgrace.
-BG 2.3: O Parth, it does not befit you to yield to this unmanliness.  Give up such petty weakness of heart and arise, O vanquisher of enemies.
+BG 2.2: The Supreme Lord said: My dear Arjun, how has this delusion overcome you in this hour of peril? It is not befitting an honorable person. It leads not to the higher abodes, but to disgrace.
+BG 2.3: O Parth, it does not befit you to yield to this unmanliness. Give up such petty weakness of heart and arise, O vanquisher of enemies.
 BG 2.4: Arjun said: O Madhusudan, how can I shoot arrows in battle on men like Bheeshma and Dronacharya, who are worthy of my worship, O destroyer of enemies?
-BG 2.5: It would be better to live in this world by begging, than to enjoy life by killing these noble elders, who are my teachers. If we kill them, the wealth and pleasures we enjoy will be tainted with bloo
-BG 2.6: We do not even know which result of this war is preferable for us—conquering them or being conquered by them. Even after killing them we will not desire to live. Yet they have taken the side of the so
+BG 2.5: It would be better to live in this world by begging, than to enjoy life by killing these noble elders, who are my teachers. If we kill them, the wealth and pleasures we enjoy will be tainted with blood.
+BG 2.6: We do not even know which result of this war is preferable for us—conquering them or being conquered by them. Even after killing them we will not desire to live. Yet they have taken the side of the sons of Dhritarasthra, and now stand before us on the battlefield.
 BG 2.7: I am confused about my duty, and am besieged with anxiety and faintheartedness. I am Your disciple, and am surrendered to You. Please instruct me for certain what is best for me.
-BG 2.8: I can find no means of driving away this anguish that is drying up my senses. Even if I win a prosperous and unrivalled kingdom on the earth, or gain sovereignty like the celestial gods, I will be una
-BG 2.9: Sanjay said: Having thus spoken, Gudakesh, that chastiser of enemies, addressed Hrishikesh: “Govind, I shall not fight,” and became silent.
+BG 2.8: I can find no means of driving away this anguish that is drying up my senses. Even if I win a prosperous and unrivalled kingdom on the earth, or gain sovereignty like the celestial gods, I will be unable to dispel this grief.
+BG 2.9: Sanjay said: Having thus spoken, Gudakesh, that chastiser of enemies, said to Hrishikesh: "Govind, I shall not fight," and became silent.
 BG 2.10: O Dhritarashtra, thereafter, in the midst of both the armies, Shree Krishna smilingly spoke the following words to the grief-stricken Arjun.
 BG 2.11: The Supreme Lord said: While you speak words of wisdom, you are mourning for that which is not worthy of grief. The wise lament neither for the living nor for the dead.
 BG 2.12: Never was there a time when I did not exist, nor you, nor all these kings; nor in the future shall any of us cease to be.
 BG 2.13: Just as the embodied soul continuously passes from childhood to youth to old age, similarly, at the time of death, the soul passes into another body. The wise are not deluded by this.
-BG 2.14: O son of Kunti, the contact between the senses and the sense objects gives rise to fleeting perceptions of happiness and distress. These are non-permanent, and come and go like the winter and summer s
+BG 2.14: O son of Kunti, the contact between the senses and the sense objects gives rise to fleeting perceptions of happiness and distress. These are non-permanent, and come and go like the winter and summer seasons. O descendent of Bharat, one must learn to tolerate them without being disturbed.
 BG 2.15: O Arjun, noblest amongst men, that person who is not affected by happiness and distress, and remains steady in both, becomes eligible for liberation.
-BG 2.16: Of the transient there is no endurance, and of the eternal there is no cessation. This has verily been observed and concluded by the seers of the Truth, after studying the nature of both.
+BG 2.16: Of the transient there is no endurance, and of the eternal there is no cessation. This has verily been observed by the seers of the Truth, after studying the nature of both.
 BG 2.17: That which pervades the entire body, know it to be indestructible. No one can cause the destruction of the imperishable soul.
 BG 2.18: Only the material body is perishable; the embodied soul within is indestructible, immeasurable, and eternal. Therefore, fight, O descendent of Bharat.
 BG 2.19: Neither of them is in knowledge—the one who thinks the soul can slay and the one who thinks the soul can be slain. For truly, the soul neither kills nor can it be killed.
-BG 2.20: The soul is neither born, nor does it ever die; nor having once existed, does it ever cease to be. The soul is without birth, eternal, immortal, and ageless. It is not destroyed when the body is destr
+BG 2.20: The soul is neither born, nor does it ever die; nor having once existed, does it ever cease to be. The soul is without birth, eternal, immortal, and ageless. It is not destroyed when the body is destroyed.
 BG 2.21: O Parth, how can one who knows the soul to be imperishable, eternal, unborn, and immutable kill anyone or cause anyone to kill?
 BG 2.22: As a person sheds worn-out garments and wears new ones, likewise, at the time of death, the soul casts off its worn-out body and enters a new one.
 BG 2.23: Weapons cannot shred the soul, nor can fire burn it. Water cannot wet it, nor can the wind dry it.
@@ -70,97 +81,98 @@ BG 2.33: If, however, you refuse to fight this righteous war, abandoning your so
 BG 2.34: People will speak of you as a coward and a deserter. For a respectable person, infamy is worse than death.
 BG 2.35: The great generals who hold you in high esteem will think that you fled from the battlefield out of fear, and thus will lose their respect for you.
 BG 2.36: Your enemies will defame and humiliate you with unkind words, disparaging your might. Alas, what could be more painful than that?
-BG 2.37: If you fight, you will either be slain on the battlefield and go to the celestial abodes, or you will gain victory and enjoy the kingdom on earth. Therefore arise with determination, O son of Kunti, a
+BG 2.37: If you fight, you will either be slain on the battlefield and go to the celestial abodes, or you will gain victory and enjoy the kingdom on earth. Therefore, arise with determination, O son of Kunti, and be prepared to fight.
 BG 2.38: Fight for the sake of duty, treating alike happiness and distress, loss and gain, victory and defeat. Fulfilling your responsibility in this way, you will never incur sin.
-BG 2.39: Hitherto, I have explained to you Sānkhya Yog, or analytic knowledge regarding the nature of the soul. Now listen, O Parth, as I reveal Buddhi Yog, or the Yog of Intellect. When you work with such und
-BG 2.40: Working in this state of consciousness, there is no loss or adverse result, and even a little effort saves one from great danger.
+BG 2.39: Hitherto, I have explained to you Sankhya Yog, or analytic knowledge regarding the nature of the soul. Now listen, O Parth, as I reveal Buddhi Yog, or the Yog of Intellect. When you work with such understanding, you will be freed from the bondage of karma.
+BG 2.40: Working in this state of consciousness, there is no loss or adverse result, and even a little effort saves one from the great danger of material existence.
 BG 2.41: O descendent of the Kurus, the intellect of those who are on this path is resolute, and their aim is one-pointed. But the intellect of those who are irresolute is many-branched.
-BG 2.42: Those with limited understanding, get attracted to the flowery words of the Vedas, which advocate ostentatious rituals for elevation to the celestial abodes, and presume no higher principle is describ
+BG 2.42: Those with limited understanding, get attracted to the flowery words of the Vedas, which advocate ostentatious rituals for elevation to the celestial abodes, and presume no higher principle is described in them.
+BG 2.43: They glorify only those portions of the Vedas that please their senses, and perform pompous ritualistic ceremonies for attaining high birth, opulence, sensual enjoyment, and elevation to the heavenly planets.
 BG 2.44: With their minds deeply attached to worldly pleasures and their intellects bewildered by such things, they are unable to possess the resolute determination for success on the path to God.
-BG 2.45: The Vedas deal with the three modes of material nature, O Arjun. Rise above the three modes to a state of pure spiritual consciousness. Freeing yourself from dualities, eternally fixed in Truth, and w
+BG 2.45: The Vedas deal with the three modes of material nature, O Arjun. Rise above the three modes to a state of pure spiritual consciousness. Freeing yourself from dualities, become established in the eternal truth. Be without worldly security and self-centered.
 BG 2.46: Whatever purpose is served by a small well of water is naturally served in all respects by a large lake. Similarly, one who realizes the Absolute Truth also fulfills the purpose of all the Vedas.
-BG 2.47: You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached t
+BG 2.47: You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction.
 BG 2.48: Be steadfast in the performance of your duty, O Arjun, abandoning attachment to success and failure. Such equanimity is called Yog.
-BG 2.49: Seek refuge in divine knowledge and insight, O Arjun, and discard reward-seeking actions that are certainly inferior to works performed with the intellect established in divine knowledge. Miserly are
-BG 2.50: One who prudently practices the science of work without attachment can get rid of both good and bad reactions in this life itself. Therefore, strive for Yog, which is the art of working skillfully (in
-BG 2.51: The wise endowed with equanimity of intellect, abandon attachment to the fruits of actions, which bind one to the cycle of life and death. By working in such consciousness, they attain the state beyon
-BG 2.52: When your intellect crosses the quagmire of delusion, you will then acquire indifference to what has been heard and what is yet to be heard (about enjoyments in this world and the next).
+BG 2.49: Seek refuge in divine knowledge and insight, O Arjun, and discard reward-seeking actions that are certainly inferior to works performed with the intellect established in divine knowledge.
+BG 2.50: One who prudently practices the science of work without attachment can get rid of both good and bad reactions in this life itself. Therefore, strive for Yog, which is the art of working skillfully in proper consciousness.
+BG 2.51: The wise endowed with equanimity of intellect, abandon attachment to the fruits of actions, which bind one to the cycle of life and death. By working in such consciousness, they attain the state beyond all suffering.
+BG 2.52: When your intellect crosses the quagmire of delusion, you will then acquire indifference to what has been heard and what is yet to be heard from the scriptures.
 BG 2.53: When your intellect ceases to be allured by the fruitive sections of the Vedas and remains steadfast in divine consciousness, you will then attain the state of perfect Yog.
-BG 2.54: Arjun said : O Keshav, what is the disposition of one who is situated in divine consciousness? How does an enlightened person talk? How does he sit? How does he walk?
-BG 2.55: The Supreme Lord said: O Parth, when one discards all selfish desires and cravings of the senses that torment the mind, and becomes satisfied in the realization of the self, such a person is said to b
+BG 2.54: Arjun said: O Keshav, what is the disposition of one who is situated in divine consciousness? How does an enlightened person talk? How does one sit? How does one walk?
+BG 2.55: The Supreme Lord said: O Parth, when one discards all selfish desires and cravings of the senses that torment the mind, and becomes satisfied in the realization of the self, such a person is said to be transcendentally situated.
 BG 2.56: One whose mind remains undisturbed amidst misery, who does not crave for pleasure, and who is free from attachment, fear, and anger, is called a sage of steady wisdom.
 BG 2.57: One who remains unattached under all conditions, and is neither delighted by good fortune nor dejected by tribulation, he is a sage with perfect knowledge.
 BG 2.58: One who is able to withdraw the senses from their objects, just as a tortoise withdraws its limbs into its shell, is established in divine wisdom.
 BG 2.59: Aspirants may restrain the senses from their objects of enjoyment, but the taste for the sense objects remains. However, even this taste ceases for those who realize the Supreme.
-BG 2.60: The senses are so strong and turbulent, O son of Kunti, that they can forcibly carry away the mind even of a person endowed with discrimination who practices self-control.
+BG 2.60: The senses are so strong and turbulent, O son of Kunti, that they can forcibly carry away the mind even of a person endowed with discrimination and practicing self-control.
 BG 2.61: They are established in perfect knowledge, who subdue their senses and keep their minds ever absorbed in Me.
 BG 2.62: While contemplating on the objects of the senses, one develops attachment to them. Attachment leads to desire, and from desire arises anger.
 BG 2.63: Anger leads to clouding of judgment, which results in bewilderment of memory. When memory is bewildered, the intellect gets destroyed; and when the intellect is destroyed, one is ruined.
 BG 2.64: But one who controls the mind, and is free from attachment and aversion, even while using the objects of the senses, attains the Grace of God.
 BG 2.65: By divine grace comes the peace in which all sorrows end, and the intellect of such a person of tranquil mind soon becomes firmly established in God.
-BG 2.66: But an undisciplined person, who has not controlled the mind and senses, can neither have a resolute intellect nor steady contemplation on God. For one who never unites the mind with God there is no p
+BG 2.66: But an undisciplined person, who has not controlled the mind and senses, can neither have a resolute intellect nor steady contemplation on God. For one who never unites the mind with God there is no peace; and how can one who lacks peace be happy?
 BG 2.67: Just as a strong wind sweeps a boat off its chartered course on the water, even one of the senses on which the mind focuses can lead the intellect astray.
 BG 2.68: Therefore, one who has restrained the senses from their objects, O mighty armed Arjun, is firmly established in transcendental knowledge.
 BG 2.69: What all beings consider as day is the night of ignorance for the wise, and what all creatures see as night is the day for the introspective sage.
-BG 2.70: Just as the ocean remains undisturbed by the incessant flow of waters from rivers merging into it, likewise the sage who is unmoved despite the flow of desirable objects all around him attains peace,
+BG 2.70: Just as the ocean remains undisturbed by the incessant flow of waters from rivers merging into it, likewise the sage who is unmoved despite the flow of desirable objects all around him attains peace, and not the person who strives to satisfy desires.
 BG 2.71: That person, who gives up all material desires and lives free from a sense of greed, proprietorship, and egoism, attains perfect peace.
-BG 2.72: O Parth, such is the state of an enlightened soul that having attained it, one is never again deluded. Being established in this consciousness even at the hour of death, one is liberated from the cycl
-
-BG 3.1: Arjun said: O Janardan, if You consider knowledge superior to action, then why do You ask me to wage this terrible war? My intellect is bewildered by Your ambiguous advice. Please tell me decisively t
-BG 3.3: The Lord said: O sinless one, the two paths leading to enlightenment were previously explained by Me: the path of knowledge, for those inclined toward contemplation, and the path of work for those inc
+BG 2.72: O Parth, such is the state of an enlightened soul that having attained it, one is never again deluded. Being established in this consciousness even at the hour of death, one is liberated from the cycle of life and death and reaches the Supreme Abode of God.
+BG 3.1: Arjun said: O Janardan, if You consider knowledge superior to action, then why do You ask me to wage this terrible war?
+BG 3.2: My intellect is bewildered by Your seemingly ambiguous advice. Please tell me decisively the one path by which I may attain the highest good.
+BG 3.3: The Supreme Lord said: O sinless one, the two paths leading to enlightenment were previously explained by Me: the path of knowledge, for those inclined toward contemplation, and the path of work for those inclined toward action.
 BG 3.4: One cannot achieve freedom from karmic reactions by merely abstaining from work, nor can one attain perfection of knowledge by mere physical renunciation.
-BG 3.5: There is no one who can remain without action even for a moment. Indeed, all beings are compelled to act by their qualities born of material nature (the three guṇas).
+BG 3.5: There is no one who can remain without action even for a moment. Indeed, all beings are compelled to act by their qualities born of material nature.
 BG 3.6: Those who restrain the external organs of action, while continuing to dwell on sense objects in the mind, certainly delude themselves and are to be called hypocrites.
 BG 3.7: But those karm yogis who control their knowledge senses with the mind, O Arjun, and engage the working senses in working without attachment, are certainly superior.
-BG 3.8: You should thus perform your prescribed Vedic duties, since action is superior to inaction. By ceasing activity, even your bodily maintenance will not be possible.
-BG 3.9: Work must be done as a yajna to the Supreme Lord; otherwise, work causes bondage in this material world. Therefore, O son of Kunti, for the satisfaction of God, perform your prescribed duties, without
-BG 3.10: In the beginning of creation, Brahma created humankind along with duties, and said, “Prosper in the performance of these yajñas (sacrifices), for they shall bestow upon you all you wish to achieve.”
+BG 3.8: You should thus perform your prescribed Vedic duties, since action is superior to inaction. By ceasing activity, even the maintenance of your body would not be possible.
+BG 3.9: Work must be done as a yajna to the Supreme Lord; otherwise, work causes bondage in this material world. Therefore, O son of Kunti, for the satisfaction of God, perform your prescribed duties, without being attached to the results.
+BG 3.10: In the beginning of creation, Brahma created humankind along with duties, and said, "Prosper in the performance of these yajnas (sacrifices), for they shall bestow upon you all you wish to achieve."
 BG 3.11: By your sacrifices, the celestial gods will be pleased, and by cooperation between humans and the celestial gods, great prosperity will reign for all.
-BG 3.12: The celestial gods, being satisfied by the performance of sacrifice, will grant you all the desired necessities of life. But those who enjoy what is given to them, without making offerings in return,
-BG 3.13: The spiritually-minded, who eat food that is first offered in sacrifice, are released from all kinds of sin. Others, who cook food for their own enjoyment, verily eat only sin.
+BG 3.12: The celestial gods, being satisfied by the performance of sacrifice, will grant you all the desired necessities of life. But those who enjoy what is given to them, without making offerings in return, are verily thieves.
+BG 3.13: The spiritually-minded, who eat food that is first offered in sacrifice, are released from all kinds of sins. Others, who cook food for their own enjoyment, verily eat only sin.
 BG 3.14: All living beings subsist on food, and food is produced by rains. Rains come from the performance of sacrifice, and sacrifice is produced by the performance of prescribed duties.
 BG 3.15: The duties for human beings are described in the Vedas, and the Vedas are manifested by God Himself. Therefore, the all-pervading Lord is eternally present in acts of sacrifice.
-BG 3.16: O Parth, those who do not accept their responsibility in the cycle of sacrifice established by the Vedas are sinful. They live only for the delight of their senses; indeed their lives are in vain.
+BG 3.16: O Parth, those who do not accept their responsibility in the cycle of sacrifice established by the Vedas are sinful. They live only for the gratification of their senses; indeed their lives are in vain.
 BG 3.17: But those who rejoice in the self, who are illumined and fully satisfied in the self, for them, there is no duty.
-BG 3.18: Such self-realized souls have nothing to gain or lose either in discharging or renouncing their duties. Nor do they need to depend on other living beings to fulfill their self-interest.
-BG 3.19: Therefore, giving up attachment, perform actions as a matter of duty because by working without being attached to the fruits, one attains the Supreme.
-BG 3.20: By performing their prescribed duties, King Janak and others attained perfection. You should also perform your duties to set an example for the good of the world. Whatever actions great persons perfor
+BG 3.18: Such self-realized souls have nothing to gain or lose either in discharging or renouncing their duties. Nor do they need to depend on other living beings for anything.
+BG 3.19: Therefore, giving up attachment, perform actions as a matter of duty, for by working without being attached to the fruits, one attains the Supreme.
+BG 3.20: By performing their prescribed duties, King Janak and others attained perfection. You should also perform your work to set an example for the good of the world.
+BG 3.21: Whatever actions great persons perform, common people follow. Whatever standards they set, all the world pursues.
 BG 3.22: There is no duty for Me to do in all the three worlds, O Parth, nor do I have anything to gain or attain. Yet, I am engaged in prescribed duties.
 BG 3.23: For if I did not carefully perform the prescribed duties, O Parth, all men would follow My path in all respects.
 BG 3.24: If I ceased to perform prescribed actions, all these worlds would perish. I would be responsible for the pandemonium that would prevail, and would thereby destroy the peace of the human race.
-BG 3.25: As ignorant people perform their duties with attachment to the results, O scion of Bharat, so should the wise act without attachment, for the sake of leading people on the right path.
-BG 3.26: The wise should not create discord in the intellects of ignorant people, who are attached to fruitive actions, by inducing them to stop work. Rather, by performing their duties in an enlightened manne
-BG 3.27: All activities are carried out by the three modes of material nature. But in ignorance, the soul, deluded by false identification with the body, thinks of itself as the doer.
-BG 3.28: O mighty-armed Arjun, illumined persons distinguish the soul as distinct from guṇas and karmas. They perceive that it is only the guṇas (in the shape of the senses, mind, and others) that move among t
-BG 3.29: Those who are deluded by the operation of the guṇas become attached to the results of their actions. But the wise who understand these truths should not unsettle such ignorant people who know very lit
+BG 3.25: As the ignorant perform their duties with attachment to the results, O scion of Bharat, so should the wise act without attachment, for the welfare of humanity.
+BG 3.26: The wise should not create discord in the intellects of ignorant people, who are attached to fruitive actions, by inducing them to stop work. Rather, by performing their duties in an enlightened manner, they should inspire the ignorant also to do their prescribed duties.
+BG 3.27: All activities are carried out by the three modes of material nature. But in ignorance, the soul, deluded by false identification with the body, thinks itself to be the doer.
+BG 3.28: O mighty-armed Arjun, illumined persons distinguish the soul as distinct from gunas and karmas. They perceive that it is only the gunas (in the shape of the senses, mind, etc.) that move amongst the gunas (in the shape of the objects of perception), and thus they do not get entangled in them.
+BG 3.29: Those who are deluded by the operation of the gunas become attached to the results of their actions. But the wise who understand these truths should not unsettle such ignorant people who know very little.
 BG 3.30: Performing all works as an offering unto Me, constantly meditate on Me as the Supreme. Become free from desire and selfishness, and with your mental grief departed, fight!
 BG 3.31: Those who abide by these teachings of Mine, with profound faith and free from envy, are released from the bondage of karma.
 BG 3.32: But those who find faults with My teachings, being bereft of knowledge and devoid of discrimination, they disregard these principles and bring about their own ruin.
 BG 3.33: Even wise people act according to their natures, for all living beings are propelled by their natural tendencies. What will one gain by repression?
-BG 3.34: The senses naturally experience attachment and aversion to the sense objects, but do not be controlled by them, for they are way-layers and foes.
-BG 3.35: It is far better to perform one’s natural prescribed duty, though tinged with faults, than to perform another’s prescribed duty, though perfectly. In fact, it is preferable to die in the discharge of
-BG 3.36: Arjun asked: Why is a person impelled to commit sinful acts, even unwillingly, as if by force, O descendent of Vrishni (Krishna)?
+BG 3.34: The senses naturally experience attachment and aversion to the sense objects, but do not be controlled by them, for they are obstacles on your path.
+BG 3.35: It is far better to perform one's natural prescribed duty, though tinged with faults, than to perform another's prescribed duty, though perfectly. In fact, it is preferable to die in the discharge of one's duty, than to follow the path of another, which is fraught with danger.
+BG 3.36: Arjun said: Why is a person impelled to commit sinful acts, even unwillingly, as if by force, O descendant of Vrishni (Krishna)?
 BG 3.37: The Supreme Lord said: It is lust alone, which is born of contact with the mode of passion, and later transformed into anger. Know this as the sinful, all-devouring enemy in the world.
-BG 3.38: Just as a fire is covered by smoke, a mirror is masked by dust, and an embryo is concealed by the womb, similarly one’s knowledge gets shrouded by desire.
+BG 3.38: Just as a fire is covered by smoke, a mirror is masked by dust, and an embryo is concealed by the womb, similarly one's knowledge gets shrouded by desire.
 BG 3.39: The knowledge of even the most discerning gets covered by this perpetual enemy in the form of insatiable desire, which is never satisfied and burns like fire, O son of Kunti.
-BG 3.40: The senses, mind, and intellect are said to be breeding grounds of desire. Through them, it clouds one’s knowledge and deludes the embodied soul.
+BG 3.40: The senses, mind, and intellect are said to be breeding grounds of desire. Through them, desire clouds one's knowledge and deludes the embodied soul.
 BG 3.41: Therefore, O best of the Bharatas, in the very beginning bring the senses under control and slay this enemy called desire, which is the embodiment of sin and destroys knowledge and realization.
 BG 3.42: The senses are superior to the gross body, and superior to the senses is the mind. Beyond the mind is the intellect, and even beyond the intellect is the soul.
-BG 3.43: Thus knowing the soul to be superior to the material intellect, O mighty armed Arjun, subdue the lower self (senses, mind, and intellect) by the higher self (strength of the soul), and kill this formi
-
-BG 4.1: The Supreme Lord Shree Krishna said: I taught this eternal science of Yog to the Sun God, Vivasvan, who passed it on to Manu; and Manu, in turn, instructed it to Ikshvaku.
+BG 3.43: Thus knowing the soul to be superior to the material intellect, O mighty-armed Arjun, subdue the lower self (senses, mind, and intellect) by the higher self (soul), and kill this formidable enemy called lust.
+BG 4.1: The Supreme Lord said: I taught this eternal science of Yog to the Sun God, Vivasvan, who passed it on to Manu; and Manu, in turn, instructed it to Ikshvaku.
 BG 4.2: O subduer of enemies, the saintly kings thus received this science of Yog in a continuous tradition. But with the long passage of time, it was lost to the world.
-BG 4.3: The same ancient knowledge of Yog, which is the supreme secret, I am today revealing unto you, because you are My friend as well as My devotee, who can understand this transcendental wisdom.
+BG 4.3: The same ancient science of Yog, which is the supreme secret, I am today revealing unto you, because you are My friend as well as My devotee, who can understand this transcendental wisdom.
 BG 4.4: Arjun said: You were born much after Vivasvan. How am I to understand that in the beginning You instructed this science to him?
 BG 4.5: The Supreme Lord said: Both you and I have had many births, O Arjun. You have forgotten them, while I remember them all, O Parantapa.
-BG 4.6: Although I am unborn, the Lord of all living entities, and have an imperishable nature, yet I appear in this world by virtue of Yogmaya, My divine power.
+BG 4.6: Although I am unborn, the Lord of all living entities, and have an imperishable nature, yet I appear in this world by virtue of My Yogmaya, My divine power.
 BG 4.7: Whenever there is a decline in righteousness and an increase in unrighteousness, O Arjun, at that time I manifest Myself on earth.
-BG 4.8: To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma I appear on this earth, age after age.
+BG 4.8: To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear on this earth, age after age.
 BG 4.9: Those who understand the divine nature of My birth and activities, O Arjun, upon leaving the body, do not have to take birth again, but come to My eternal abode.
 BG 4.10: Being free from attachment, fear, and anger, becoming fully absorbed in Me, and taking refuge in Me, many persons in the past became purified by knowledge of Me, and thus attained My divine love.
 BG 4.11: In whatever way people surrender unto Me, I reciprocate accordingly. Everyone follows My path, knowingly or unknowingly, O son of Pritha.
-BG 4.12: In this world, those desiring success in material activities worship the celestial gods, since material rewards manifest quickly.
-BG 4.13: The four categories of occupations were created by Me according to people’s qualities and activities. Although I am the Creator of this system, know Me to be the Non-doer and Eternal.
+BG 4.12: In this world, those desiring success in material activities worship the celestial gods, since material rewards manifest quickly here on earth.
+BG 4.13: The four categories of occupations were created by Me according to people's qualities and activities. Although I am the Creator of this system, know Me to be the Non-doer and Eternal.
 BG 4.14: Activities do not taint Me, nor do I desire the fruits of action. One who knows Me in this way is never bound by the karmic reactions of work.
 BG 4.15: Knowing this truth, even seekers of liberation in ancient times performed actions. Therefore, following the footsteps of those ancient sages, you too should perform your duty.
 BG 4.16: What is action and what is inaction? Even the wise are confused in determining this. Now I shall explain to you the secret of action, by knowing which, you may free yourself from material bondage.
@@ -168,106 +180,109 @@ BG 4.17: You must understand the nature of all three—recommended action, wrong
 BG 4.18: Those who see action in inaction and inaction in action are truly wise amongst humans. Although performing all kinds of actions, they are yogis and masters of all their actions.
 BG 4.19: The enlightened sages call those persons wise, whose every action is free from the desire for material pleasures and who have burnt the reactions of work in the fire of divine knowledge.
 BG 4.20: Such people, having given up attachment to the fruits of their actions, are always satisfied and not dependent on external things. Despite engaging in activities, they do not do anything at all.
-BG 4.21: Free from expectations and the sense of ownership, with the mind and intellect fully controlled, they incur no sin even though performing actions by their body.
-BG 4.22: Content with whatever gain comes of its own accord, and free from envy, they are beyond the dualities of life. Being equipoised in success and failure, they are not bound by their actions, even while
-BG 4.23: They are released from the bondage of material attachments and their intellect is established in divine knowledge. Since they perform all actions as a sacrifice (to God), they are freed from all karmi
-BG 4.24: For those who are completely absorbed in God-consciousness, the oblation is Brahman, the ladle with which it is offered is Brahman, the act of offering is Brahman, and the sacrificial fire is also Bra
-BG 4.25: Some yogis worship the celestial gods with material offerings unto them. Others worship perfectly who offer the self as sacrifice in the fire of the Supreme Truth.
-BG 4.26: Others offer hearing and other senses in the sacrificial fire of restraint. Still others offer sound and other objects of the senses as sacrifice in the fire of the senses.
+BG 4.21: Free from expectations and the sense of ownership, with the mind and intellect fully controlled, they incur no sin, even though performing actions by their body.
+BG 4.22: Content with whatever gain comes of its own accord, and free from envy, they are beyond the dualities of life. Being equipoised in success and failure, they are not bound by their actions, even while performing all kinds of activities.
+BG 4.23: They are released from the bondage of material attachments and their intellect is established in divine knowledge. Since they perform all actions as a sacrifice to God, they are freed from all karmic reactions.
+BG 4.24: For those who are completely absorbed in God-consciousness, the oblation is Brahman, the ladle with which it is offered is Brahman, the act of offering is Brahman, and the sacrificial fire is also Brahman. Such persons, who view everything as God, easily attain Him.
+BG 4.25: Some yogis worship the celestial gods with material offerings unto them. Others worship perfectly, offering the self as sacrifice in the fire of the Supreme Truth.
+BG 4.26: Some offer hearing and other senses in the sacrificial fire of restraint. Still others offer sound and other objects of the senses as sacrifice in the fire of the senses.
 BG 4.27: Some, inspired by knowledge, offer the functions of all their senses and their life energy in the fire of the controlled mind.
-BG 4.28: Some offer their wealth as sacrifice, while others offer severe austerities as sacrifice. Some practice the eight-fold path of yogic practices, and yet others study the scriptures and cultivate knowle
-BG 4.29: Still others offer as sacrifice the outgoing breath in the incoming breath, while some offer the incoming breath into the outgoing breath. Some arduously practice prāṇāyām and restrain the incoming an
-BG 4.31: Those who know the secret of sacrifice, and engaging in it, partake of its remnants that are like nectar, advance toward the Absolute Truth. O best of the Kurus, those who perform no sacrifice find no
-BG 4.32: All these different kinds of sacrifice have been described in the Vedas. Know them as originating from different types of work; this understanding cuts the knots of material bondage.
-BG 4.33: O subduer of enemies, sacrifice performed in knowledge is superior to any mechanical material sacrifice. After all, O Parth, all sacrifices of work culminate in knowledge.
+BG 4.28: Some offer their wealth as sacrifice, while others offer severe austerities as sacrifice. Some practice the eight-fold path of yogic practices, and yet others study the scriptures and cultivate knowledge as sacrifice, while observing strict vows.
+BG 4.29: Still others offer as sacrifice the outgoing breath in the incoming breath, while some offer the incoming breath into the outgoing breath. Some arduously practice pranayam and restrain their breathing, offering their inhalation into their exhalation, as a sacrifice.
+BG 4.30: Yet others curtail their food intake and offer the breath into the life-energy as sacrifice. All these knowers of sacrifice are cleansed of their impurities as a result of such performances.
+BG 4.31: Those who know the secret of sacrifice, and engaging in it, partake of its remnants that are like nectar, advance toward the Absolute Truth. O best of the Kurus, those who perform no sacrifice find no happiness either in this world or the next.
+BG 4.32: All these different kinds of sacrifice have been described in the Vedas. Know them as originating from different types of work; this understanding will liberate you.
+BG 4.33: O subduer of enemies, sacrifice performed in knowledge is superior to any mechanical material sacrifice. After all, O Parth, all sacrifices of work culminate in transcendental knowledge.
 BG 4.34: Learn the Truth by approaching a spiritual master. Inquire from him with reverence and render service unto him. Such an enlightened Saint can impart knowledge unto you because he has seen the Truth.
-BG 4.35: Following this path and having achieved enlightenment from a Guru, O Arjun, you will no longer fall into delusion. In the light of that knowledge, you will see that all living beings are but parts of
+BG 4.35: Following this path and having achieved enlightenment from a Guru, O Arjun, you will no longer fall into delusion. In the light of that knowledge, you will see that all living beings are but parts of the Supreme, and are within Me.
 BG 4.36: Even those who are considered the most immoral of all sinners can cross over this ocean of material existence by seating themselves in the boat of divine knowledge.
 BG 4.37: As a kindled fire reduces wood to ashes, O Arjun, so does the fire of knowledge burn to ashes all reactions from material activities.
-BG 4.38: In this world, there is nothing as purifying as divine knowledge. One who has attained purity of mind through prolonged practice of Yog, receives such knowledge within the heart, in due course of time
+BG 4.38: In this world, there is nothing as purifying as divine knowledge. One who has attained purity of mind through prolonged practice of Yog, receives such knowledge within the heart, in due course of time.
 BG 4.39: Those whose faith is deep and who have practiced controlling their mind and senses attain divine knowledge. Through such transcendental knowledge, they quickly attain everlasting supreme peace.
 BG 4.40: But persons who possess neither faith nor knowledge, and who are of a doubting nature, suffer a downfall. For the skeptical souls, there is no happiness either in this world or the next.
 BG 4.41: O Arjun, actions do not bind those who have renounced karm in the fire of Yog, whose doubts have been dispelled by knowledge, and who are situated in knowledge of the self.
 BG 4.42: Therefore, with the sword of knowledge, cut asunder the doubts that have arisen in your heart. O scion of Bharat, establish yourself in karm yog. Arise, stand up, and take action!
-
-BG 5.1: Arjun said: O Shree Krishna, You praised karm sanyās  (the path of renunciation of actions), and You also advised to do karm yog (work with devotion).  Please tell me decisively which of the two is mo
+BG 5.1: Arjun said: O Krishna, You praised karm sanyās (the path of renunciation of actions), and also karm yog (the path of work in devotion). Please tell me decisively which of the two is more beneficial?
 BG 5.2: The Supreme Lord said: Both the path of karm sanyās (renunciation of actions) and karm yog (working in devotion) lead to the supreme goal. But karm yog is superior to karm sanyās.
-BG 5.3: The karm yogis, who neither desire nor hate anything, should be considered always renounced.  Free from all dualities, they are easily liberated from the bonds of material energy.
-BG 5.4: Only the ignorant speak of sānkhya (renunciation of actions, or karm sanyās) and karm yog (work in devotion) as different.  Those who are truly learned say that by applying ourselves to any one of the
-BG 5.5: The supreme state that is attained by means of karm sanyās is also attained by working in devotion. Hence, those who see karm sanyās and karm yog to be identical, truly see things as they are.
+BG 5.3: The karm yogis who neither desire nor hate should be considered always renounced. Free from all dualities, they are easily liberated from the bondage of material energy.
+BG 5.4: Only the ignorant speak of sānkhya (renunciation of actions, or karm sanyās) and karm yog (work in devotion) as different. Those who are truly learned say that by applying ourselves to any one of these paths, we can achieve the results of both.
+BG 5.5: The supreme state that is attained by means of sānkhya is also attained by karm yog. Hence, those who understand that these two paths are non-different truly see.
 BG 5.6: Perfect renunciation (karm sanyās) is difficult to attain without performing work in devotion (karm yog), O mighty-armed Arjun, but the sage who is adept in karm yog quickly attains the Supreme.
-BG 5.7: The karm yogis, who are of purified intellect, and who control the mind and senses, see the Soul of all souls in every living being.  Though performing all kinds of actions, they are never entangled.
-BG 5.8: Those steadfast in karm yog, always think, “I am not the doer,” even while engaged in seeing, hearing, touching, smelling, moving, sleeping, breathing, speaking, excreting, grasping, and opening or cl
+BG 5.7: The karm yogis, who are of purified intellect, and who control the mind and senses, see the Soul of all souls in every living being. Though performing all kinds of actions, they are never entangled.
+BG 5.8: Those who are united with God, having discerned the Truth, are not deluded by their activities. While seeing, hearing, touching, smelling, moving, sleeping, breathing, or talking, they know that it is only the material senses that are engaged with the sense objects.
+BG 5.9: While giving, accepting, opening and closing the eyes, they are always conscious that it is only the material senses that are engaged with the sense objects, while the soul remains passive and uninvolved.
 BG 5.10: Those who dedicate their actions to God, abandoning all attachment, remain untouched by sin, just as a lotus leaf is untouched by water.
-BG 5.11: The yogis, while giving up attachment, perform actions with their body, senses, mind, and intellect, only for the purpose of self-purification.
-BG 5.12: Offering the results of all activities to God, the karm yogis attain everlasting peace.  Whereas those who, being impelled by their desires, work with a selfish motive become entangled because they ar
-BG 5.13: The embodied beings who are self-controlled and detached reside happily in the city of nine gates free from thoughts that they are the doers or the cause of anything.
-BG 5.14: Neither the sense of doership nor the nature of actions comes from God; nor does He create the fruits of actions.  All this is enacted by the modes of material nature (guṇas).
-BG 5.15: The omnipresent God does not involve Himself in the sinful or virtuous deeds of anyone.  The living entities are deluded because their inner knowledge is covered by ignorance.
+BG 5.11: The karm yogis, while giving up attachment, perform actions with their body, senses, mind, and even intellect, only for the purpose of self-purification.
+BG 5.12: Offering the results of all activities to God, the karm yogis attain everlasting peace. Whereas those who, being impelled by their desires, are attached to the fruits of their actions, become entangled.
+BG 5.13: The self-controlled embodied soul, having given up all actions by the mind, dwells happily in the city of nine gates free from any thoughts like "I am the doer" or "I am the cause of action."
+BG 5.14: Neither the sense of doership of actions, nor the actions themselves, nor the connection of actions with their fruits is created by the Lord. All these are produced by the modes of material nature (swabhav).
+BG 5.15: The omnipresent God does not involve Himself in the sinful or virtuous deeds of anyone. Living beings are deluded because ignorance covers their knowledge.
 BG 5.16: But for those whose ignorance is destroyed by divine knowledge, the Supreme Entity is revealed, just as the sun illumines everything when it rises.
-BG 5.17: Those whose intellect is fixed in God, who are completely absorbed in God, with firm faith in Him as the supreme goal, such persons quickly reach the state from which there is no return, their sins ha
+BG 5.17: Those whose intellect is fixed on God, whose hearts are established in Him, who are completely absorbed in Him, and who are cleansed of sins by the virtue of knowledge, reach the state from which there is no return.
 BG 5.18: The truly learned, with the eyes of divine knowledge, see with equal vision a Brahmin, a cow, an elephant, a dog, and a dog-eater.
-BG 5.19: Those whose minds are established in equality of vision conquer the cycle of birth and death in this very life.  They possess the flawless qualities of God, and are therefore seated in the Absolute Tr
-BG 5.20: Established in God, having a firm understanding of divine knowledge and not hampered by delusion, they neither rejoice in getting something pleasant nor grieve on experiencing the unpleasant.
-BG 5.21: Those who are not attached to external sense pleasures realize divine bliss in the self.  Being united with God through Yog, they experience unending happiness.
-BG 5.22: The pleasures that arise from contact with the sense objects, though appearing as enjoyable to worldly-minded people, are verily a source of misery.  O son of Kunti, such pleasures have a beginning an
-BG 5.23: Those persons are yogis, who before giving up the body are able to check the forces of desire and anger; and they alone are happy.
+BG 5.19: Those whose minds are established in equality of vision conquer the cycle of birth and death in this very life. They possess the flawless qualities of God, and are therefore seated in the Absolute Truth.
+BG 5.20: Established in God, such persons neither rejoice in pleasant events, nor grieve in unpleasant events. With steady intellect, free from delusion, and with knowledge of God, they abide in Him.
+BG 5.21: Those who are not attached to external sensual pleasures realize divine bliss in the self. Being united with God through Yog, they experience unending happiness.
+BG 5.22: The pleasures that arise from contact with the sense objects, though appearing as enjoyable to worldly-minded people, are verily a source of misery. O son of Kunti, such pleasures have a beginning and an end, and so the wise do not delight in them.
+BG 5.23: Those persons who are able to check the forces of desire and anger before death by their own efforts are yogis, and they are the happy ones.
 BG 5.24: Those who are happy within themselves, enjoying the delight of God within, and are illumined by the inner light, such yogis are united with the Lord and are liberated from material existence.
-BG 5.25: Those holy persons, whose sins have been purged, whose doubts are annihilated, whose minds are disciplined, and who are devoted to the welfare of all beings, attain God and are liberated from material
-BG 5.26: For those sanyāsīs, who have broken out of anger and lust through constant effort, who have subdued their mind, and are self-realized, liberation from material existence is both here and hereafter.
-BG 5.27: Shutting out all thoughts of external enjoyment, with the gaze fixed on the space between the eye-brows, equalizing the flow of the incoming and outgoing breath in the nostrils, and thus controlling t
-BG 5.29: Having realized Me as the enjoyer of all sacrifices and austerities, the Supreme Lord of all the worlds and the selfless friend of all living beings, My devotee attains peace.
-
-BG 6.1: The Supreme Lord said: Those who perform prescribed duties without desiring the results of their actions are actual sanyāsīs (renunciates) and yogis, not those who have merely ceased performing sacrif
-BG 6.2: What is known as sanyās is non-different from Yog, for none become yogis without renouncing worldly desires.
-BG 6.3: To the soul who is aspiring for perfection in Yog, work without attachment is said to be the means; to the sage who is already elevated in Yog, tranquility in meditation is said to be the means.
-BG 6.4: When one is neither attached to sense objects nor to actions, such a person is said to be elevated in the science of Yog, having renounced all desires for the fruits of actions.
+BG 5.25: The holy persons, whose sins have been purged, whose doubts are annihilated, whose minds are disciplined, and who are devoted to the welfare of all beings, attain God and are liberated from material existence.
+BG 5.26: For those sanyāsīs who have broken free of anger and lust through constant effort, who have subdued their mind, and are self-realized, the Supreme state is easily accessible.
+BG 5.27: Shutting out all thoughts of external enjoyment, with the gaze fixed on the space between the eyebrows, equalizing the flow of the incoming and outgoing breath in the nostrils, and thus controlling the senses, mind, and intellect, the sage who becomes free from desire and fear, always lives in freedom.
+BG 5.28: Having realized Me as the enjoyer of all sacrifices and austerities, the Supreme Lord of all worlds, and the selfless friend of all living beings, My devotee attains peace.
+BG 5.29: Having realized Me as the enjoyer of all sacrifices and austerities, the Supreme Lord of all worlds, and the selfless friend of all living beings, My devotee attains peace.
+BG 6.1: The Supreme Lord said: Those who perform prescribed duties without desiring the results of their actions are true sanyāsīs (renunciates) and yogis, not those who have merely stopped performing sacrifices such as agni-hotra yajna or abandoned bodily activities.
+BG 6.2: What is known as sanyās is non-different from Yog, for none become yogis without renouncing worldly desires for the fruits of actions.
+BG 6.3: To the soul aspiring for perfection in Yog, work without attachment is said to be the means; to the sage who is already elevated in Yog, tranquility in meditation is said to be the means.
+BG 6.4: When one is neither attached to sense objects nor to actions, such a person is said to be elevated in Yog, having renounced all desires for the fruits of actions.
 BG 6.5: Elevate yourself through the power of your mind, and not degrade yourself, for the mind can be the friend and also the enemy of the self.
 BG 6.6: For those who have conquered the mind, it is their friend. For those who have failed to do so, the mind works like an enemy.
-BG 6.7: The yogis who have conquered the mind rise above the dualities of cold and heat, joy and sorrow, and honor and dishonor. Such yogis remain peaceful and steadfast in their devotion to God.
-BG 6.8: The yogi who are satisfied by knowledge and discrimination, and have conquered their senses, remain undisturbed in all circumstances. They see everything—dirt, stones, and gold—as the same.
-BG 6.9: The yogis look upon all—well-wishers, friends, foes, the pious, and the sinners—with an impartial intellect. The yogi who is of equal intellect toward friend, companion, and foe, neutral among enemies
-BG 6.10: Those who seek the state of Yog should reside in seclusion, constantly engaged in meditation with a controlled mind and body, getting rid of desires and possessions for enjoyment.
-BG 6.11: To practice Yog, one should make an āsan (seat) in a sanctified place, by placing Kuśh grass, deer skin, and a cloth, one over the other. The āsan should be neither too high nor too low.
-BG 6.12: Seated firmly on it, the yogi should strive to purify the mind by focusing it in meditation with one pointed concentration, controlling all thoughts and activities. He must hold the body, neck, and he
-BG 6.14: Thus, with a serene, fearless, and unwavering mind, and staunch in the vow of celibacy, the vigilant yogi should meditate on Me, having Me alone as the supreme goal.
-BG 6.15: Thus, constantly keeping the mind absorbed in Me, the yogi of disciplined mind attains nirvāṇ, and abides in Me in supreme peace.
+BG 6.7: The yogis who have conquered the mind rise above the dualities of cold and heat, joy and sorrow, honor and dishonor. Such yogis remain peaceful and are united with their Supreme Self.
+BG 6.8: The yogi who is satisfied by knowledge and discrimination, who remains unshaken under any circumstances, who has controlled the senses, is said to be in Yog. For such a yogi, dirt, stones, and gold are seen equally.
+BG 6.9: The yogis look upon all—well-wishers, friends, foes, the pious, the sinners, and the indifferent—with impartial intellect. Those who have equal regard for all are considered to be highly elevated.
+BG 6.10: Those who seek the state of Yog should reside in seclusion, constantly engaged in meditation with a controlled mind and body, getting rid of desires and possessions.
+BG 6.11: To practice Yog, one should make an āsan (seat) by placing kusha grass, deerskin, and cloth, one over the other, in a clean place. The āsan should be neither too high nor too low.
+BG 6.12: Seated firmly on it, the yogi should strive to purify the mind by focusing it in meditation with one-pointed concentration, controlling all thoughts and activities.
+BG 6.13: Holding the body, neck, and head firmly in a straight line, and fixing the gaze on the tip of the nose without allowing the eyes to wander, the alert yogi should sit in meditation.
+BG 6.14: With a serene, fearless, and unwavering mind, with the thoughts dwelling on Me, the vigilant yogi should meditate on Me as the Supreme Goal.
+BG 6.15: Thus, constantly keeping the mind absorbed in Me, the yogi of disciplined mind attains nirvān, and abides in Me in supreme peace.
 BG 6.16: O Arjun, those who eat too much or too little, sleep too much or too little, cannot attain success in Yog.
 BG 6.17: But those who are temperate in eating and recreation, balanced in work, and regulated in sleep, can mitigate all sorrows by practicing Yog.
-BG 6.18: With thorough discipline, they learn to withdraw the mind from selfish cravings and rivet it on the unsurpassable good of the self. Such persons are said to be in Yog, and are free from all yearning o
-BG 6.19: Just as a lamp in a windless place does not flicker, so the disciplined mind of a yogi remains steady in meditation on the Supreme.
-BG 6.20: When the mind, restrained from material activities, becomes still by the practice of Yog, then the yogi is able to behold the soul through the purified mind, and he rejoices in the inner joy.
-BG 6.21: In that joyous state of Yog, called samadhi, one experiences supreme boundless divine bliss, and thus situated, one never deviates from the Eternal Truth.
-BG 6.22: Having gained that state, one does not consider any attainment to be greater. Being thus established, one is not shaken even in the midst of the greatest calamity.
-BG 6.23: That state of severance from union with misery is known as Yog. This Yog should be resolutely practiced with determination free from pessimism.
-BG 6.24: Completely renouncing all desires arising from thoughts of the world, one should restrain the senses from all sides with the mind. Slowly and steadily, with conviction in the intellect, the mind will
+BG 6.18: With thorough discipline, they learn to withdraw the mind from selfish cravings and rivet it on the unsurpassable good of the self. Such persons are said to be in Yog, and are free from all yearning of the senses.
+BG 6.19: Just as a lamp in a windless place does not flicker, so the disciplined mind of a yogi remains steady in meditation on the self.
+BG 6.20: When the mind, restrained from material activities, becomes still by the practice of Yog, then the yogi is able to behold the soul through the purified mind, and rejoices in the inner joy.
+BG 6.21: In that joyous state of Yog, called samādhi, one experiences supreme boundless divine bliss, and thus situated, one never deviates from the Eternal Truth.
+BG 6.22: Having gained that state, one considers no attainment to be greater. Being thus established, one is not shaken even in the midst of the greatest calamity.
+BG 6.23: That state of severance from union with misery is known as Yog. This Yog should be practiced resolutely with determination free from mental pessimism.
+BG 6.24: Completely renouncing all worldly desires and keeping in check the mind with the senses on all sides, one should steadily bring the mind to focus on God by using the intellect endowed with firm resolve.
+BG 6.25: With firm resolve, the intellect should be fixed in deep meditation. Slowly and steadily, with conviction in the intellect, the mind will become fixed in God alone.
 BG 6.26: Whenever and wherever the restless and unsteady mind wanders, one should bring it back and continually focus it on God.
 BG 6.27: Great transcendental happiness comes to the yogi whose mind is calm, whose passions are subdued, who is without sin, and who sees everything in connection with God.
-BG 6.28: The self-controlled yogi, thus uniting the self with God, becomes free from material contamination, and being in constant touch with the Supreme, achieves the highest state of perfect happiness.
+BG 6.28: The self-controlled yogi, uniting the self with God, becomes free from material contamination, and being in constant touch with the Supreme, achieves the highest perfection of bliss.
 BG 6.29: The true yogis, uniting their consciousness with God, see with equal eye, all living beings in God and God in all living beings.
 BG 6.30: For those who see Me everywhere and see all things in Me, I am never lost, nor are they ever lost to Me.
 BG 6.31: The yogi who is established in union with Me, and worships Me as the Supreme Soul residing in all beings, dwells only in Me, though engaged in all kinds of activities.
 BG 6.32: I regard them to be perfect yogis who see the true equality of all living beings and respond to the joys and sorrows of others as if they were their own.
-BG 6.33: Arjun said: The system of Yog that you have described, O Madhusudan, appears impractical and unattainable to me, due to the restless mind.
+BG 6.33: Arjun said: The system of Yog that You have described, O Madhusudan, appears impractical and unattainable to me, because the mind is very restless and turbulent.
 BG 6.34: The mind is very restless, turbulent, strong and obstinate, O Krishna. It appears to me that it is more difficult to control than the wind.
 BG 6.35: Lord Krishna said: O mighty-armed son of Kunti, what you say is correct; the mind is indeed very difficult to restrain. But by practice and detachment, it can be controlled.
-BG 6.36: Yog is difficult to attain for one whose mind is unbridled. However, those who have learnt to control the mind, and who strive earnestly by proper means, can attain perfection in Yog. This is My opini
-BG 6.37: Arjun said: What is the fate of the unsuccessful yogi who begins the path with faith, but who does not endeavor sufficiently due to an unsteady mind and is unable to reach the goal of Yog in this life
-BG 6.38: Does not such a person who deviates from Yog get deprived of both material and spiritual success, O mighty-armed Krishna, and perish like a broken cloud with no position in either sphere?
+BG 6.36: Yog is difficult to attain for one whose mind is unbridled. However, those who have learned to control the mind, and who strive earnestly by the right means, can attain perfection in Yog. This is My opinion.
+BG 6.37: Arjun said: What is the fate of the unsuccessful yogi who begins the path with faith, but fails to reach the goal of Yog due to an unsteady mind?
+BG 6.38: Does such a person, O mighty-armed Krishna, perish like a cloud stranded between the worldly and the spiritual path, having no refuge anywhere and being deprived of both material and spiritual success?
 BG 6.39: O Krishna, please dispel this doubt of mine completely, for who other than You can do so?
-BG 6.40: The Supreme Lord said: O Parth, one who engages on the spiritual path does not meet with destruction either in this world or the world to come. My dear friend, one who strives for God-realization is n
-BG 6.41: The unsuccessful yogis, upon death, go to the abodes of the virtuous. After dwelling there for many ages, they are again reborn in the earth plane, into a family of pious and prosperous people. Else,
-BG 6.43: On taking such a birth, O descendant of Kurus, they reawaken the wisdom of their previous lives, and strive even harder toward perfection in Yog.
-BG 6.44: Indeed, they feel drawn toward God, even against their will, on the strength of their past discipline. Such seekers naturally rise above the ritualistic principles of the scriptures.
-BG 6.45: With the accumulated merits of many past births, when these yogis engage in sincere endeavors to make further progress, they become purified from material desires and attain perfection in this life it
-BG 6.46: A yogi is superior to the  tapasvī  (ascetic), superior to the  jñānī  (a person of learning), and even superior to the  karmī  (ritualistic performer). Therefore, O Arjun, strive to be a yogi.
-BG 6.47: Of all yogis, those whose minds are always absorbed in Me, and who engage in devotion to Me with great faith, them I consider to be the highest of all.
-
+BG 6.40: The Supreme Lord said: O Parth, one who engages on the spiritual path does not meet destruction either in this world or the world to come. My dear friend, one who strives for God-realization is never overcome by evil.
+BG 6.41: The unsuccessful yogis, upon death, go to the abodes of the virtuous. After dwelling there for many ages, they are again reborn in the family of pious and prosperous people.
+BG 6.42: Else, if the unsuccessful yogis had developed dispassion due to long practice of Yog, they are born into a family endowed with divine wisdom. Such a birth is very difficult to obtain in this world.
+BG 6.43: Upon such a birth, they reawaken the wisdom of their previous life, and again strive harder toward perfection, O child of the Kurus.
+BG 6.44: Indeed, they feel drawn toward God even against their will, on the strength of their past discipline. Even the desire to know Yog is better than just following the Vedic rituals.
+BG 6.45: With the accumulated merits of many past births, when yogis engage in sincere endeavor to make further progress, they become purified from material desires, and eventually attain perfection in this life itself.
+BG 6.46: A yogi is superior to the tapasvī (the ascetic), superior to the jñānī (the learned), and superior to the karmī (the ritualistic performer). Therefore, O Arjun, strive to be a yogi.
+BG 6.47: Of all yogis, those whose minds are fixed on Me alone, and who engage in devotion to Me with great faith, I consider them to be the highest of all.
 BG 7.1: The Supreme Lord said: Now listen, O Arjun, how, with the mind attached exclusively to Me, and surrendering to Me through the practice of bhakti yog, you can know Me completely, free from doubt.
 BG 7.2: I shall now reveal unto you fully this knowledge and wisdom, knowing which nothing else remains to be known in this world.
 BG 7.3: Amongst thousands of persons, hardly one strives for perfection; and amongst those who have achieved perfection, hardly one knows Me in truth.
 BG 7.4: Earth, water, fire, air, space, mind, intellect, and ego—these are eight components of My material energy.
-BG 7.5: Such is My inferior energy. But beyond it, O mighty-armed Arjun, I have a superior energy. This is the jīva śhakti (the soul energy), which comprises the embodied souls who are the basis of life in th
+BG 7.5: Such is My inferior energy. But beyond it, O mighty-armed Arjun, I have a superior energy. This is the jīva śhakti (the soul energy), which comprises the embodied souls who are the basis of life in this world.
 BG 7.6: Know that all living beings are manifested by these two energies of Mine. I am the source of the entire creation, and into Me it again dissolves.
 BG 7.7: There is nothing higher than Myself, O Arjun. Everything rests in Me, as beads strung on a thread.
 BG 7.8: I am the taste in water, O son of Kunti, and the radiance of the sun and the moon. I am the sacred syllable Om in the Vedic mantras; I am the sound in ether, and the ability in humans.
@@ -277,80 +292,84 @@ BG 7.11: O best of the Bharatas, in strong persons, I am their strength devoid o
 BG 7.12: The three states of material existence—goodness, passion, and ignorance—are manifested by My energy. They are in Me, but I am beyond them.
 BG 7.13: Deluded by the three modes of Maya, people in this world are unable to know Me, the imperishable and eternal.
 BG 7.14: My divine energy Maya, consisting of the three modes of nature, is very difficult to overcome. But those who surrender unto Me cross over it easily.
-BG 7.15: Four kinds of people do not surrender unto Me—those ignorant of knowledge, those who lazily follow their lower nature though capable of knowing Me, those with deluded intellect, and those with a demon
+BG 7.15: Four kinds of people do not surrender unto Me—those ignorant of knowledge, those who lazily follow their lower nature though capable of knowing Me, those with deluded intellect, and those with a demoniac nature.
 BG 7.16: O best amongst the Bharatas, four kinds of pious people engage in My devotion—the distressed, the seekers of knowledge, the seekers of worldly possessions, and those who are situated in knowledge.
 BG 7.17: Amongst these, I consider them to be the highest, who worship Me with knowledge, and are steadfastly and exclusively devoted to Me. I am very dear to them and they are very dear to Me.
-BG 7.18: All those who are devoted to Me are indeed noble. But those in knowledge, who are of steadfast mind, whose intellect is merged in Me, and who have made Me alone as their supreme goal, I consider as My
+BG 7.18: All those who are devoted to Me are indeed noble. But those in knowledge, who are of steadfast mind, whose intellect is merged in Me, and who have made Me alone as their supreme goal, I consider as My very self.
 BG 7.19: After many births of spiritual practice, one who is endowed with knowledge surrenders unto Me, knowing Me to be all that is. Such a great soul is indeed very rare.
-BG 7.20: Those whose knowledge has been carried away by material desires surrender to the celestial gods. Following their own nature, they worship the devatās, practicing rituals meant to propitiate these cele
+BG 7.20: Those whose knowledge has been carried away by material desires surrender to the celestial gods. Following their own nature, they worship the devatās, practicing rituals meant to propitiate these celestial personalities.
 BG 7.21: Whatever celestial form a devotee seeks to worship with faith, I steady the faith of such a devotee in that form.
 BG 7.22: Endowed with faith, the devotee worships a particular celestial god and obtains the objects of desire. But in reality, I alone arrange these benefits.
 BG 7.23: But the fruit gained by these people of little understanding is perishable. Those who worship the celestial gods go to the celestial abodes, while My devotees come to Me.
-BG 7.24: The less intelligent think that I, the Supreme Lord Shree Krishna, was formless earlier and have now assumed this personality. They do not understand the imperishable exalted nature of My personal for
+BG 7.24: The less intelligent think that I, the Supreme Lord Shree Krishna, was formless earlier and have now assumed this personality. They do not understand the imperishable exalted nature of My personal form.
 BG 7.25: I am not manifest to everyone, being veiled by My divine Yogmaya energy. Hence, those without knowledge do not know that I am without birth and changeless.
 BG 7.26: O Arjun, I know of past, present, and future, and I also know all living beings; but Me no one knows.
-BG 7.27: O descendant of Bharat, the dualities of desire and aversion arise from illusion. O conqueror of enemies, all living beings in the material realm are deluded by these.
+BG 7.27: O descendant of Bharat, the dualities of desire and aversion arise from illusion. O conqueror of enemies, all living beings in the material realm are deluded by these from birth.
 BG 7.28: But persons, whose sins have been destroyed by engaging in pious activities, become free from the illusion of dualities. Such persons worship Me with determination.
 BG 7.29: Those who take shelter in Me, striving for liberation from old-age and death, come to know the Brahman, the individual self, and the entire field of karmic action.
-BG 7.30: Those who know Me as the governing principle of the adhibhūta (field of matter) and the adhidaiva (the celestial gods), and as adhiyajña (the Lord of all sacrificial performances), such enlightened so
-
-BG 8.1: Arjun said: O Supreme Lord, what is Brahman (Absolute Reality), what is adhyatma (the individual soul), and what is karma? What is said to be adhibhuta, and who is said to be Adhidaiva? Who is Adhiyaj
-BG 8.3: The Lord said: The Supreme Indestructible Entity is called Brahman; one’s own self is called adhyatma.  Actions pertaining to the material personality of living beings, and its development are called
-BG 8.4: O best of the embodied souls, the physical manifestation that is constantly changing is called adhibhūta; the universal form of God, which presides over the celestial gods in this creation, is called
+BG 7.30: Those who know Me as the governing principle of the adhibhūta (field of matter) and the adhidaiva (the celestial gods), and as adhiyajña (the Lord of all sacrificial performances), such enlightened souls are in full consciousness of Me even at the time of death.
+BG 8.1: Arjun said: O Supreme Lord, what is Brahman and what is adhyatma? What are karmas? And what is said to be adhibhuta and Adhidaiva?
+BG 8.2: Who is Adhiyajna in this body and how does He dwell here, O Madhusudan? And how may You be known by the disciplined souls at the time of death?
+BG 8.3: The Supreme Lord said: The Supreme Indestructible Entity is called Brahman; one's own self is called adhyatma. Actions pertaining to the material personality of living beings, and which bring about their material existence, are called karma.
+BG 8.4: O best of the embodied souls, the physical manifestation, which is constantly changing, is called adhibhūta; the universal form of God, which presides over the celestial gods in this creation, is called Adhidaiva; I, who dwell in the heart of every living being, am called Adhiyajña, or the Lord of all sacrifices.
 BG 8.5: Those who relinquish the body while remembering Me at the moment of death will come to Me. There is certainly no doubt about this.
 BG 8.6: Whatever one remembers upon giving up the body at the time of death, O son of Kunti, one attains that state, being always absorbed in such contemplation.
-BG 8.7: Therefore, always remember Me and also do your duty of fighting the war.  With mind and intellect surrendered to Me, you will definitely attain Me; of this, there is no doubt.
-BG 8.8: With practice, O Parth, when you constantly engage the mind in remembering Me, the Supreme Divine Personality, without deviating, you will certainly attain Me.
-BG 8.9: God is Omniscient, the most ancient One, the Controller, subtler than the subtlest, the Support of all, and the possessor of an inconceivable divine form; He is brighter than the sun, and beyond all d
-BG 8.11: Scholars of the Vedas describe Him as Imperishable; great ascetics practice the vow of celibacy and renounce worldly pleasures to enter into Him.  I shall now explain to you briefly the path to that g
-BG 8.12: Restraining all the gates of the body and fixing the mind in the heart region, and then drawing the life-breath to the head, one should get established in steadfast yogic concentration.
+BG 8.7: Therefore, always remember Me and also do your duty of fighting the war. With your mind and intellect surrendered to Me, you will certainly attain Me; of this there is no doubt.
+BG 8.8: With practice, O Parth, when you constantly engage the mind in remembering Me, the Supreme Divine Personality, without deviating from the path, you will certainly attain Me.
+BG 8.9: God is Omniscient, the most ancient One, the Controller, subtler than the subtlest, the Support of all, and the possessor of an inconceivable divine form; He is brighter than the sun, and beyond all darkness of ignorance.
+BG 8.10: One who, at the time of death, fixes the life-airs between the eyebrows and absorbs the mind in God with great devotion, attains the Supreme Divine Lord.
+BG 8.11: Scholars of the Vedas describe Him as Imperishable; great ascetics, free from attachment, enter into Him. Desiring such a state, seekers of the Truth practice the vow of celibacy. I shall now explain to you briefly the path to that Goal.
+BG 8.12: Restraining all the gates of the body and fixing the mind in the heart region, and then drawing the life-breath to the head, one should get established in steadfast yogic concentration on God.
 BG 8.13: One who departs from the body while remembering Me, the Supreme Personality, and chanting the syllable Om, will attain the supreme goal.
-BG 8.14: O Parth, for those yogis who always think of Me with exclusive devotion, I am easily attainable because of their constant absorption in Me.
+BG 8.14: O Parth, for those yogis who always think of Me with exclusive devotion, I am easy to attain because of their constant absorption in Me.
 BG 8.15: Having attained Me, the great souls are no more subject to rebirth in this world, which is transient and full of misery, because they have attained the highest perfection.
-BG 8.16: In all the worlds of this material creation, up to the highest abode of Brahma, you will be subject to rebirth, O Arjun.  But on attaining My Abode, O son of Kunti, there is no further rebirth.
-BG 8.17: One day of Brahma (kalp) lasts a thousand cycles of the four ages (mahā yug) and his night also extends for the same span of time.  The wise who know this understand the reality about day and night.
-BG 8.18: At the advent of Brahma’s day, all living beings emanate from the unmanifest source.  And at the fall of his night, all embodied beings again merge into their unmanifest source.
-BG 8.19: Multitudes of beings repeatedly take birth with the advent of Brahma’s day, and are reabsorbed on the arrival of the cosmic night, to manifest again automatically on the advent of the next cosmic day.
-BG 8.20: Transcendental to this manifest and unmanifest creation, there is yet another unmanifest eternal dimension.  That realm does not cease even when all others do.
-BG 8.21: That unmanifest dimension is the supreme goal, and upon reaching it, one never returns to this mortal world.  That is My Supreme Abode.
-BG 8.22: The Supreme Divine Personality is greater than all that exists.  Although He is all-pervading and all living beings are situated in Him, yet He can be known only through devotion.
-BG 8.23: I shall now describe to you the different paths of passing away from this world, O best of the Bharatas, one of which leads to liberation and the other leads to rebirth.  Those who know the Supreme Br
-BG 8.27: Yogis who know the secret of these two paths, O Parth, are never bewildered.  Therefore, at all times be situated in Yog (union with God).
-BG 8.28: The yogis, who know this secret, gain merit far beyond the fruits of Vedic rituals, the study of the Vedas, performance of sacrifices, austerities, and charities.  Such yogis reach the Supreme Abode.
-
-BG 9.1: The Supreme Lord said:  O Arjun, because you are not envious of Me, I shall now impart to you this very confidential knowledge and wisdom, upon knowing which you will be released from the miseries of
-BG 9.2: This knowledge is the king of sciences and the most profound of all secrets.  It purifies those who hear it.  It is directly realizable, in accordance with dharma, easy to practice, and everlasting in
-BG 9.3: People who have no faith in this dharma are unable to attain Me, O conqueror of enemies.  They repeatedly come back to this world in the cycle of birth and death.
-BG 9.4: This entire cosmic manifestation is pervaded by Me in My unmanifest form.  All living beings dwell in Me, but I do not dwell in them.
-BG 9.5: And yet, the living beings do not abide in Me.  Behold the mystery of My divine energy!  Although I am the Creator and Sustainer of all living beings, I am not influenced by them or by material nature
+BG 8.16: In all the worlds of this material creation, up to the highest abode of Brahma, you will be subject to rebirth, O Arjun. But on attaining My Abode, O son of Kunti, there is no further rebirth.
+BG 8.17: One day of Brahma (kalp) lasts a thousand cycles of the four ages (mahā yug) and his night also extends for the same span of time. The wise who know this understand the reality about day and night.
+BG 8.18: At the advent of Brahma's day, all living beings emanate from the unmanifest source. And at the fall of his night, all embodied beings again merge into their unmanifest source.
+BG 8.19: Multitudes of beings repeatedly take birth with the advent of Brahma's day, and are reabsorbed on the arrival of the cosmic night, to manifest again automatically on the advent of the next cosmic day.
+BG 8.20: Transcendental to this manifest and unmanifest creation, there is yet another unmanifest eternal dimension. That realm does not cease even when all creation perishes.
+BG 8.21: That unmanifest dimension is the supreme goal, and upon reaching it, one never returns to this mortal world. That is My Supreme Abode.
+BG 8.22: The Supreme Divine Personality is greater than all that exists. Although He is all-pervading and all living beings are situated in Him, yet He can be known only through devotion.
+BG 8.23: I shall now describe to you the different paths of departure, departing by which, yogis either return or do not return to this mortal world.
+BG 8.24: Those who know the Supreme Brahman, and who depart from this world, during the six months of the sun's northern course, the bright fortnight of the moon, and the bright part of the day, attain the supreme destination.
+BG 8.25: The practitioners of Vedic rituals, who pass away during the six months of the sun's southern course, the dark fortnight of the moon, or the dark part of the day, reach the celestial abodes. After enjoying celestial pleasures, they again return to the earth.
+BG 8.26: These two, bright and dark paths, are considered to be the eternal paths of the world. Yogis who take the former path do not return, while those who take the latter do.
+BG 8.27: O Parth, yogis who know the secret of these two paths, O Parth, are never bewildered. Therefore, at all times be situated in Yog, O Arjun.
+BG 8.28: The yogis, knowing this secret, gain merit far beyond what comes from the study of the Vedas, the performance of rituals and sacrifices, the practice of austerities, or the giving of charity. Such yogis reach the Supreme Eternal Abode.
+BG 9.1: The Supreme Lord said: O Arjun, because you are not envious of Me, I shall now impart to you this very confidential knowledge and wisdom, upon knowing which you will be released from the miseries of material existence.
+BG 9.2: This knowledge is the king of sciences and the most profound of all secrets. It purifies those who hear it. It is directly realizable, in accordance with dharma, easy to practice, and everlasting in effect.
+BG 9.3: People who have no faith in this dharma are unable to attain Me, O conqueror of enemies. They repeatedly come back to this world in the cycle of birth and death.
+BG 9.4: This entire cosmic manifestation is pervaded by Me in My unmanifest form. All living beings dwell in Me, but I do not dwell in them.
+BG 9.5: And yet, the living beings do not abide in Me. Behold the mystery of My divine energy! Although I sustain all living beings and am present everywhere, My self is the very source of creation.
 BG 9.6: Know that as the mighty wind blowing everywhere rests always in the sky, likewise all living beings always rest in Me.
-BG 9.7: At the end of one kalp, all living beings merge into My primordial material energy.  At the beginning of the next creation, O son of Kunti, I manifest them again.  Presiding over My material energy, I
-BG 9.9: O conqueror of wealth, none of these actions bind Me.  I remain like a neutral observer, ever detached from these actions.
-BG 9.10: Working under My direction, this material energy brings into being all animate and inanimate forms, O son of Kunti.  For this reason, the material world undergoes the changes (of creation, maintenance
-BG 9.11: When I descend in My personal form deluded persons are unable to recognize Me.  They do not know the divinity of My personality, as the Supreme Lord of all beings.
-BG 9.12: Bewildered by the material energy, such persons embrace demoniac and atheistic views.  In that deluded state, their hopes for welfare are in vain, their fruitive actions are wasted, and their culture
-BG 9.13: But the great souls, who take shelter of My divine energy, O Parth, know Me, Lord Krishna, as the origin of all creation.  They engage in My devotion with their minds fixed exclusively on Me.
+BG 9.7: At the end of one kalp, all living beings merge into My primordial material energy. At the beginning of the next creation, O son of Kunti, I manifest them again.
+BG 9.8: Presiding over My material energy, I generate these myriad forms again and again, in accordance with the force of their natures.
+BG 9.9: O conqueror of wealth, none of these actions bind Me. I remain like a neutral observer, ever detached from these actions.
+BG 9.10: Working under My direction, this material energy brings into being all animate and inanimate forms, O son of Kunti. For this reason, the material world undergoes the changes of creation, maintenance, and dissolution.
+BG 9.11: When I descend in My personal form deluded persons are unable to recognize Me. They do not know the divinity of My personality, as the Supreme Lord of all beings.
+BG 9.12: Bewildered by the material energy, such persons embrace demoniac and atheistic views. In that deluded state, their hopes for welfare are in vain, their fruitive actions are wasted, and their culture of knowledge is baffled.
+BG 9.13: But the great souls, who take shelter of My divine energy, O Parth, know Me, Lord Krishna, as the origin of all creation. They engage in My devotion with their minds fixed exclusively on Me.
 BG 9.14: Always singing My divine glories, striving with great determination, and humbly bowing down before Me, they constantly worship Me in loving devotion.
-BG 9.15: Others, engaging in the yajña of cultivating knowledge, worship Me by many methods.  Some see Me as undifferentiated oneness that is non-different from them, while others see Me as separate from them.
-BG 9.16: It is I who am the Vedic ritual, I am the sacrifice, and I am the oblation offered to the ancestors.  I am the medicinal herb, and I am the Vedic mantra.  I am the clarified butter, I am the fire and
-BG 9.18: I am the Supreme Goal of all living beings, and I am also their Sustainer, Master, Witness, Abode, Shelter, and Friend.  I am the Origin, End, and Resting Place of creation; I am the Repository and Et
-BG 9.19: I radiate heat as the sun, and I withhold, as well as send forth rain.  I am immortality as well as death personified, O Arjun.  I am the spirit as well as matter.
-BG 9.20: Those who are inclined to the fruitive activity described in the Vedas worship Me through ritualistic sacrifices.  Being purified from sin by drinking the Soma juice, which is the remnant of the yajña
-BG 9.21: When they have enjoyed the vast pleasures of heaven, the stock of their merits being exhausted, they return to the earthly plane.  Thus, those who follow the Vedic rituals, desiring objects of enjoyme
-BG 9.22: There are those who always think of Me and engage in exclusive devotion to Me.  To them, whose minds are always absorbed in Me, I provide what they lack and preserve what they already possess.
-BG 9.23: O son of Kunti, even those devotees who faithfully worship other gods also worship Me.  But they do so by the wrong method.
-BG 9.24: I am the enjoyer and the only Lord of all sacrifices.  But those who fail to realize My divine nature must be reborn.
-BG 9.25: Worshippers of the celestial gods take birth amongst the celestial gods, worshippers of the ancestors go to the ancestors, worshippers of ghosts take birth amongst such beings, and My devotees come to
+BG 9.15: Others, engaging in the yajña of cultivating knowledge, worship Me by many methods. Some see Me as undifferentiated oneness that is non-different from them, while others see Me as separate from them. Still others worship Me in the infinite manifestations of My cosmic form.
+BG 9.16: It is I who am the Vedic ritual, I am the sacrifice, and I am the oblation offered to the ancestors. I am the medicinal herb, and I am the Vedic mantra. I am the clarified butter, I am the fire and the act of offering.
+BG 9.17: Of this universe, I am the Father; I am also the Mother, the Sustainer, and the Grandsire. I am the purifier, the goal of knowledge, the sacred syllable Om. I am the Rig Veda, Sāma Veda, and the Yajur Veda.
+BG 9.18: I am the Supreme Goal of all living beings, and I am also their Sustainer, Master, Witness, Abode, Shelter, and Friend. I am the Origin, End, and Resting Place of creation; I am the Repository and Eternal Seed.
+BG 9.19: I radiate heat as the sun, and I withhold, as well as send forth rain. I am immortality as well as death personified, O Arjun. I am the spirit as well as matter.
+BG 9.20: Those who are inclined to the fruitive activity described in the Vedas worship Me through ritualistic sacrifices. Being purified from sin by drinking the Soma juice, which is the remnant of the yajñas, they seek to go to heaven. By virtue of their pious deeds, they go to the abode of Indra, the king of heaven, and enjoy the pleasures of the celestial gods.
+BG 9.21: When they have enjoyed the vast pleasures of heaven, the stock of their merits being exhausted, they return to the earthly plane. Thus, those who follow the Vedic rituals, desiring objects of enjoyment, repeatedly come and go in this world.
+BG 9.22: There are those who always think of Me and engage in exclusive devotion to Me. To them, whose minds are always absorbed in Me, I provide what they lack and preserve what they already possess.
+BG 9.23: O son of Kunti, even those devotees who faithfully worship other gods also worship Me. But they do so by the wrong method.
+BG 9.24: I am the enjoyer and the only Lord of all sacrifices. But those who fail to realize My divine nature must be reborn.
+BG 9.25: Worshippers of the celestial gods take birth amongst the celestial gods, worshippers of the ancestors go to the ancestors, worshippers of ghosts take birth amongst such beings, and My devotees come to Me alone.
 BG 9.26: If one offers to Me with devotion a leaf, a flower, a fruit, or even water, I delightfully partake of that item offered with love by My devotee in pure consciousness.
 BG 9.27: Whatever you do, whatever you eat, whatever you offer as oblation to the sacred fire, whatever you bestow as a gift, and whatever austerities you perform, O son of Kunti, do them as an offering to Me.
-BG 9.28: By dedicating all your works to Me, you will be freed from the bondage of good and bad results.  With your mind attached to Me through renunciation, you will be liberated and will reach Me.
-BG 9.29: I am equally disposed to all living beings; I am neither inimical nor partial to anyone.  But the devotees who worship Me with love reside in Me and I reside in them.
-BG 9.30: Even if the vilest sinners worship Me with exclusive devotion, they are to be considered righteous because they have made the proper resolve.
-BG 9.31: Quickly they become virtuous, and attain lasting peace.  O son of Kunti, declare it boldly that no devotee of Mine is ever lost.
+BG 9.28: By dedicating all your works to Me, you will be freed from the bondage of good and bad results. With your mind attached to Me through renunciation, you will be liberated and will reach Me.
+BG 9.29: I am equally disposed to all living beings; I am neither inimical nor partial to anyone. But the devotees who worship Me with love reside in Me and I reside in them.
+BG 9.30: Even if the vilest sinners worship Me with exclusive devotion, they are to be considered righteous, for they have made the proper resolve.
+BG 9.31: Quickly they become virtuous, and attain lasting peace. O son of Kunti, declare it boldly that no devotee of Mine is ever lost.
 BG 9.32: All those who take refuge in Me, whatever their birth, race, gender, or caste, even those whom society scorns, will attain the supreme destination.
-BG 9.33: What then to speak about kings and sages with meritorious deeds?  Therefore, having come to this transient and joyless world, engage in devotion unto Me.
-BG 9.34: Always think of Me, be devoted to Me, worship Me, and offer obeisance to Me.  Having dedicated your mind and body to Me, you will certainly come to Me.
-
+BG 9.33: What then to speak about kings and sages with meritorious deeds? Therefore, having come to this transient and joyless world, engage in devotion unto Me.
+BG 9.34: Always think of Me, be devoted to Me, worship Me, and offer obeisance to Me. Having dedicated your mind and body to Me, you will certainly come to Me.
 BG 10.1: The Lord said: Listen again to My divine teachings, O mighty armed one. Desiring your welfare because you are My beloved friend, I shall reveal them to you.
 BG 10.2: Neither celestial gods nor the great sages know of My origin. I am the source from which the gods and great seers come.
 BG 10.3: Those who know Me as unborn and beginningless, and as the Supreme Lord of the universe, they among mortals are free from illusion and released from all evils.
@@ -390,7 +409,6 @@ BG 10.39: I am the generating seed of all living beings, O Arjun. No creature mo
 BG 10.40: There is no end to My divine manifestations, O conqueror of enemies. What I have declared to you is a mere sample of My infinite glories.
 BG 10.41: Whatever you see as beautiful, glorious, or powerful, know it to spring from but a spark of My splendor.
 BG 10.42: What need is there for all this detailed knowledge, O Arjun? Simply know that by one fraction of My being, I pervade and support this entire creation.
-
 BG 11.1: Arjun said: Having heard the supremely confidential spiritual knowledge, which You have revealed out of compassion for me, my illusion is now dispelled.
 BG 11.2: I have heard from You in detail about the appearance and disappearance of all living beings, O Lotus-eyed One, and also about Your eternal magnificence.
 BG 11.3: O Supreme Lord, You are precisely what You declare yourself to be. Now I desire to see Your divine cosmic form, O Greatest of persons.
@@ -441,7 +459,6 @@ BG 11.51: Arjun said: O Shree Krishna, seeing Your gentle human form (two-armed)
 BG 11.52: The Supreme Lord said: This form of Mine that you are seeing is exceedingly difficult to behold. Even the celestial gods are eager to see it. Neither by the study of the Vedas, nor by penance, charity
 BG 11.54: O Arjun, by unalloyed devotion alone can I be known as I am, standing before you. Thereby, on receiving My divine vision, O scorcher of foes, one can enter into union with Me.
 BG 11.55: Those who perform all their duties for My sake, who depend upon Me and are devoted to Me, who are free from attachment, and are without malice toward all beings, such devotees certainly come to Me.
-
 BG 12.1: Arjun inquired: Between those who are steadfastly devoted to Your personal form and those who worship the formless Brahman, whom do You consider to be more perfect in Yog?
 BG 12.2: The Lord said: Those who fix their minds on Me and always engage in My devotion with steadfast faith, I consider them to be the best yogis.
 BG 12.3: But those who worship the formless aspect of the Absolute Truth—the imperishable, the indefinable, the unmanifest, the all-pervading, the unthinkable, the unchanging, the eternal, and the immoveable—b
@@ -458,7 +475,6 @@ BG 12.16: Those who are indifferent to worldly gains, externally and internally 
 BG 12.17: Those who neither rejoice in mundane pleasures nor despair in worldly sorrows, who neither lament for any loss nor hanker for any gain, who renounce both good and evil deeds, such persons who are full
 BG 12.18: Those, who are alike to friend and foe, equipoised in honor and dishonor, cold and heat, joy and sorrow, and are free from all unfavorable association; those who take praise and reproach alike, who ar
 BG 12.20: Those who honor this nectar of wisdom declared here, have faith in Me, and are devoted and intent on Me as the supreme goal, they are exceedingly dear to Me.
-
 BG 13.1: Arjun said, “O Keshav, I wish to understand what are prakṛiti and puruṣh, and what are kṣhetra and kṣhetrajña? I also wish to know what is true knowledge, and what is the goal of this knowledge?
 BG 13.2: The Supreme Divine Lord said: O Arjun, this body is termed as kṣhetra (the field of activities), and the one who knows this body is called kṣhetrajña (the knower of the field) by the sages who discern
 BG 13.3: O scion of Bharat, I am also the knower of all the individual fields of activity.  The understanding of the body as the field of activities, and the soul and God as the knowers of the field, this I ho
@@ -490,7 +506,6 @@ BG 13.32: The Supreme Soul is imperishable, without beginning, and devoid of any
 BG 13.33: Space holds everything within it, but being subtle, does not get contaminated by what it holds.  Similarly, though its consciousness pervades the body, the soul is not affected by the attributes of th
 BG 13.34: Just as one sun illumines the entire solar system, so does the individual soul illumine the entire body (with consciousness).
 BG 13.35: Those who perceive with the eyes of knowledge the difference between the body and the knower of the body, and the process of release from material nature, attain the supreme destination.
-
 BG 14.1: The Divine Lord said: I shall once again explain to you the supreme wisdom, the best of all knowledge; by knowing which, all the great saints attained the highest perfection.
 BG 14.2: Those who take refuge in this wisdom will be united with Me. They will not be reborn at the time of creation nor destroyed at the time of dissolution.
 BG 14.3: The total material substance, prakṛiti, is the womb. I impregnate it with the individual souls, and thus all living beings are born. O son of Kunti, for all species of life that are produced, the mate
@@ -512,7 +527,6 @@ BG 14.22: The Supreme Divine Personality said: O Arjun, The persons who are tran
 BG 14.24: Those who are alike in happiness and distress; who are established in the self; who look upon a clod, a stone, and a piece of gold as of equal value; who remain the same amidst pleasant and unpleasant
 BG 14.26: Those who serve Me with unalloyed devotion rise above the three modes of material nature and come to the level of the Brahman.
 BG 14.27: I am the basis of the formless Brahman, the immortal and imperishable, of eternal dharma, and of unending divine bliss.
-
 BG 15.1: The Supreme Divine Personality said: They speak of an eternal aśhvatth tree with its roots above and branches below.  Its leaves are the Vedic hymns, and one who knows the secret of this tree is the k
 BG 15.2: The branches of the tree extend upward and downward, nourished by the three guṇas, with the objects of the senses as tender buds.  The roots of the tree hang downward, causing the flow of karma in the
 BG 15.3: The real form of this tree is not perceived in this world, neither its beginning nor end, nor its continued existence.  But this deep-rooted aśhvatth tree must be cut down with a strong axe of detachm
@@ -532,7 +546,6 @@ BG 15.17: Besides these, is the Supreme Divine Personality, who is the indestruc
 BG 15.18: I am transcendental to the perishable world of matter, and even to the imperishable soul; hence I am celebrated, both in the Vedas and the Smṛitis, as the Supreme Divine Personality.
 BG 15.19: Those who know Me without doubt as the Supreme Divine Personality truly have complete knowledge.  O Arjun, they worship Me with their whole being.
 BG 15.20: I have shared this most secret principle of the Vedic scriptures with you, O sinless Arjun.  By understanding this, a person becomes enlightened, and fulfills all that is to be accomplished.
-
 BG 16.1: The Supreme Divine Personality said: O scion of Bharat, these are the saintly virtues of those endowed with a divine nature—fearlessness, purity of mind, steadfastness in spiritual knowledge, charity,
 BG 16.4: O Parth, the qualities of those who possess a demoniac nature are hypocrisy, arrogance, conceit, anger, harshness, and ignorance.
 BG 16.5: The divine qualities lead to liberation, while the demoniac qualities are the cause for a continuing destiny of bondage. Grieve not, O Arjun, as you were born with saintly virtues.
@@ -552,7 +565,6 @@ BG 16.21: There are three gates leading to the hell of self-destruction for the 
 BG 16.22: Those who are free from the three gates to darkness endeavor for the welfare of their soul, and thereby attain the supreme goal.
 BG 16.23: Those who act under the impulse of desire, discarding the injunctions of the scriptures, attain neither perfection, nor happiness, nor the supreme goal in life.
 BG 16.24: Therefore, let the scriptures be your authority in determining what should be done and what should not be done. Understand the scriptural injunctions and teachings, and then perform your actions in th
-
 BG 17.1: Arjun said: O Krishna, where do they stand who disregard the injunctions of the scriptures, but still worship with faith? Is their faith in the mode of goodness, passion, or ignorance?
 BG 17.2: The Supreme Divine Personality said: Every human being is born with innate faith, which can be of three kinds—sāttvic, rājasic, or tāmasic. Now hear about this from Me.
 BG 17.3: The faith of all humans conforms to the nature of their mind. All people possess faith, and whatever the nature of their faith, that is verily what they are.
@@ -579,7 +591,6 @@ BG 17.24: Therefore, when performing acts of sacrifice, offering charity, or und
 BG 17.25: Persons who do not desire fruitive rewards, but seek to be free from material entanglements, utter the word “Tat” along with acts of austerity, sacrifice, and charity.
 BG 17.26: The word “Sat” means eternal existence and goodness. O Arjun, it is also used to describe an auspicious action. Being established in the performance of sacrifice, penance, and charity, is also describ
 BG 17.28: O son of Pritha, whatever acts of sacrifice, charity, or penance are done without faith, are termed as “Asat.” They are useless both in this world and the next.
-
 BG 18.1: Arjun said: O mighty-armed Krishna, I wish to understand the nature of sanyās (renunciation of actions) and tyāg (renunciation of desire for the fruits of actions). O Hrishikesh, I also wish to know t
 BG 18.2: The Supreme Divine Personality said: Giving up of actions motivated by desire is what the learned understand as sanyās. Relinquishing the fruits of all actions is what the wise declare to be tyāg.
 BG 18.3: Some learned people declare that all kinds of actions should be given up as evil, while others maintain that acts of sacrifice, charity, and penance should never be abandoned.
@@ -643,15 +654,15 @@ BG 18.63: Thus, I have explained to you this knowledge that is more secret than 
 BG 18.64: Hear again My supreme instruction, the most confidential of all knowledge. I am revealing this for your benefit because you are very dear to Me.
 BG 18.65: Always think of Me, be devoted to Me, worship Me, and offer obeisance to Me. Doing so, you will certainly come to Me. This is My pledge to you, for you are very dear to Me.
 BG 18.66: Abandon all varieties of dharmas and simply surrender unto Me alone. I shall liberate you from all sinful reactions; do not fear.
-BG 18.67: This instruction should never be explained to those who are not austere or to those who are not devoted. It should also not be spoken to those who are averse to listening (to spiritual topics), and es
+BG 18.67: This instruction should never be explained to those who are not austere or to those who are not devoted. It should also not be spoken to those who are averse to listening (to spiritual topics), and especially not to those who are envious of Me.
 BG 18.68: Amongst My devotees, those who teach this most confidential knowledge perform the greatest act of love. They will come to Me, without doubt.
 BG 18.69: No human being does more loving service to Me than they; nor shall there ever be anyone on this earth more dear to Me.
 BG 18.70: And I proclaim that those who study this sacred dialogue of ours will worship Me (with their intellect) through the sacrifice of knowledge; such is My view.
 BG 18.71: Even those who only listen to this knowledge with faith and without envy will be liberated from sins and attain the auspicious abodes where the pious dwell.
 BG 18.72: O Arjun, have you heard Me with a concentrated mind? Have your ignorance and delusion been destroyed?
 BG 18.73: Arjun said: O Infallible One, by Your grace my illusion has been dispelled, and I am situated in knowledge. I am now free from doubts, and I shall act according to Your instructions.
-BG 18.74: Sanjay said: Thus, have I heard this wonderful conversation between Shree Krishna, the Son of Vasudev, and Arjun, the noble-hearted son of Pritha. So thrilling is the message that my hair is standing
+BG 18.74: Sanjay said: Thus, have I heard this wonderful conversation between Shree Krishna, the Son of Vasudev, and Arjun, the noble-hearted son of Pritha. So thrilling is the message that my hair is standing on end.
 BG 18.75: By the grace of Veda Vyas, I have heard this supreme and most secret Yog from the Lord of Yog, Shree Krishna Himself.
 BG 18.76: As I repeatedly recall this astonishing and wonderful dialogue between the Supreme Lord Shree Krishna and Arjun, O King, I rejoice again and again.
 BG 18.77: And remembering that most astonishing and wonderful cosmic form of Lord Krishna, great is my astonishment, and I am thrilled with joy over and over again.
-BG 18.78: Wherever there is Shree Krishna, the Lord of all Yog, and wherever there is Arjun, the supreme archer, there will also certainly be unending opulence, victory, prosperity, and righteousness. Of this,
+BG 18.78: Wherever there is Shree Krishna, the Lord of all Yog, and wherever there is Arjun, the supreme archer, there will also certainly be unending opulence, victory, prosperity, and righteousness. Of this, I am certain.
