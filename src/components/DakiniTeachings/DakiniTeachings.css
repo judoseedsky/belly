@@ -32,6 +32,34 @@
   font-size: 1.1rem;
 }
 
+.dakini-text .scroll-title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #3d2815 !important;
+  padding: 0;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 3rem;
+}
+
+.dakini-text .scroll-subtitle {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+  text-indent: 0;
+  color: #5a4030;
+}
+
+.dakini-text .scroll-attribution {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  text-indent: 0;
+  color: #5a4030;
+}
+
 .teaching-content {
   margin-top: 2rem;
 }
@@ -55,17 +83,105 @@
   opacity: 0.8;
 }
 
+/* Chapter navigation - bottom bar like Gita */
+.dakini-page .chapter-nav {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  gap: 0;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dakini-page .chapter-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  transition: background 0.2s;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dakini-page .chapter-nav a:last-of-type {
+  border-right: none;
+}
+
+.dakini-page .chapter-nav a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.dakini-page .chapter-nav a.active {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.dakini-page .ch-num {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.dakini-page .ch-name {
+  font-size: 0.6rem;
+  opacity: 0.8;
+  margin-top: 0.2rem;
+  white-space: nowrap;
+}
+
+.dakini-page .nav-search-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+
+.dakini-page .nav-search-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Chapter section */
+.dakini-text .chapter-section h2 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  cursor: default;
+  color: #3d2815;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 1.5rem;
+}
+
 /* Mobile responsiveness */
 @media only screen and (max-width: 600px) {
   .dakini-text {
     padding: 2rem 1.5rem;
   }
 
-  .chapter-nav.expanded a {
+  .dakini-page .chapter-nav a {
     padding: 0.4rem 0.5rem;
   }
 
-  .ch-name {
-    font-size: 0.55rem;
+  .dakini-page .ch-name {
+    font-size: 0.5rem;
+  }
+
+  .dakini-page .ch-num {
+    font-size: 0.85rem;
   }
 }

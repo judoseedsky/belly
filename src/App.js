@@ -27,8 +27,8 @@ function AppContent({ playing, toggleMusic, stopMusic }) {
   const location = useLocation()
   const hideBellyPages = ['/texts', '/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light', '/gospel-of-philip', '/bhagavad-gita', '/dakini-teachings']
   const hideMusicPages = ['/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light', '/gospel-of-philip', '/bhagavad-gita', '/dakini-teachings']
-  const hideBelly = hideBellyPages.includes(location.pathname)
-  const hideMusic = hideMusicPages.includes(location.pathname)
+  const hideBelly = hideBellyPages.some(p => location.pathname.startsWith(p))
+  const hideMusic = hideMusicPages.some(p => location.pathname.startsWith(p))
 
   // Stop music when entering a book page
   useEffect(() => {
@@ -59,6 +59,7 @@ function AppContent({ playing, toggleMusic, stopMusic }) {
           <Route path="/gospel-of-philip" element={<GospelOfPhilip />} />
           <Route path="/bhagavad-gita" element={<BhagavadGita />} />
           <Route path="/dakini-teachings" element={<DakiniTeachings />} />
+          <Route path="/dakini-teachings/:chapter" element={<DakiniTeachings />} />
         </Routes>
       </Suspense>
       {!hideBelly && <img src={belly} id="belly" alt=""/>}

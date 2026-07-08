@@ -1,19 +1,18 @@
 import './DakiniTeachings.css';
-import { Link } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 
 const chapters = [
-  { id: 'first', name: 'First of All', subtitle: 'The Teachings of Ascending with the Conduct' },
-  { id: 'refuge', name: 'Taking Refuge', subtitle: 'The Basis for All Dharma Practice' },
-  { id: 'foundations', name: 'The Ten Foundations', subtitle: 'Essential Points of Vajrayana' },
-  { id: 'vajramaster', name: 'The Vajra Master', subtitle: 'On the Guru and Personal Deity' },
-  { id: 'mindtraining', name: 'Mind Training', subtitle: 'Vajrayana Mind Training' },
-  { id: 'essence', name: 'Refined Essence', subtitle: 'Final Oral Instructions' },
+  { id: 'first', num: 1, name: 'First of All', shortName: 'First' },
+  { id: 'refuge', num: 2, name: 'Taking Refuge', shortName: 'Refuge' },
+  { id: 'foundations', num: 3, name: 'The Ten Foundations', shortName: 'Foundations' },
+  { id: 'vajramaster', num: 4, name: 'The Vajra Master', shortName: 'Master' },
+  { id: 'mindtraining', num: 5, name: 'Mind Training', shortName: 'Training' },
+  { id: 'essence', num: 6, name: 'Refined Essence', shortName: 'Essence' },
 ];
 
 // Format text to highlight speaker names
 const formatText = (text) => {
-  // Highlight "Master Padma said:" and similar
   const speakerMatch = text.match(/^((?:Master Padma|The master|The great master|The nirmanakaya master|Lady Tsogyal)\s+(?:said|asked|replied):?\s*)/i);
   if (speakerMatch) {
     const attribution = speakerMatch[1];
@@ -28,17 +27,41 @@ const formatText = (text) => {
 };
 
 function DakiniTeachings() {
+  const { chapter } = useParams();
+  const navigate = useNavigate();
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-  const [content, setContent] = useState('');
-  const [currentChapter, setCurrentChapter] = useState('first');
+  const [parsedChapters, setParsedChapters] = useState({});
   const contentRef = useRef(null);
+
+  // Default to chapter 1 if no chapter specified
+  const currentChapter = chapter ? parseInt(chapter) : 1;
+
+  // Redirect to chapter 1 if no chapter in URL
+  useEffect(() => {
+    if (!chapter) {
+      navigate('/dakini-teachings/1', { replace: true });
+    }
+  }, [chapter, navigate]);
 
   useEffect(() => {
     fetch('/texts/dakini_teachings.txt')
       .then(res => res.text())
-      .then(text => setContent(text));
+      .then(text => {
+        // Split content by chapter markers
+        const chapterMap = {};
+        const parts = text.split(/===CHAPTER:(\w+)===/);
+
+        // parts will be: ['', 'first', 'content...', 'refuge', 'content...', ...]
+        for (let i = 1; i < parts.length; i += 2) {
+          const chapterId = parts[i];
+          const chapterContent = parts[i + 1] || '';
+          chapterMap[chapterId] = chapterContent.trim();
+        }
+
+        setParsedChapters(chapterMap);
+      });
   }, []);
 
   const handleSearch = (query) => {
@@ -70,10 +93,14 @@ function DakiniTeachings() {
     }
   };
 
-  // Parse content into paragraphs - join lines and split on "Master Padma said:" patterns
-  const processedContent = content
-    .replace(/\n(?!\n)/g, ' ')  // Join single newlines
-    .replace(/\s+/g, ' ')       // Normalize whitespace
+  // Get current chapter info and content
+  const currentChapterInfo = chapters[currentChapter - 1];
+  const currentContent = parsedChapters[currentChapterInfo?.id] || '';
+
+  // Process content into paragraphs
+  const processedContent = currentContent
+    .replace(/\n(?!\n)/g, ' ')
+    .replace(/\s+/g, ' ')
     .replace(/(Master Padma said:|The master said:|The great master said:|Lady Tsogyal asked:|The master replied:|The nirmanakaya master said:)/gi, '\n\n$1')
     .trim();
 
@@ -98,18 +125,14 @@ function DakiniTeachings() {
 
         <nav className="chapter-nav expanded">
           {chapters.map((ch) => (
-            <a
+            <Link
               key={ch.id}
-              href={`#${ch.id}`}
-              className={currentChapter === ch.id ? 'active' : ''}
-              onClick={(e) => {
-                e.preventDefault();
-                setCurrentChapter(ch.id);
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
+              to={`/dakini-teachings/${ch.num}`}
+              className={currentChapter === ch.num ? 'active' : ''}
             >
-              <span className="ch-name">{ch.name}</span>
-            </a>
+              <span className="ch-num">{ch.num}</span>
+              <span className="ch-name">{ch.shortName}</span>
+            </Link>
           ))}
           <button
             className="nav-search-btn"
@@ -130,13 +153,17 @@ function DakiniTeachings() {
             <p className="scroll-subtitle">Padmasambhava's Oral Instructions to Lady Tsogyal</p>
             <p className="scroll-attribution">Translated by Erik Pema Kunsang</p>
 
-            <div className="teaching-content">
-              {paragraphs.map((para, idx) => (
-                <p key={idx} className="teaching-para">
-                  {formatText(para.trim())}
-                </p>
-              ))}
-            </div>
+            <section className="chapter-section">
+              <h2>Chapter {currentChapter}: {currentChapterInfo?.name}</h2>
+
+              <div className="teaching-content">
+                {paragraphs.map((para, idx) => (
+                  <p key={idx} className="teaching-para">
+                    {formatText(para.trim())}
+                  </p>
+                ))}
+              </div>
+            </section>
 
             <p className="dakini-ending">Thus were the Dakini Teachings concealed as treasure.</p>
           </div>
