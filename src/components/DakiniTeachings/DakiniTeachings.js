@@ -9,6 +9,7 @@ const chapters = [
   { id: 'vajramaster', num: 4, name: 'The Vajra Master', shortName: 'Master' },
   { id: 'mindtraining', num: 5, name: 'Mind Training', shortName: 'Training' },
   { id: 'essence', num: 6, name: 'Refined Essence', shortName: 'Essence' },
+  { id: 'glossary', num: 7, name: 'Glossary', shortName: 'Glossary' },
 ];
 
 // Format text to highlight speaker names
