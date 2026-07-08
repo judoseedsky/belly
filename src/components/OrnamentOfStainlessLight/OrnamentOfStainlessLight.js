@@ -2,14 +2,37 @@ import './OrnamentOfStainlessLight.css';
 import { Link } from 'react-router-dom';
 import { useState, useEffect, useMemo, useRef } from 'react';
 
-// Tooltip component for hover display
+// Tooltip component for hover display (with touch support)
 function Tooltip({ children, content, type }) {
   const [show, setShow] = useState(false);
+  const wrapperRef = useRef(null);
+
+  // Close tooltip when clicking outside
+  useEffect(() => {
+    if (!show) return;
+    const handleClickOutside = (e) => {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target)) {
+        setShow(false);
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+    };
+  }, [show]);
+
   return (
     <span
+      ref={wrapperRef}
       className={`tooltip-wrapper tooltip-${type}`}
       onMouseEnter={() => setShow(true)}
       onMouseLeave={() => setShow(false)}
+      onClick={(e) => {
+        e.stopPropagation();
+        setShow(!show);
+      }}
     >
       {children}
       {show && content && (
@@ -33,6 +56,7 @@ function OrnamentOfStainlessLight() {
   const [glossaryLookup, setGlossaryLookup] = useState({});
   const [searchOpen, setSearchOpen] = useState(false);
   const [activeSearchResult, setActiveSearchResult] = useState(null);
+  const [allContent, setAllContent] = useState({}); // All sections content for search
   const scrollContainerRef = useRef(null);
 
   const toggleNoteSection = (idx) => {
@@ -45,67 +69,91 @@ function OrnamentOfStainlessLight() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
 
-  const handleSearch = (query) => {
+  // Load all sections content for search
+  const loadAllContent = async () => {
+    if (Object.keys(allContent).length > 0) return allContent;
+    const contentMap = {};
+    await Promise.all(sections.map(async (section) => {
+      try {
+        const response = await fetch(`/texts/${section.file}`);
+        contentMap[section.id] = await response.text();
+      } catch (err) {
+        contentMap[section.id] = '';
+      }
+    }));
+    setAllContent(contentMap);
+    return contentMap;
+  };
+
+  const handleSearch = async (query) => {
     setSearchQuery(query);
     if (query.length < 2) {
       setSearchResults([]);
       return;
     }
-    // Find matches in current content with chapter context
-    const regex = new RegExp(query, 'gi');
+
+    // Load all content if not already loaded
+    const contentToSearch = Object.keys(allContent).length > 0 ? allContent : await loadAllContent();
+
     const matches = [];
-    let match;
 
-    // Split content into chapters to track which chapter each match is in
-    const parts = content.split('\n---\n');
-    let cumulativeIndex = 0;
+    // Search across all sections
+    sections.forEach((section) => {
+      const sectionContent = contentToSearch[section.id] || '';
+      const parts = sectionContent.split('\n---\n');
 
-    parts.forEach((part, chapterIdx) => {
-      const chapterMatch = part.match(/^## (.+)\n/);
-      const chapterTitle = chapterMatch ? chapterMatch[1].trim() : null;
+      parts.forEach((part, chapterIdx) => {
+        const chapterMatch = part.match(/^## (.+)\n/);
+        const chapterTitle = chapterMatch ? chapterMatch[1].trim() : null;
 
-      let partMatch;
-      const partRegex = new RegExp(query, 'gi');
-      while ((partMatch = partRegex.exec(part)) !== null) {
-        const globalIndex = cumulativeIndex + partMatch.index;
-        const start = Math.max(0, partMatch.index - 40);
-        const end = Math.min(part.length, partMatch.index + query.length + 40);
-        matches.push({
-          text: part.slice(start, end),
-          index: globalIndex,
-          chapterIdx,
-          chapterTitle,
-          matchText: partMatch[0]
-        });
-        if (matches.length >= 30) break;
-      }
-      cumulativeIndex += part.length + 5; // +5 for '\n---\n'
-      if (matches.length >= 30) return;
+        const partRegex = new RegExp(query, 'gi');
+        let partMatch;
+        while ((partMatch = partRegex.exec(part)) !== null) {
+          const start = Math.max(0, partMatch.index - 40);
+          const end = Math.min(part.length, partMatch.index + query.length + 40);
+          matches.push({
+            text: part.slice(start, end),
+            sectionId: section.id,
+            sectionName: section.name,
+            chapterIdx,
+            chapterTitle,
+            matchText: partMatch[0]
+          });
+          if (matches.length >= 50) break;
+        }
+        if (matches.length >= 50) return;
+      });
+      if (matches.length >= 50) return;
     });
 
     setSearchResults(matches);
   };
 
   const navigateToResult = (result) => {
+    // Switch to the correct section if needed
+    if (result.sectionId && result.sectionId !== currentSection) {
+      setCurrentSection(result.sectionId);
+    }
+
     // Expand the chapter containing the match
     setExpandedChapters(prev => ({
       ...prev,
       [result.chapterIdx]: true
     }));
 
-    // Set active search result to highlight
-    setActiveSearchResult(result.index);
+    // Store the search query for highlighting after section loads
+    setActiveSearchResult(result.matchText);
 
     // Close search panel
     setSearchOpen(false);
 
-    // Scroll to the match after a short delay (to allow chapter to expand)
+    // Scroll to the match after a delay (to allow section/chapter to load)
     setTimeout(() => {
       const highlights = document.querySelectorAll('mark.search-highlight');
       if (highlights.length > 0) {
         highlights[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-    }, 100);
+    }, 300);
   };
 
   const toggleGlossary = (idx) => {
@@ -589,9 +637,9 @@ function OrnamentOfStainlessLight() {
                         className="search-result-item"
                         onClick={() => navigateToResult(result)}
                       >
-                        {result.chapterTitle && (
-                          <span className="search-result-chapter">{result.chapterTitle}</span>
-                        )}
+                        <span className="search-result-section">
+                          {result.sectionName}{result.chapterTitle ? ` › ${result.chapterTitle}` : ''}
+                        </span>
                         <span className="search-result-text">
                           ...{result.text.replace(/\n/g, ' ').replace(/[#*_>@%]/g, '')}...
                         </span>

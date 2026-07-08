@@ -135,31 +135,45 @@ function DakiniTeachings() {
 
   const handleSearch = (query) => {
     setSearchQuery(query);
-    if (query.length < 2 || !contentRef.current) {
+    if (query.length < 2) {
       setSearchResults([]);
       return;
     }
-    const textContent = contentRef.current.innerText;
-    const regex = new RegExp(query, 'gi');
+
     const matches = [];
-    let match;
-    while ((match = regex.exec(textContent)) !== null) {
-      const start = Math.max(0, match.index - 40);
-      const end = Math.min(textContent.length, match.index + query.length + 40);
-      matches.push({
-        text: textContent.slice(start, end),
-        index: match.index
-      });
-      if (matches.length >= 20) break;
-    }
+    // Search across all chapters
+    chapters.forEach((ch) => {
+      const chapterContent = parsedChapters[ch.id] || '';
+      const regex = new RegExp(query, 'gi');
+      let match;
+      while ((match = regex.exec(chapterContent)) !== null) {
+        const start = Math.max(0, match.index - 40);
+        const end = Math.min(chapterContent.length, match.index + query.length + 40);
+        matches.push({
+          text: chapterContent.slice(start, end),
+          chapterNum: ch.num,
+          chapterName: ch.name,
+          matchText: match[0]
+        });
+        if (matches.length >= 30) break;
+      }
+      if (matches.length >= 30) return;
+    });
     setSearchResults(matches);
   };
 
   const navigateToResult = (result) => {
-    setSearchOpen(false);
-    if (window.find) {
-      window.find(searchQuery, false, false, true);
+    // Navigate to the correct chapter
+    if (result.chapterNum !== currentChapter) {
+      navigate(`/dakini-teachings/${result.chapterNum}`);
     }
+    setSearchOpen(false);
+    // Use window.find after a delay to allow navigation
+    setTimeout(() => {
+      if (window.find) {
+        window.find(result.matchText, false, false, true);
+      }
+    }, 100);
   };
 
   // Get current chapter info and content
@@ -299,6 +313,7 @@ function DakiniTeachings() {
                         className="search-result-item"
                         onClick={() => navigateToResult(result)}
                       >
+                        <span className="search-result-chapter">Ch. {result.chapterNum}: {result.chapterName}</span>
                         <span className="search-result-text">...{result.text}...</span>
                       </div>
                     ))}

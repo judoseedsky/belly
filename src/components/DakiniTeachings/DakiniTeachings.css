@@ -270,6 +270,14 @@
   background: rgba(60, 40, 20, 0.1);
 }
 
+.search-result-chapter {
+  display: block;
+  font-size: 0.75rem;
+  color: #8b4513;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
 .search-result-text {
   display: block;
   font-size: 0.9rem;
