@@ -72,7 +72,9 @@ function OrnamentOfStainlessLight() {
 
   // Load all sections content for search and build note source map
   const loadAllContent = async () => {
-    if (Object.keys(allContent).length > 0) return allContent;
+    if (Object.keys(allContent).length > 0) {
+      return { content: allContent, noteMap: noteSourceMap };
+    }
     const contentMap = {};
     const noteMap = {};
     await Promise.all(sections.map(async (section) => {
@@ -95,41 +97,45 @@ function OrnamentOfStainlessLight() {
     }));
     setAllContent(contentMap);
     setNoteSourceMap(noteMap);
-    return contentMap;
+    return { content: contentMap, noteMap };
   };
 
   // Navigate to a note reference in the text
   const navigateToNoteInText = async (noteNum) => {
     // Load all content if needed to get note source map
+    // Use returned noteMap directly since state updates are async
+    let sourceMap = noteSourceMap;
     if (Object.keys(noteSourceMap).length === 0) {
-      await loadAllContent();
+      const { noteMap } = await loadAllContent();
+      sourceMap = noteMap;
     }
 
-    const sourceSection = noteSourceMap[noteNum];
+    const sourceSection = sourceMap[noteNum];
     if (sourceSection) {
       // Switch to the section containing the note
       setCurrentSection(sourceSection);
       setHighlightNoteNum(noteNum);
 
-      // After section loads, scroll to the note reference
+      // Expand all chapters first so the note reference is rendered
+      // We need to do this before we can find the element
       setTimeout(() => {
-        const noteRef = document.querySelector(`sup.note-ref[data-note="${noteNum}"]`);
-        if (noteRef) {
-          // Expand all collapsed chapters to make sure the note is visible
-          const chapters = document.querySelectorAll('.chapter-header');
-          chapters.forEach((ch, idx) => {
-            const content = ch.nextElementSibling;
-            if (content && content.contains(noteRef)) {
-              setExpandedChapters(prev => ({ ...prev, [idx]: true }));
-            }
-          });
+        // Expand all chapters by setting all possible indices to true
+        // We use a range of indices since parseChapters() may have non-chapter content mixed in
+        const expandAll = {};
+        for (let i = 0; i < 100; i++) {
+          expandAll[i] = true;
+        }
+        setExpandedChapters(expandAll);
 
-          setTimeout(() => {
+        // After chapters expand, find and scroll to the note
+        setTimeout(() => {
+          const noteRef = document.querySelector(`sup.note-ref[data-note="${noteNum}"]`);
+          if (noteRef) {
             noteRef.scrollIntoView({ behavior: 'smooth', block: 'center' });
             // Clear highlight after animation
             setTimeout(() => setHighlightNoteNum(null), 3000);
-          }, 100);
-        }
+          }
+        }, 300);
       }, 300);
     }
   };
@@ -142,7 +148,10 @@ function OrnamentOfStainlessLight() {
     }
 
     // Load all content if not already loaded
-    const contentToSearch = Object.keys(allContent).length > 0 ? allContent : await loadAllContent();
+    const { content: loadedContent } = Object.keys(allContent).length > 0
+      ? { content: allContent }
+      : await loadAllContent();
+    const contentToSearch = loadedContent;
 
     const matches = [];
 
@@ -184,24 +193,38 @@ function OrnamentOfStainlessLight() {
       setCurrentSection(result.sectionId);
     }
 
-    // Expand the chapter containing the match
-    setExpandedChapters(prev => ({
-      ...prev,
-      [result.chapterIdx]: true
-    }));
-
     // Store the search query for highlighting after section loads
     setActiveSearchResult(result.matchText);
 
     // Close search panel
     setSearchOpen(false);
 
-    // Scroll to the match after a delay (to allow section/chapter to load)
+    // Wait for section to load, then expand all sections
     setTimeout(() => {
-      const highlights = document.querySelectorAll('mark.search-highlight');
-      if (highlights.length > 0) {
-        highlights[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // Expand ALL chapters by setting all possible indices to true
+      const expandAll = {};
+      for (let i = 0; i < 100; i++) {
+        expandAll[i] = true;
       }
+      setExpandedChapters(expandAll);
+
+      // Also expand note sections if navigating to Notes
+      if (result.sectionId === 'notes') {
+        setExpandedNoteSections(expandAll);
+      }
+
+      // Also expand glossary entries if navigating to Glossary
+      if (result.sectionId === 'glossary') {
+        setExpandedGlossary(expandAll);
+      }
+
+      // After sections expand, scroll to the highlight
+      setTimeout(() => {
+        const highlights = document.querySelectorAll('mark.search-highlight');
+        if (highlights.length > 0) {
+          highlights[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }, 300);
     }, 300);
   };
 
@@ -466,7 +489,7 @@ function OrnamentOfStainlessLight() {
           return (
             <div key={idx} className={`glossary-entry ${isExpanded ? 'expanded' : ''}`}>
               <dt onClick={() => toggleGlossary(idx)}>
-                {termMatch[1]}
+                {highlightSearch(termMatch[1])}
                 <span className="glossary-toggle">{isExpanded ? '−' : '+'}</span>
               </dt>
               {isExpanded && <dd>{renderText(termMatch[2])}</dd>}
@@ -551,7 +574,7 @@ function OrnamentOfStainlessLight() {
         return (
           <div key={idx} className="note-section">
             <h3 onClick={() => toggleNoteSection(idx)} style={{ cursor: 'pointer' }}>
-              <span>{section.title || 'Notes'}</span>
+              <span>{highlightSearch(section.title || 'Notes')}</span>
               <span style={{ float: 'right', fontSize: '0.8em' }}>{isExpanded ? '▲' : '▼'}</span>
             </h3>
             {isExpanded && (
