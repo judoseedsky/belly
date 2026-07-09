@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from 'react-router-dom';
-import ell from "../../files/elella.pdf"
+// El Ella now rendered on-page instead of PDF
 import './books.css';
 import dakini from "../../files/dakini.pdf"
 // import sky from "../../img/sky.png"
@@ -53,7 +53,7 @@ const Books = () => {
                     </li> */}
                     <h1>Misc</h1>
                     <li>
-                        <a href={ell}>El Ella Book of Magic Love</a>
+                        <Link to="/el-ella">El Ella Book of Magic Love</Link>
                     </li>
                 </ul>
 

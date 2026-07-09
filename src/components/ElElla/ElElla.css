@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+/* Wrapper */
+.elella-page-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.elella-page-wrapper * {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.elella-page-wrapper .page-content {
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elella-page-wrapper .hymn-page {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.elella-page-wrapper .scroll-container {
+  position: relative;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.elella-page-wrapper .scroll-top,
+.elella-page-wrapper .scroll-bottom {
+  height: 30px;
+  background: linear-gradient(to bottom,
+    #8b7355 0%,
+    #c4a882 10%,
+    #e8d4b8 25%,
+    #f5ead8 40%,
+    #f4e4c1 50%,
+    #e8d4b0 60%,
+    #d4c4a0 75%,
+    #b8a080 90%,
+    #9a8060 100%
+  );
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.4),
+    inset 0 2px 6px rgba(255,255,255,0.4),
+    inset 0 -2px 6px rgba(0,0,0,0.15);
+  position: relative;
+  z-index: 2;
+}
+
+.elella-page-wrapper .scroll-top {
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  margin-bottom: -2px;
+}
+
+.elella-page-wrapper .scroll-bottom {
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  margin-top: -2px;
+}
+
+.elella-page-wrapper .hymn-text {
+  text-align: left;
+  line-height: 1.9;
+  padding: 4rem 3.5rem;
+  background: #f4e4c1;
+  color: #2c1810;
+  position: relative;
+  box-shadow: inset 0 0 80px rgba(139, 90, 43, 0.15);
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 1.1rem;
+}
+
+.elella-page-wrapper .scroll-title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #3d2815 !important;
+  padding: 0;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 3rem;
+}
+
+.elella-page-wrapper .scroll-subtitle {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+  text-indent: 0;
+  color: #5a4030;
+}
+
+.elella-page-wrapper .scroll-author {
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 3rem;
+  text-indent: 0;
+  color: #5a4030;
+  font-weight: bold;
+}
+
+.elella-page-wrapper .chapter-title {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: #3d2815;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.elella-page-wrapper .hymn-text p {
+  margin-bottom: 1.5rem;
+  text-indent: 2rem;
+  line-height: 1.8;
+}
+
+.elella-page-wrapper .hymn-attribution {
+  text-align: center;
+  margin-top: 3rem;
+  opacity: 0.7;
+  font-size: 0.9rem;
+  text-indent: 0 !important;
+}
+
+/* Chapter navigation */
+.elella-nav {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  gap: 0;
+  align-items: center;
+  z-index: 100;
+}
+
+.elella-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  transition: background 0.2s;
+  border-radius: 2px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.elella-nav a:last-of-type {
+  border-right: none;
+}
+
+.elella-nav a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.elella-nav .ch-name {
+  font-size: 0.85rem;
+  opacity: 1;
+}
+
+/* Search button */
+.elella-page-wrapper .nav-search-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  transition: all 0.2s;
+}
+
+.elella-page-wrapper .nav-search-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Search Overlay */
+.elella-page-wrapper .search-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 200;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10vh;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.elella-page-wrapper .search-panel {
+  background: #f5e6d3;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.elella-page-wrapper .search-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(60, 40, 20, 0.2);
+}
+
+.elella-page-wrapper .search-header input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  color: #2c1810;
+}
+
+.elella-page-wrapper .search-header input:focus {
+  outline: none;
+}
+
+.elella-page-wrapper .search-header input::placeholder {
+  color: rgba(60, 40, 20, 0.5);
+}
+
+.elella-page-wrapper .search-close {
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  color: rgba(60, 40, 20, 0.5);
+  cursor: pointer;
+  padding: 0 0.5rem;
+  line-height: 1;
+}
+
+.elella-page-wrapper .search-close:hover {
+  color: #2c1810;
+}
+
+.elella-page-wrapper .search-results-panel {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.elella-page-wrapper .search-hint {
+  text-align: center;
+  color: rgba(60, 40, 20, 0.6);
+  padding: 2rem;
+  margin: 0;
+}
+
+.elella-page-wrapper .search-count {
+  font-size: 0.85rem;
+  color: rgba(60, 40, 20, 0.6);
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+.elella-page-wrapper .search-result-item {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.elella-page-wrapper .search-result-item:hover {
+  background: rgba(60, 40, 20, 0.1);
+}
+
+.elella-page-wrapper .search-result-section {
+  display: block;
+  font-size: 0.75rem;
+  color: #8b5a2b;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.elella-page-wrapper .search-result-text {
+  display: block;
+  font-size: 0.9rem;
+  color: #2c1810;
+  line-height: 1.4;
+}
+
+/* Search highlighting */
+.elella-page-wrapper .search-highlight {
+  background: linear-gradient(135deg, #ffeb3b 0%, #ffc107 100%);
+  color: #1a1a1a;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.5), 0 0 0 2px rgba(255, 152, 0, 0.3);
+  font-weight: 600;
+  animation: highlightPulse 2s ease-in-out;
+}
+
+@keyframes highlightPulse {
+  0% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.5), 0 0 0 4px rgba(255, 152, 0, 0.6);
+    transform: scale(1.05);
+  }
+  50% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.5), 0 0 0 2px rgba(255, 152, 0, 0.3);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.5), 0 0 0 2px rgba(255, 152, 0, 0.3);
+    transform: scale(1);
+  }
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  .elella-page-wrapper .hymn-text {
+    padding: 2rem 1.5rem;
+  }
+
+  .elella-nav {
+    bottom: 1rem;
+    padding: 0.4rem 0.5rem;
+  }
+
+  .elella-nav a {
+    padding: 0.4rem 0.6rem;
+  }
+
+  .elella-nav .ch-name {
+    font-size: 0.75rem;
+  }
+}

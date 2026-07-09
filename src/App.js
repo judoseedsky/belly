@@ -22,11 +22,12 @@ const OrnamentOfStainlessLight = lazy(() => import('./components/OrnamentOfStain
 const GospelOfPhilip = lazy(() => import('./components/GospelOfPhilip/GospelOfPhilip'))
 const BhagavadGita = lazy(() => import('./components/BhagavadGita/BhagavadGita'))
 const DakiniTeachings = lazy(() => import('./components/DakiniTeachings/DakiniTeachings'))
+const ElElla = lazy(() => import('./components/ElElla/ElElla'))
 
 function AppContent({ playing, toggleMusic, stopMusic }) {
   const location = useLocation()
-  const hideBellyPages = ['/texts', '/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light', '/gospel-of-philip', '/bhagavad-gita', '/dakini-teachings']
-  const hideMusicPages = ['/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light', '/gospel-of-philip', '/bhagavad-gita', '/dakini-teachings']
+  const hideBellyPages = ['/texts', '/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light', '/gospel-of-philip', '/bhagavad-gita', '/dakini-teachings', '/el-ella']
+  const hideMusicPages = ['/yoga-sutras', '/hymn-of-the-pearl', '/ornament-of-stainless-light', '/gospel-of-philip', '/bhagavad-gita', '/dakini-teachings', '/el-ella']
   const hideBelly = hideBellyPages.some(p => location.pathname.startsWith(p))
   const hideMusic = hideMusicPages.some(p => location.pathname.startsWith(p))
 
@@ -60,6 +61,7 @@ function AppContent({ playing, toggleMusic, stopMusic }) {
           <Route path="/bhagavad-gita" element={<BhagavadGita />} />
           <Route path="/dakini-teachings" element={<DakiniTeachings />} />
           <Route path="/dakini-teachings/:chapter" element={<DakiniTeachings />} />
+          <Route path="/el-ella" element={<ElElla />} />
         </Routes>
       </Suspense>
       {!hideBelly && <img src={belly} id="belly" alt=""/>}
