@@ -34,7 +34,7 @@ const Welcome = () => {
                 <p className="tagline">Pen name · νομοθέτη · Conception</p>
             </div>
             <div className={`links ${transitioning ? 'transitioning' : ''}`}>
-                <h2><span className="disabled">Writings</span></h2>
+                <h2><span onClick={(e) => handleNavigation(e, '/thread')}>Writings</span></h2>
                 <div id="gate">
                     <h2><span onClick={(e) => handleNavigation(e, '/texts')} id="txt">Sacred Texts</span></h2>
                 </div>

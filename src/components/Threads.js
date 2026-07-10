@@ -19,7 +19,7 @@ const Threads = () => {
             </Link>
             <div className="box">
                 <ul className="list">
-                    <h1>Thread</h1>
+                    <h1>Writings</h1>
                     <li>
                         <Link to="/musings-on-beaty">Musings On Beauty יוֹפִי श्री 美麗 زیبایی</Link>
                     </li>
