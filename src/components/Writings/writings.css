@@ -1,59 +1,59 @@
-.thread {
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    /* background-image: url(../../img/bird.gif); */
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.tweets {
-    z-index: 100;
-    top: 0;
-    overflow: hidden;
-    color: white;
-    /* list-style: none; */
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-}
-
-.tweets > li {
-    padding-left: 2.3rem;
-    padding-right: 2.3rem;
-    padding-bottom: 2rem;
-    border-style: solid;
-    border-color: crimson;
-    border-width: .1px;
-    padding: 1.5rem;
-    margin: 3rem;
+.writings-page {
+    min-height: 100vh;
+    width: 100vw;
+    background: transparent;
     position: relative;
-    background-color: black;
+}
+
+
+.back-link {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
     z-index: 100;
 }
 
-#end {
+.writings-content {
+    position: relative;
+    z-index: 10;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.writings-title {
+    margin-bottom: 2rem;
+    color: #2a2a2a;
+}
+
+.writings-list {
+    max-width: 600px;
+    width: 100%;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
+
+.writings-list li {
+    padding: 0.75rem 0;
+    color: #2a2a2a;
+    line-height: 1.8;
 }
 
 /* Mobile responsive */
 @media only screen and (max-width: 600px) {
-    .thread h1 {
-        font-size: 1.5rem;
-        padding: 0 1rem;
+    .writings-content {
+        padding: 3rem 1rem;
     }
 
-    .tweets > li {
-        margin: 1rem;
+    .writings-title {
+        font-size: 1.5rem;
+    }
+
+    .writings-list li {
         padding: 1rem;
+        margin-bottom: 1rem;
         font-size: 0.9rem;
-        line-height: 1.6rem;
+        line-height: 1.6;
     }
 }
