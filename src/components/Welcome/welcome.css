@@ -51,8 +51,8 @@
     align-items: center;
     justify-content: flex-start;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    gap: 3rem;
+    margin-bottom: 4rem;
+    gap: 4rem;
 }
 
 .links h2 {
@@ -119,7 +119,8 @@
 #gate {
     position: relative;
     z-index: 100;
-    height: 29vh;
+    height: 20vh;
+    margin-bottom: 4rem;
     background-image: url(../../img/gate.png);
     background-size: contain;
     background-repeat: no-repeat;
