@@ -41,11 +41,11 @@ const threadText = [
             6: "The perceived realization of enlightenment from psychedelic drugs is a chthonic ploy of precisely false profundity & negative anti-enlightenment. It is certainly a spiritual experience…a demoniac one",
             7: "The non-righteous are away from God, the non-righteous who think they are close to God or spiritual, are often further",
             
-            8: `"Spiritual Ego": brags of supernatural experiences or revelations\n\nTrue Spiritual Self: completely silent about them outside of rarer appropriate most selfless circumstance`,
-            9: `"Spiritual Ego": thinks itself special. especially due to "calling", "knowledge", "clairvoyance", etc.\n\nTrue Spiritual Self: knows it's not. if ever the thought occurs recognizes it & is not lead astray`,
-            10: `"Spiritual Ego": mistakes externalities i.e. magic tools & trinkets, trips to different temples & countries, material fortune, or drugs to have criticality\n\nTrue Spiritual Self: knows the kingdom of heaven is inside you`,
-            11: `"Spiritual Ego": postures & fancies itself like a church, religious, spiritual, esoteric, or occult person\n\nTrue Spiritual Self: acts like no one in particular`,
-            12: `"Spiritual Ego": high mighty. finds itself more advanced than others\n\nTrue Spiritual Self: humble. has compassion for others`
+            8: `Spiritual Ego: brags of supernatural experiences or revelations\n\nTrue Spiritual Self: completely silent about them outside of rarer appropriate most selfless circumstance`,
+            9: `Spiritual Ego: thinks itself special. especially due to "calling", "knowledge", "clairvoyance", etc.\n\nTrue Spiritual Self: knows it's not. if ever the thought occurs recognizes it & is not lead astray`,
+            10: `Spiritual Ego: mistakes externalities i.e. magic tools & trinkets, trips to different temples & countries, material fortune, or drugs to have criticality\n\nTrue Spiritual Self: knows the kingdom of heaven is inside you`,
+            11: `Spiritual Ego: postures & fancies itself like a church, religious, spiritual, esoteric, or occult person\n\nTrue Spiritual Self: acts like no one in particular`,
+            12: `Spiritual Ego: high mighty. finds itself more advanced than others\n\nTrue Spiritual Self: humble. has compassion for others`
         },
         image: flame
     }
