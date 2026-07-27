@@ -1,6 +1,7 @@
 import './ElElla.css';
 import { Link } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
+import WebsterLookup from '../WebsterLookup';
 
 function ElElla() {
   const [content, setContent] = useState('');
@@ -177,6 +178,7 @@ function ElElla() {
 
         <div className="scroll-container">
           <div className="scroll-top"></div>
+          <WebsterLookup containerRef={contentRef}>
           <div className="hymn-text" ref={contentRef}>
             <h1 className="scroll-title">El/Ella</h1>
             <p className="scroll-subtitle">Book of Magic Love</p>
@@ -189,6 +191,7 @@ function ElElla() {
               Harper & Row, 1972
             </p>
           </div>
+          </WebsterLookup>
           <div className="scroll-bottom"></div>
         </div>
 

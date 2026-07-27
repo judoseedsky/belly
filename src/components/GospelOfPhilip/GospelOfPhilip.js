@@ -1,6 +1,7 @@
 import './GospelOfPhilip.css';
 import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
+import WebsterLookup from '../WebsterLookup';
 
 function GospelOfPhilip() {
   const [searchOpen, setSearchOpen] = useState(false);
@@ -100,6 +101,7 @@ function GospelOfPhilip() {
 
         <div className="scroll-container">
           <div className="scroll-top"></div>
+          <WebsterLookup containerRef={contentRef}>
           <div className="gospel-text" ref={contentRef}>
             <h1 className="scroll-title">The Gospel of Philip</h1>
             <p className="scroll-subtitle">From the Nag Hammadi Library</p>
@@ -111,6 +113,7 @@ function GospelOfPhilip() {
 
             <p className="gospel-ending">The Gospel According to Philip</p>
           </div>
+          </WebsterLookup>
           <div className="scroll-bottom"></div>
         </div>
 

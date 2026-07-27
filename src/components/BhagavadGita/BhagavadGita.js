@@ -1,6 +1,7 @@
 import './BhagavadGita.css';
 import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
+import WebsterLookup from '../WebsterLookup';
 
 // Chapter data with Sanskrit names and English titles
 const chapters = [
@@ -196,6 +197,7 @@ function BhagavadGita() {
 
         <div className="scroll-container">
           <div className="scroll-top"></div>
+          <WebsterLookup containerRef={contentRef}>
           <div className="gita-text" ref={contentRef}>
             <h1 className="scroll-title">Bhagavad Gita</h1>
             <p className="scroll-subtitle">The Song of God</p>
@@ -222,6 +224,7 @@ function BhagavadGita() {
 
             <p className="gita-ending">Hari Om Tat Sat</p>
           </div>
+          </WebsterLookup>
           <div className="scroll-bottom"></div>
         </div>
 

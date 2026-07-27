@@ -1,6 +1,7 @@
 import './DakiniTeachings.css';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
+import WebsterLookup from '../WebsterLookup';
 
 // Tooltip component for hover/tap display
 function Tooltip({ children, content, type }) {
@@ -339,6 +340,7 @@ function DakiniTeachings() {
 
         <div className="scroll-container">
           <div className="scroll-top"></div>
+          <WebsterLookup containerRef={contentRef}>
           <div className="dakini-text" ref={contentRef}>
             <h1 className="scroll-title">Dakini Teachings</h1>
             <p className="scroll-subtitle">Padmasambhava's Oral Instructions to Lady Tsogyal</p>
@@ -380,6 +382,7 @@ function DakiniTeachings() {
               <p className="dakini-ending">Thus were the Dakini Teachings concealed as treasure.</p>
             )}
           </div>
+          </WebsterLookup>
           <div className="scroll-bottom"></div>
         </div>
 
